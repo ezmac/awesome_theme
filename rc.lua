@@ -18,7 +18,7 @@ naughty         = require("naughty")
 vicious         = require("vicious")
 scratch         = require("scratch")
 local menubar = require("menubar")
-
+local beautiful = require("beautiful")
 
 -- }}}
 
@@ -317,17 +317,17 @@ gmail_t = awful.tooltip({ objects = { mygmail },})
 mygmailimg = wibox.widget.imagebox(beautiful.widget_mail)
 vicious.register(mygmail, vicious.widgets.gmail,
 function (widget, args)
-  notify_title = "Hai un nuovo messaggio"
+  notify_title = "You have new email"
   notify_text = '"' .. args["{subject}"] .. '"'
   gmail_t:set_text(args["{subject}"])
   gmail_t:add_to_object(mygmailimg)
   if (args["{count}"] > 0) then
     if (notify_shown == false) then
       if (args["{count}"] > 1) then 
-          notify_title = "Hai " .. args["{count}"] .. " nuovi messaggi"
-          notify_text = 'Ultimo: "' .. args["{subject}"] .. '"'
+          notify_title = "You have " .. args["{count}"] .. " new messages"
+          notify_text = 'First: "' .. args["{subject}"] .. '"'
       else
-          notify_title = "Hai un nuovo messaggio"
+          notify_title = "You have new email"
           notify_text = args["{subject}"]
       end
       naughty.notify({ title = notify_title, text = notify_text,
@@ -473,8 +473,8 @@ function (widget, args)
   elseif (args[2] <= 5 and batstate() == 'Discharging') then
     baticon:set_image(beautiful.widget_battery_empty)
     naughty.notify({
-      text = "sto per spegnermi...",
-      title = "Carica quasi esaurita!",
+      text = "Battery Critical!",
+      title = "Battery almost empty! Recharge now or turn it off.",
       position = "top_right",
       timeout = 1,
       fg="#000000",
@@ -486,8 +486,8 @@ function (widget, args)
   elseif (args[2] <= 10 and batstate() == 'Discharging') then
     baticon:set_image(beautiful.widget_battery_low)
     naughty.notify({
-      text = "attacca il cavo!",
-      title = "Carica bassa",
+      text = "Battery Low!",
+      title = "Please recharge battery",
       position = "top_right",
       timeout = 1,
       fg="#ffffff",
@@ -672,6 +672,19 @@ root.buttons(awful.util.table.join(
 -- }}}
 
 -- {{{ Key bindings
+
+-- I want keybindings more like vim. and more cohesive
+-- control is set up for monitors
+-- shift is to move.
+-- so control shift is move monitors.
+-- shift J is move down in stack.
+-- control j is focus previous monitor.
+-- needs actions of 
+
+  -- move to tag
+  -- move to next/previous monitor
+  -- move up/down in stack
+
 globalkeys = awful.util.table.join(
 
     -- Capture a screenshot
@@ -802,6 +815,10 @@ clientkeys = awful.util.table.join(
     awful.key({ modkey, "Shift"   }, "c",      function (c) c:kill()                         end),
     awful.key({ modkey, "Control" }, "space",  awful.client.floating.toggle                     ),
     awful.key({ modkey, "Control" }, "Return", function (c) c:swap(awful.client.getmaster()) end),
+    awful.key({ modkey, "Shift"   }, ".",      awful.client.movetoscreen                        ),
+    awful.key({ modkey, "Shift"   }, ",",      awful.client.movetoscreen                        ),
+    awful.key({ modkey, "Shift", "Control"   }, "j",    function (c)  awful.client.movetoscreen(c,c.screen - 1)  end),
+    awful.key({ modkey, "Shift", "Control"   }, "k",    function (c)  awful.client.movetoscreen(c,c.screen + 1)   end),
     awful.key({ modkey,           }, "o",      awful.client.movetoscreen                        ),
     awful.key({ modkey,           }, "t",      function (c) c.ontop = not c.ontop            end),
     awful.key({ modkey,           }, "n",
@@ -882,43 +899,11 @@ awful.rules.rules = {
    
     { rule = { class = "MPlayer" },
       properties = { floating = true } },
-
-    { rule = { class = "Dwb" },
-          properties = { tag = tags[1][1],
-          			     maximized_vertical=true,
-          			     maximized_horizontal=true } },
-
-    { rule = { class = "Midori" },
-          properties = { tag = tags[1][1],
-          			     maximized_vertical=true,
-          			     maximized_horizontal=true } },
-
-    { rule = { class = "Geany" },
-          properties = { tag = tags[1][2] } },
-
-	  { rule = { class = "Zathura" },
-     	  properties = { tag = tags[1][3] } },
-
-    { rule = { class = "Thunderbird" },
-          properties = { tag = tags[1][3] } },
-
-    { rule = { class = "Dia" },
-          properties = { tag = tags[1][4], 
-          floating = true } },
-
+    
     { rule = { class = "Gimp" },
-          properties = { tag = tags[1][4],
+          properties = {
           floating = true } },
 
-    { rule = { class = "Inkscape" },
-          properties = { tag = tags[1][4],
-          floating = true } },
-
-    { rule = { class = "Transmission-gtk" },
-          properties = { tag = tags[1][5] } },
-
-    { rule = { class = "Torrent-search" },
-          properties = { tag = tags[1][5] } },
 }
 
 -- }}}
