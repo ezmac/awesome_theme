@@ -11,6 +11,7 @@
 gears 	        = require("gears")
 awful           = require("awful")
 awful.rules     = require("awful.rules")
+local tyrannical = require("tyrannical")
 awful.autofocus = require("awful.autofocus")
 wibox           = require("wibox")
 beautiful       = require("beautiful")
@@ -143,6 +144,90 @@ for s = 1, screen.count() do
 -- Each screen has its own tag table.
    tags[s] = awful.tag(tags.names, s, tags.layout)
 end
+-- tyrannical.tags = {
+--     {
+--         name        = "Term",                 -- Call the tag "Term"
+--         init        = true,                   -- Load the tag on startup
+--         exclusive   = true,                   -- Refuse any other type of clients (by classes)
+--         screen      = {1,2},                  -- Create this tag on screen 1 and screen 2
+--         layout      = awful.layout.suit.tile, -- Use the tile layout
+--         class       = { --Accept the following classes, refuse everything else (because of "exclusive=true")
+--             "xterm" , "urxvt" , "aterm","URxvt","XTerm","konsole","terminator","gnome-terminal"
+--         }
+--     } ,
+--     {
+--         name        = "Internet",
+--         init        = true,
+--         exclusive   = true,
+--       --icon        = "~net.png",                 -- Use this icon for the tag (uncomment with a real path)
+--         screen      = screen.count()>1 and 2 or 1,-- Setup on screen 2 if there is more than 1 screen, else on screen 1
+--         layout      = awful.layout.suit.max,      -- Use the max layout
+--         class = {
+--             "Opera"         , "Firefox"        , "Rekonq"    , "Dillo"        , "Arora",
+--             "Chromium"      , "nightly"        , "minefield"     }
+--     } ,
+--     {
+--         name = "Files",
+--         init        = true,
+--         exclusive   = true,
+--         screen      = 1,
+--         layout      = awful.layout.suit.tile,
+--         exec_once   = {"dolphin"}, --When the tag is accessed for the first time, execute this command
+--         class  = {
+--             "Thunar", "Konqueror", "Dolphin", "ark", "Nautilus","emelfm"
+--         }
+--     } ,
+--     {
+--         name = "Develop",
+--         init        = true,
+--         exclusive   = true,
+--         screen      = 1,
+--         clone_on    = 2, -- Create a single instance of this tag on screen 1, but also show it on screen 2
+--                          -- The tag can be used on both screen, but only one at once
+--         layout      = awful.layout.suit.max                          ,
+--         class ={ 
+--             "Kate", "KDevelop", "Codeblocks", "Code::Blocks" , "DDD", "kate4"}
+--     } ,
+--     {
+--         name        = "Doc",
+--         init        = false, -- This tag wont be created at startup, but will be when one of the
+--                              -- client in the "class" section will start. It will be created on
+--                              -- the client startup screen
+--         exclusive   = true,
+--         layout      = awful.layout.suit.max,
+--         class       = {
+--             "Assistant"     , "Okular"         , "Evince"    , "EPDFviewer"   , "xpdf",
+--             "Xpdf"          ,                                        }
+--     } ,
+-- }
+
+-- -- Ignore the tag "exclusive" property for the following clients (matched by classes)
+-- tyrannical.properties.intrusive = {
+--     "ksnapshot"     , "pinentry"       , "gtksu"     , "kcalc"        , "xcalc"               ,
+--     "feh"           , "Gradient editor", "About KDE" , "Paste Special", "Background color"    ,
+--     "kcolorchooser" , "plasmoidviewer" , "Xephyr"    , "kruler"       , "plasmaengineexplorer",
+-- }
+
+-- -- Ignore the tiled layout for the matching clients
+-- tyrannical.properties.floating = {
+--     "MPlayer"      , "pinentry"        , "ksnapshot"  , "pinentry"     , "gtksu"          ,
+--     "xine"         , "feh"             , "kmix"       , "kcalc"        , "xcalc"          ,
+--     "yakuake"      , "Select Color$"   , "kruler"     , "kcolorchooser", "Paste Special"  ,
+--     "New Form"     , "Insert Picture"  , "kcharselect", "mythfrontend" , "plasmoidviewer" 
+-- }
+
+-- -- Make the matching clients (by classes) on top of the default layout
+-- tyrannical.properties.ontop = {
+--     "Xephyr"       , "ksnapshot"       , "kruler"
+-- }
+
+-- -- Force the matching clients (by classes) to be centered on the screen on init
+-- tyrannical.properties.centered = {
+--     "kcalc"
+-- }
+
+-- tyrannical.settings.block_children_focus_stealing = true --Block popups ()
+-- tyrannical.settings.group_children = true --Force popups/dialogs to have the same tags as the parent client
 -- }}}
                                           
 -- {{{ Menu
@@ -617,17 +702,17 @@ for s = 1, screen.count() do
     local right_layout = wibox.layout.fixed.horizontal()
     if s == 1 then right_layout:add(wibox.widget.systray()) end
     right_layout:add(spr)
+    -- right_layout:add(arrl)
+    -- right_layout:add(arrl_ld)
+    -- right_layout:add(mpdicon)
+    -- right_layout:add(mpdwidget)
+    -- right_layout:add(arrl_dl)
+    -- right_layout:add(volicon)
+    -- right_layout:add(volumewidget)
+    -- right_layout:add(arrl_ld)
+    -- right_layout:add(mygmailimg)
+    -- right_layout:add(mygmail)
     right_layout:add(arrl)
-    right_layout:add(arrl_ld)
-    right_layout:add(mpdicon)
-    right_layout:add(mpdwidget)
-    right_layout:add(arrl_dl)
-    right_layout:add(volicon)
-    right_layout:add(volumewidget)
-    right_layout:add(arrl_ld)
-    right_layout:add(mygmailimg)
-    right_layout:add(mygmail)
-    right_layout:add(arrl_dl)
     right_layout:add(memicon)
     right_layout:add(memwidget)
     right_layout:add(arrl_ld)
@@ -639,16 +724,16 @@ for s = 1, screen.count() do
     right_layout:add(arrl_ld)
     right_layout:add(fshicon)
     right_layout:add(fshwidget)
-    right_layout:add(arrl_dl)     
-    right_layout:add(baticon)
-    right_layout:add(batwidget)
-    right_layout:add(arrl_ld)
-    right_layout:add(neticon)
-    right_layout:add(netwidget)
-    right_layout:add(arrl_dl)
+    -- right_layout:add(arrl_dl)     
+    -- right_layout:add(baticon)
+    -- right_layout:add(batwidget)
+    -- right_layout:add(arrl_ld)
+    -- right_layout:add(neticon)
+    -- right_layout:add(netwidget)
+    -- right_layout:add(arrl_dl)
     right_layout:add(mytextclock)
     right_layout:add(spr)
-    right_layout:add(arrl_ld)
+    -- right_layout:add(arrl_ld)
     right_layout:add(mylayoutbox[s])
 
     -- Now bring it all together (with the tasklist in the middle)
@@ -761,10 +846,6 @@ globalkeys = awful.util.table.join(
                                        awful.util.spawn("amixer set Master playback 1%-", false )
                                        vicious.force({ volumewidget })
                                      end),
-    awful.key({ "Control" }, "m", function ()
-                                       awful.util.spawn("amixer set Master playback toggle", false )
-                                       vicious.force({ volumewidget })
-                                     end),
     awful.key({ altkey, "Control" }, "m", function () 
                                               awful.util.spawn("amixer set Master playback 100%", false )
                                               vicious.force({ volumewidget })
@@ -791,13 +872,7 @@ globalkeys = awful.util.table.join(
     -- Copy to clipboard
     awful.key({ modkey,        }, "c",      function () os.execute("xsel -p -o | xsel -i -b") end),
 
-    -- User programs
-    awful.key({ modkey,        }, "q",      function () awful.util.spawn( "dwb", false ) end),
-    awful.key({ modkey,        }, "a",      function () awful.util.spawn( "midori", false ) end),
-    awful.key({ modkey,        }, "s",      function () awful.util.spawn(gui_editor) end),
-    awful.key({ modkey, 	     }, "t", 	    function () awful.util.spawn( "thunderbird", false ) end),
-    awful.key({ modkey,        }, "d", 	    function () awful.util.spawn( "spacefm", false ) end),
-    
+
     -- Prompt
     awful.key({ modkey }, "r", function () mypromptbox[mouse.screen]:run() end),
 
@@ -837,7 +912,7 @@ clientkeys = awful.util.table.join(
 -- Compute the maximum number of digit we need, limited to 9
 keynumber = 0
 for s = 1, screen.count() do
-   keynumber = math.min(9, math.max(#tags[s], keynumber));
+ keynumber = math.min(9, math.max(#tags[s], keynumber));
 end
 
 -- Bind all key numbers to tags.
