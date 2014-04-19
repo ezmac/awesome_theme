@@ -20,7 +20,7 @@ vicious         = require("vicious")
 scratch         = require("scratch")
 local menubar = require("menubar")
 local beautiful = require("beautiful")
-
+ require("rodentbane")
 -- }}}
 
 -- {{{ Autostart
@@ -33,8 +33,8 @@ function run_once(cmd)
   end
   awful.util.spawn_with_shell("pgrep -u $USER -x " .. findme .. " > /dev/null || (" .. cmd .. ")")
  end 
-
-run_once("urxvtd")
+awful.util.spawn_with_shell("randr --auto --output VGA1 --left-of HDMI1") 
+awful.util.spawn_with_shell("xinput set-button-map 10 1 2 1 4 5 6 7 8 3")
 run_once("unclutter -idle 10")
 
 -- }}}
@@ -84,11 +84,11 @@ active_theme = themes .. "/powerarrow-darker"
 -- Themes define colours, icons, and wallpapers
 beautiful.init(active_theme .. "/theme.lua")
 
-terminal = "urxvtc"
+terminal = "terminator"
 editor = "vim"
 editor_cmd = terminal .. " -e " .. editor
 gui_editor = "geany -ps"
-browser = "dwb"
+browser = "google-chrome"
 browser2 = "midori"
 mail = terminal .. " -e mutt "
 chat = terminal .. " -e irssi "
@@ -286,7 +286,7 @@ red = "<span color='#e54c62'>"
 -- Textclock widget
 clockicon = wibox.widget.imagebox()
 clockicon:set_image(beautiful.widget_clock)
-mytextclock = awful.widget.textclock("<span font=\"Terminus 12\"><span font=\"Terminus 9\" color=\"#DDDDFF\"> %a %d %b  %H:%M</span></span>")
+mytextclock = awful.widget.textclock("<span font=\"Droid sans mono 12\"><span font=\"Droid sans mono 9\" color=\"#DDDDFF\"> %a %d %b  %H:%M</span></span>")
 
 -- Calendar attached to the textclock
 local os = os
@@ -423,7 +423,7 @@ function (widget, args)
       bg = beautiful.bg_urgent })
       notify_shown = true
     end
-    return '<span background="#313131" font="Terminus 13" rise="2000"> <span font="Terminus 9">' .. args["{count}"] .. ' </span></span>'
+    return '<span background="#313131" font="Droid sans mono 13" rise="2000"> <span font="Droid sans mono 9">' .. args["{count}"] .. ' </span></span>'
   else
     notify_shown = false
     return ""
@@ -442,11 +442,11 @@ function(widget, args)
 	-- play
 	if (args["{state}"] == "Play") then
     mpdicon:set_image(beautiful.widget_music_on)
-		return "<span background='#313131' font='Terminus 13' rise='2000'> <span font='Terminus 9'>" .. red .. args["{Title}"] .. coldef .. colwhi .. " - " .. coldef .. colwhi  .. args["{Artist}"] .. coldef .. " </span></span>"
+		return "<span background='#313131' font='Droid sans mono 13' rise='2000'> <span font='Droid sans mono 9'>" .. red .. args["{Title}"] .. coldef .. colwhi .. " - " .. coldef .. colwhi  .. args["{Artist}"] .. coldef .. " </span></span>"
 	-- pause
 	elseif (args["{state}"] == "Pause") then
     mpdicon:set_image(beautiful.widget_music)
-		return "<span background='#313131' font='Terminus 13' rise='2000'> <span font='Terminus 9'>" .. colwhi .. "mpd in pausa" .. coldef .. " </span></span>"
+		return "<span background='#313131' font='Droid sans mono 13' rise='2000'> <span font='Droid sans mono 9'>" .. colwhi .. "mpd in pausa" .. coldef .. " </span></span>"
 	else
     mpdicon:set_image(beautiful.widget_music)
 		return ""
@@ -463,7 +463,7 @@ vicious.register(memwidget, vicious.widgets.mem, ' $2MB ', 13)
 cpuicon = wibox.widget.imagebox()
 cpuicon:set_image(beautiful.widget_cpu)
 cpuwidget = wibox.widget.textbox()
-vicious.register(cpuwidget, vicious.widgets.cpu, '<span background="#313131" font="Terminus 13" rise="2000"> <span font="Terminus 9">$1% </span></span>', 3)
+vicious.register(cpuwidget, vicious.widgets.cpu, '<span background="#313131" font="Droid sans mono 13" rise="2000"> <span font="Droid sans mono 9">$1% </span></span>', 3)
 cpuicon:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.util.spawn(tasks, false) end)))
 
 -- Temp widget
@@ -471,27 +471,28 @@ tempicon = wibox.widget.imagebox()
 tempicon:set_image(beautiful.widget_temp)
 tempicon:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.util.spawn(terminal .. " -e sudo powertop ", false) end)))
 tempwidget = wibox.widget.textbox()
-vicious.register(tempwidget, vicious.widgets.thermal, '<span font="Terminus 12"> <span font="Terminus 9">$1°C </span></span>', 9, {"coretemp.0", "core"} )
+vicious.register(tempwidget, vicious.widgets.thermal, '<span font="Droid sans mono 12"> <span font="Droid sans mono 9">$1°C </span></span>', 9, {"coretemp.0", "core"} )
 
 -- /home fs widget
 fshicon = wibox.widget.imagebox()
-fshicon:set_image(beautiful.widget_hdd)
+-- fshicon:set_image(beautiful.widget_hdd)
 fshwidget = wibox.widget.textbox()
-vicious.register(fshwidget, vicious.widgets.fs,
-function (widget, args)
-  if args["{/home used_p}"] >= 95 and args["{/home used_p}"] < 99 then
-    return '<span background="#313131" font="Terminus 13" rise="2000"> <span font="Terminus 9">' .. args["{/home used_p}"] .. '% </span></span>' 
-  elseif args["{/home used_p}"] >= 99 and args["{/home used_p}"] <= 100 then
-    naughty.notify({ title = "Attenzione", text = "Partizione /home esaurita!\nFa' un po' di spazio.",
-    timeout = 10,
-    position = "top_right",
-    fg = beautiful.fg_urgent,
-    bg = beautiful.bg_urgent })
-    return '<span background="#313131" font="Terminus 13" rise="2000"> <span font="Terminus 9">' .. args["{/home used_p}"] .. '% </span></span>' 
-  else
-    return '<span background="#313131" font="Terminus 13" rise="2000"> <span font="Terminus 9">' .. args["{/home used_p}"] .. '% </span></span>' 
-  end
-end, 600)
+
+--vicious.register(fshwidget, vicious.widgets.fs,
+--function (widget, args)
+--  if args["{/home used_p}"] >= 95 and args["{/home used_p}"] < 99 then
+--    return '<span background="#313131" font="Droid sans mono 13" rise="2000"> <span font="Droid sans mono 9">' .. args["{/home used_p}"] .. '% </span></span>' 
+--  elseif args["{/home used_p}"] >= 99 and args["{/home used_p}"] <= 100 then
+--    naughty.notify({ title = "Attenzione", text = "Partizione /home esaurita!\nFa' un po' di spazio.",
+--    timeout = 10,
+--    position = "top_right",
+--    fg = beautiful.fg_urgent,
+--    bg = beautiful.bg_urgent })
+--    return '<span background="#313131" font="Droid sans mono 13" rise="2000"> <span font="Droid sans mono 9">' .. args["{/home used_p}"] .. '% </span></span>' 
+--  else
+--    return '<span background="#313131" font="Droid sans mono 13" rise="2000"> <span font="Droid sans mono 9">' .. args["{/home used_p}"] .. '% </span></span>' 
+--  end
+--end, 600)
 
 
 local infos = nil
@@ -512,7 +513,7 @@ function add_info()
     local cal = awful.util.pread(scriptdir .. "dfs")
     cal = string.gsub(cal, "          ^%s*(.-)%s*$", "%1")
     infos = naughty.notify({
-        text = string.format('<span font_desc="%s">%s</span>', "Terminus", cal),
+        text = string.format('<span font_desc="%s">%s</span>', "Droid sans mono", cal),
       	timeout = 0,
         position = "top_right",
         margin = 10,
@@ -553,7 +554,7 @@ function (widget, args)
   -- plugged
   if (batstate() == 'Cable plugged' or batstate() == 'Unknown') then
     baticon:set_image(beautiful.widget_ac)     
-    return '<span font="Terminus 12"> <span font="Terminus 9">AC </span></span>'
+    return '<span font="Droid sans mono 12"> <span font="Droid sans mono 9">AC </span></span>'
     -- critical
   elseif (args[2] <= 5 and batstate() == 'Discharging') then
     baticon:set_image(beautiful.widget_battery_empty)
@@ -582,7 +583,7 @@ function (widget, args)
     })
    else baticon:set_image(beautiful.widget_battery)
   end
-    return '<span font="Terminus 12"> <span font="Terminus 9">' .. args[2] .. '% </span></span>'
+    return '<span font="Droid sans mono 12"> <span font="Droid sans mono 9">' .. args[2] .. '% </span></span>'
 end, 1, 'BAT0')
 
 -- Volume widget
@@ -598,12 +599,12 @@ function (widget, args)
       end
   else volicon:set_image(beautiful.widget_vol_mute) 
   end
-  return '<span font="Terminus 12"> <span font="Terminus 9">' .. args[1] .. '% </span></span>'
+  return '<span font="Droid sans mono 12"> <span font="Droid sans mono 9">' .. args[1] .. '% </span></span>'
 end, 1, "Master")
 
 -- Net widget
 netwidget = wibox.widget.textbox()
-vicious.register(netwidget, vicious.widgets.net, '<span background="#313131" font="Terminus 13" rise="2000"> <span font="Terminus 9" color="#7AC82E">${wlan0 down_kb}</span> <span font="Terminus 7" color="#EEDDDD">↓↑</span> <span font="Terminus 9" color="#46A8C3">${wlan0 up_kb} </span></span>', 3)
+vicious.register(netwidget, vicious.widgets.net, '<span background="#313131" font="Droid sans mono 13" rise="2000"> <span font="Droid sans mono 9" color="#7AC82E">${wlan0 down_kb}</span> <span font="Droid sans mono 7" color="#EEDDDD">↓↑</span> <span font="Droid sans mono 9" color="#46A8C3">${wlan0 up_kb} </span></span>', 3)
 neticon = wibox.widget.imagebox()
 neticon:set_image(beautiful.widget_net)
 netwidget:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.util.spawn_with_shell(iptraf) end)))
@@ -777,15 +778,20 @@ globalkeys = awful.util.table.join(
     -- Menubar
     awful.key({ modkey }, "p", function() menubar.show() end),
     -- Move clients
-    awful.key({ altkey }, "Next",  function () awful.client.moveresize( 1,  1, -2, -2) end),
-    awful.key({ altkey }, "Prior", function () awful.client.moveresize(-1, -1,  2,  2) end),
-    awful.key({ altkey }, "Down",  function () awful.client.moveresize(  0,  1,   0,   0) end),
-    awful.key({ altkey }, "Up",    function () awful.client.moveresize(  0, -1,   0,   0) end),
-    awful.key({ altkey }, "Left",  function () awful.client.moveresize(-1,   0,   0,   0) end),
-    awful.key({ altkey }, "Right", function () awful.client.moveresize( 1,   0,   0,   0) end),
     awful.key({ modkey,           }, "Left",   awful.tag.viewprev       ),
     awful.key({ modkey,           }, "Right",  awful.tag.viewnext       ),
     awful.key({ modkey,           }, "Escape", awful.tag.history.restore),
+    awful.key({ modkey,           }, ";", rodentbane.start),
+    awful.key({ modkey,           }, "e",
+        function ()
+            awful.client.focus.byidx( 1)
+            if client.focus then client.focus:raise() end
+        end),
+    awful.key({ modkey,           }, "n",
+        function ()
+            awful.client.focus.byidx(-1)
+            if client.focus then client.focus:raise() end
+        end),
     awful.key({ modkey,           }, "k",
         function ()
             awful.client.focus.byidx( 1)
@@ -804,6 +810,10 @@ globalkeys = awful.util.table.join(
     end),
 
     -- Layout manipulation
+    awful.key({ modkey, "Shift"   }, "i", function () awful.client.swap.byidx(  1)    end),
+    awful.key({ modkey, "Shift"   }, "e", function () awful.client.swap.byidx( -1)    end),
+    awful.key({ modkey, "Control" }, "i", function () awful.screen.focus_relative( 1) end),
+    awful.key({ modkey, "Control" }, "e", function () awful.screen.focus_relative(-1) end),
     awful.key({ modkey, "Shift"   }, "j", function () awful.client.swap.byidx(  1)    end),
     awful.key({ modkey, "Shift"   }, "k", function () awful.client.swap.byidx( -1)    end),
     awful.key({ modkey, "Control" }, "j", function () awful.screen.focus_relative( 1) end),
@@ -821,11 +831,14 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey,           }, "Return", function () awful.util.spawn(terminal) end),
     awful.key({ modkey, "Control" }, "r", awesome.restart),
     awful.key({ modkey, "Shift"   }, "q", awesome.quit),
+    awful.key({ modkey,           }, "o",     function () awful.tag.incmwfact( 0.05)     end),
     awful.key({ modkey,           }, "l",     function () awful.tag.incmwfact( 0.05)     end),
     awful.key({ modkey,           }, "h",     function () awful.tag.incmwfact(-0.05)     end),
     awful.key({ modkey, "Shift"   }, "h",     function () awful.tag.incnmaster( 1)       end),
+    awful.key({ modkey, "Shift"   }, "o",     function () awful.tag.incnmaster(-1)       end),
     awful.key({ modkey, "Shift"   }, "l",     function () awful.tag.incnmaster(-1)       end),
     awful.key({ modkey, "Control" }, "h",     function () awful.tag.incncol( 1)          end),
+    awful.key({ modkey, "Control" }, "o",     function () awful.tag.incncol(-1)          end),
     awful.key({ modkey, "Control" }, "l",     function () awful.tag.incncol(-1)          end),
     awful.key({ modkey,           }, "space", function () awful.layout.inc(layouts,  1)  end),
     awful.key({ modkey, "Shift"   }, "space", function () awful.layout.inc(layouts, -1)  end),
@@ -894,14 +907,14 @@ clientkeys = awful.util.table.join(
     awful.key({ modkey, "Shift"   }, ",",      awful.client.movetoscreen                        ),
     awful.key({ modkey, "Shift", "Control"   }, "j",    function (c)  awful.client.movetoscreen(c,c.screen - 1)  end),
     awful.key({ modkey, "Shift", "Control"   }, "k",    function (c)  awful.client.movetoscreen(c,c.screen + 1)   end),
-    awful.key({ modkey,           }, "o",      awful.client.movetoscreen                        ),
+    --awful.key({ modkey,           }, "o",      awful.client.movetoscreen                        ),
     awful.key({ modkey,           }, "t",      function (c) c.ontop = not c.ontop            end),
-    awful.key({ modkey,           }, "n",
-        function (c)
+    --awful.key({ modkey,           }, "n",
+    --    function (c)
             -- The client currently has the input focus, so it cannot be
             -- minimized, since minimized clients can't have the focus.
-            c.minimized = true
-        end),
+   --         c.minimized = true
+   --     end),
     awful.key({ modkey,           }, "m",
         function (c)
             c.maximized_horizontal = not c.maximized_horizontal

@@ -278,7 +278,7 @@ red = "<span color='#e54c62'>"
 -- Textclock widget
 clockicon = wibox.widget.imagebox()
 clockicon:set_image(beautiful.widget_clock)
-mytextclock = awful.widget.textclock("<span font=\"Terminus 12\"><span font=\"Terminus 9\" color=\"#DDDDFF\"> %a %d %b  %H:%M</span></span>")
+mytextclock = awful.widget.textclock("<span font=\"Droid sans mono 12\"><span font=\"Droid sans mono 9\" color=\"#DDDDFF\"> %a %d %b  %H:%M</span></span>")
 
 -- Calendar attached to the textclock
 local os = os
@@ -415,7 +415,7 @@ function (widget, args)
       bg = beautiful.bg_urgent })
       notify_shown = true
     end
-    return '<span background="#313131" font="Terminus 13" rise="2000"> <span font="Terminus 9">' .. args["{count}"] .. ' </span></span>'
+    return '<span background="#313131" font="Droid sans mono 13" rise="2000"> <span font="Droid sans mono 9">' .. args["{count}"] .. ' </span></span>'
   else
     notify_shown = false
     return ""
@@ -434,11 +434,11 @@ function(widget, args)
   -- play
   if (args["{state}"] == "Play") then
     mpdicon:set_image(beautiful.widget_music_on)
-    return "<span background='#313131' font='Terminus 13' rise='2000'> <span font='Terminus 9'>" .. red .. args["{Title}"] .. coldef .. colwhi .. " - " .. coldef .. colwhi  .. args["{Artist}"] .. coldef .. " </span></span>"
+    return "<span background='#313131' font='Droid sans mono 13' rise='2000'> <span font='Droid sans mono 9'>" .. red .. args["{Title}"] .. coldef .. colwhi .. " - " .. coldef .. colwhi  .. args["{Artist}"] .. coldef .. " </span></span>"
   -- pause
   elseif (args["{state}"] == "Pause") then
     mpdicon:set_image(beautiful.widget_music)
-    return "<span background='#313131' font='Terminus 13' rise='2000'> <span font='Terminus 9'>" .. colwhi .. "mpd in pausa" .. coldef .. " </span></span>"
+    return "<span background='#313131' font='Droid sans mono 13' rise='2000'> <span font='Droid sans mono 9'>" .. colwhi .. "mpd in pausa" .. coldef .. " </span></span>"
   else
     mpdicon:set_image(beautiful.widget_music)
     return ""
@@ -455,7 +455,7 @@ vicious.register(memwidget, vicious.widgets.mem, ' $2MB ', 13)
 cpuicon = wibox.widget.imagebox()
 cpuicon:set_image(beautiful.widget_cpu)
 cpuwidget = wibox.widget.textbox()
-vicious.register(cpuwidget, vicious.widgets.cpu, '<span background="#313131" font="Terminus 13" rise="2000"> <span font="Terminus 9">$1% </span></span>', 3)
+vicious.register(cpuwidget, vicious.widgets.cpu, '<span background="#313131" font="Droid sans mono 13" rise="2000"> <span font="Droid sans mono 9">$1% </span></span>', 3)
 cpuicon:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.util.spawn(tasks, false) end)))
 
 -- Temp widget
@@ -463,7 +463,7 @@ tempicon = wibox.widget.imagebox()
 tempicon:set_image(beautiful.widget_temp)
 tempicon:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.util.spawn(terminal .. " -e sudo powertop ", false) end)))
 tempwidget = wibox.widget.textbox()
-vicious.register(tempwidget, vicious.widgets.thermal, '<span font="Terminus 12"> <span font="Terminus 9">$1°C </span></span>', 9, {"coretemp.0", "core"} )
+vicious.register(tempwidget, vicious.widgets.thermal, '<span font="Droid sans mono 12"> <span font="Droid sans mono 9">$1°C </span></span>', 9, {"coretemp.0", "core"} )
 
 -- /home fs widget
 fshicon = wibox.widget.imagebox()
@@ -472,16 +472,16 @@ fshwidget = wibox.widget.textbox()
 vicious.register(fshwidget, vicious.widgets.fs,
 function (widget, args)
   if args["{/home used_p}"] >= 95 and args["{/home used_p}"] < 99 then
-    return '<span background="#313131" font="Terminus 13" rise="2000"> <span font="Terminus 9">' .. args["{/home used_p}"] .. '% </span></span>' 
+    return '<span background="#313131" font="Droid sans mono 13" rise="2000"> <span font="Droid sans mono 9">' .. args["{/home used_p}"] .. '% </span></span>' 
   elseif args["{/home used_p}"] >= 99 and args["{/home used_p}"] <= 100 then
     naughty.notify({ title = "Attenzione", text = "Partizione /home esaurita!\nFa' un po' di spazio.",
     timeout = 10,
     position = "top_right",
     fg = beautiful.fg_urgent,
     bg = beautiful.bg_urgent })
-    return '<span background="#313131" font="Terminus 13" rise="2000"> <span font="Terminus 9">' .. args["{/home used_p}"] .. '% </span></span>' 
+    return '<span background="#313131" font="Droid sans mono 13" rise="2000"> <span font="Droid sans mono 9">' .. args["{/home used_p}"] .. '% </span></span>' 
   else
-    return '<span background="#313131" font="Terminus 13" rise="2000"> <span font="Terminus 9">' .. args["{/home used_p}"] .. '% </span></span>' 
+    return '<span background="#313131" font="Droid sans mono 13" rise="2000"> <span font="Droid sans mono 9">' .. args["{/home used_p}"] .. '% </span></span>' 
   end
 end, 600)
 
@@ -504,7 +504,7 @@ function add_info()
     local cal = awful.util.pread(scriptdir .. "dfs")
     cal = string.gsub(cal, "          ^%s*(.-)%s*$", "%1")
     infos = naughty.notify({
-        text = string.format('<span font_desc="%s">%s</span>', "Terminus", cal),
+        text = string.format('<span font_desc="%s">%s</span>', "Droid sans mono", cal),
         timeout = 0,
         position = "top_right",
         margin = 10,
@@ -545,7 +545,7 @@ function (widget, args)
   -- plugged
   if (batstate() == 'Cable plugged' or batstate() == 'Unknown') then
     baticon:set_image(beautiful.widget_ac)     
-    return '<span font="Terminus 12"> <span font="Terminus 9">AC </span></span>'
+    return '<span font="Droid sans mono 12"> <span font="Droid sans mono 9">AC </span></span>'
     -- critical
   elseif (args[2] <= 5 and batstate() == 'Discharging') then
     baticon:set_image(beautiful.widget_battery_empty)
@@ -574,7 +574,7 @@ function (widget, args)
     })
    else baticon:set_image(beautiful.widget_battery)
   end
-    return '<span font="Terminus 12"> <span font="Terminus 9">' .. args[2] .. '% </span></span>'
+    return '<span font="Droid sans mono 12"> <span font="Droid sans mono 9">' .. args[2] .. '% </span></span>'
 end, 1, 'BAT0')
 
 -- Volume widget
@@ -590,12 +590,12 @@ function (widget, args)
       end
   else volicon:set_image(beautiful.widget_vol_mute) 
   end
-  return '<span font="Terminus 12"> <span font="Terminus 9">' .. args[1] .. '% </span></span>'
+  return '<span font="Droid sans mono 12"> <span font="Droid sans mono 9">' .. args[1] .. '% </span></span>'
 end, 1, "Master")
 
 -- Net widget
 netwidget = wibox.widget.textbox()
-vicious.register(netwidget, vicious.widgets.net, '<span background="#313131" font="Terminus 13" rise="2000"> <span font="Terminus 9" color="#7AC82E">${eth0 down_kb}</span> <span font="Terminus 7" color="#EEDDDD">↓↑</span> <span font="Terminus 9" color="#46A8C3">${eth0 up_kb} </span></span>', 3)
+vicious.register(netwidget, vicious.widgets.net, '<span background="#313131" font="Droid sans mono 13" rise="2000"> <span font="Droid sans mono 9" color="#7AC82E">${eth0 down_kb}</span> <span font="Droid sans mono 7" color="#EEDDDD">↓↑</span> <span font="Droid sans mono 9" color="#46A8C3">${eth0 up_kb} </span></span>', 3)
 neticon = wibox.widget.imagebox()
 neticon:set_image(beautiful.widget_net)
 netwidget:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.util.spawn_with_shell(iptraf) end)))

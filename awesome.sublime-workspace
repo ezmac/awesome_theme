@@ -4,393 +4,358 @@
 		"selected_items":
 		[
 			[
-				"date",
-				"datewidget"
+				"margin",
+				"margin-top"
 			],
 			[
-				"events",
-				"eventsCount"
+				"backgroun",
+				"background-repeat"
 			],
 			[
-				"from",
-				"from_now"
-			],
-			[
-				"updated",
-				"updated_at"
-			],
-			[
-				"crea",
-				"created_at"
-			],
-			[
-				"tag",
-				"tagsArray"
-			],
-			[
-				"eve",
-				"event_url"
-			],
-			[
-				"even",
-				"event_short_description"
-			],
-			[
-				"event",
-				"eventHash"
-			],
-			[
-				"to",
-				"to_json"
-			],
-			[
-				"ev",
-				"event_short_description"
-			],
-			[
-				"desc",
-				"description"
-			],
-			[
-				"find",
-				"find_or_initialize_by_id"
-			],
-			[
-				"place",
-				"placeHash"
-			],
-			[
-				"raw",
-				"raw_post"
-			],
-			[
-				"rand",
-				"randomEvent"
-			],
-			[
-				"organ",
-				"organizations"
-			],
-			[
-				"close",
-				"closedOrg"
-			],
-			[
-				"Closed",
-				"ClosedOrganization"
-			],
-			[
-				"clos",
-				"closedOrganizations"
-			],
-			[
-				"Orga",
-				"organization"
-			],
-			[
-				"return",
-				"returnedTags"
-			],
-			[
-				"num",
-				"numTags"
-			],
-			[
-				"cre",
-				"create"
-			],
-			[
-				"rando",
-				"randomEventIds"
-			],
-			[
-				"feat",
-				"featured_event"
-			],
-			[
-				"orga",
-				"organization"
-			],
-			[
-				"with",
-				"with_place"
-			],
-			[
-				"create",
-				"create_list"
-			],
-			[
-				"crate",
-				"create_list"
-			],
-			[
-				"all",
-				"all_day"
-			],
-			[
-				"specia",
-				"specials"
-			],
-			[
-				"org",
-				"organization"
-			],
-			[
-				"make",
-				"makeRequest"
-			],
-			[
-				"dail",
-				"dailySpecials"
-			],
-			[
-				"special",
-				"specialsWithTitle"
-			],
-			[
-				"nums",
-				"numSpecialsWithTitle"
-			],
-			[
-				"recur",
-				"recurs_sunday"
-			],
-			[
-				"fail",
-				"failureStatus"
-			],
-			[
-				"random",
-				"randomEvent"
-			],
-			[
-				"feature",
-				"featured_event"
-			],
-			[
-				"featu",
-				"featured_event"
-			],
-			[
-				"app",
-				"ApplicationController"
-			],
-			[
-				"All",
-				"AllSpecials"
-			],
-			[
-				"allSp",
-				"AllSpecials"
-			],
-			[
-				"rest",
-				"restaurants"
-			],
-			[
-				"swap",
-				"swapTab"
-			],
-			[
-				"allres",
-				"allRestaurantSpecialsTab"
-			],
-			[
-				"allre",
-				"allRestaurantSpecialsTab"
-			],
-			[
-				"Co",
-				"Collections"
-			],
-			[
-				"item--no-",
-				"item--no-image-show-restaurant"
-			],
-			[
-				"restau",
-				"restaurant"
-			],
-			[
-				"_fet",
-				"_fetchSpecials"
-			],
-			[
-				"_ge",
-				"_getModel"
-			],
-			[
-				"spec",
-				"specials_json"
-			],
-			[
-				"_S",
-				"_snakeHead"
-			],
-			[
-				"Sna",
-				"Snake"
-			],
-			[
-				"_sna",
-				"_snakeHead"
-			],
-			[
-				"getSn",
-				"getSnakeHead"
-			],
-			[
-				"Snak",
-				"SnakeHead"
-			],
-			[
-				"next",
-				"nextPosition"
-			],
-			[
-				"snakeH",
-				"snakeHead"
-			],
-			[
-				"sna",
-				"SnakeHead"
-			],
-			[
-				"snake",
-				"snakeHeadCol"
-			],
-			[
-				"Sn",
-				"SnakeHead"
-			],
-			[
-				"dir",
-				"direction"
-			],
-			[
-				"direction",
-				"_direction"
-			],
-			[
-				"_b",
-				"_boardCols"
-			],
-			[
-				"_boa",
-				"_boardRows"
-			],
-			[
-				"getGa",
-				"getGame"
-			],
-			[
-				"getGame",
-				"getGameAsHtml"
-			],
-			[
-				"backg",
+				"backgroundc",
 				"background-color"
 			],
 			[
-				"_boar",
-				"_boardCols"
+				"bord",
+				"border-bottom"
 			],
 			[
-				"boar",
-				"Board"
+				"border",
+				"border-radius"
 			],
 			[
-				"board",
-				"boardRows"
+				"bacc",
+				"background-color"
 			],
 			[
-				"FOS",
-				"FOSUserBundle"
+				"upda",
+				"update_text"
 			],
 			[
-				"doctr",
-				"doctrine-orm-admin-bundle"
+				"strp",
+				"strpos"
 			],
 			[
-				"R",
-				"ROLE_USER"
+				"confere",
+				"conference"
 			],
 			[
-				"T",
-				"TmercBossBundle:Queue [Entity]"
+				"Application_mo",
+				"Application_Model_ConferenceMapper"
 			],
 			[
-				"Tmerc",
-				"TmercBossBundle:Queue:Index.html.twig [Tpl]"
+				"Appli",
+				"Application_Form_Elements_Title"
 			],
 			[
-				"Application",
-				"Application_Model_QueueTable"
+				"_pay",
+				"_paypalResponse"
 			],
 			[
-				"toggle",
-				"toggleAllday"
+				"number",
+				"number_format"
 			],
 			[
-				"ti",
-				"ticket_id"
+				"atten",
+				"attendanceType"
 			],
 			[
-				"ticket",
-				"ticket_id"
+				"PaypalCC",
+				"PaypalCC_Model_PPCreditCard"
+			],
+			[
+				"paymen",
+				"paymentOptions"
+			],
+			[
+				"adap",
+				"adaptivePayment"
+			],
+			[
+				"receiver",
+				"receiverList"
+			],
+			[
+				"getPa",
+				"getPaymentAmount"
+			],
+			[
+				"config",
+				"configOptions"
+			],
+			[
+				"registra",
+				"registrations"
+			],
+			[
+				"pay",
+				"paypalOptions"
+			],
+			[
+				"paypal",
+				"paypalCreds"
+			],
+			[
+				"conference",
+				"conferenceMapper"
+			],
+			[
+				"regi",
+				"registrationSession"
+			],
+			[
+				"CURLOPT",
+				"CURLOPT_POSTFIELDS"
+			],
+			[
+				"_A",
+				"_APISignature"
+			],
+			[
+				"setExpress",
+				"SetExpressCheckout"
+			],
+			[
+				"APPLICA",
+				"APPLICATION_ENV"
+			],
+			[
+				"unlin",
+				"unlinkReturn"
+			],
+			[
+				"ass",
+				"assertEquals"
+			],
+			[
+				"create",
+				"createClient"
+			],
+			[
+				"uploa",
+				"uploadDir"
+			],
+			[
+				"image",
+				"imagePaths"
+			],
+			[
+				"file",
+				"fileSizes"
+			],
+			[
+				"upl",
+				"upload_handler"
+			],
+			[
+				"imag",
+				"imageRepository"
+			],
+			[
+				"item",
+				"itemId"
+			],
+			[
+				"rental",
+				"rentalItem"
+			],
+			[
+				"ite",
+				"itemRepository"
+			],
+			[
+				"unli",
+				"unlinkRecursive"
+			],
+			[
+				"symf",
+				"symfony2-file-uploader-bundle"
+			],
+			[
+				"smar",
+				"smartCopy"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"crea",
+				"createAction"
+			],
+			[
+				"edit",
+				"editId"
+			],
+			[
+				"edi",
+				"editId"
+			],
+			[
+				"exist",
+				"existingFiles"
+			],
+			[
+				"exis",
+				"existingFiles"
+			],
+			[
+				"Di",
+				"DiscriminatorMap"
+			],
+			[
+				"emai",
+				"email_message"
+			],
+			[
+				"cron",
+				"cronjobHash"
+			],
+			[
+				"ret",
+				"retcode"
+			],
+			[
+				"event",
+				"eventoriginal"
+			],
+			[
+				"defa",
+				"defaultPushTimeout"
+			],
+			[
+				"tag",
+				"tagHolder"
+			],
+			[
+				"pro",
+				"project"
+			],
+			[
+				"requir",
+				"requiredFields"
+			],
+			[
+				"re",
+				"requiredFields"
+			],
+			[
+				"web",
+				"WEBM"
+			],
+			[
+				"we",
+				"WEBM"
+			],
+			[
+				"video",
+				"videoTag"
+			],
+			[
+				"vid",
+				"videoTag"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"priv",
+				"privatizeUser"
+			],
+			[
+				"use",
+				"allUsers"
+			],
+			[
+				"pri",
+				"privacyFlag"
+			],
+			[
+				"priva",
+				"privatizeUser"
+			],
+			[
+				"privacy",
+				"privacyFlag"
+			],
+			[
+				"array_",
+				"array_merge"
+			],
+			[
+				"norma",
+				"normalizedData"
+			],
+			[
+				"norm",
+				"normalizedData"
+			],
+			[
+				"all",
+				"allUsers"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"real",
+				"realOffDate"
+			],
+			[
+				"date_c",
+				"date_create_from_format"
+			],
+			[
+				"pid",
+				"pidginDateFormat"
+			],
+			[
+				"on",
+				"onoff"
+			],
+			[
+				"signo",
+				"signoff"
+			],
+			[
+				"sign",
+				"signon"
+			],
+			[
+				"return",
+				"returnData"
+			],
+			[
+				"html",
+				"htmlspecialchars"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "rc.lua.new",
-			"settings":
-			{
-				"buffer_size": 41271,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "---[[                                          ]]--\n--                                               -\n--    Powearrow Darker Awesome WM 3.5.+ config   --\n--           github.com/copycat-killer           --\n--                                               -\n--[[                                           ]]--\n\n\n-- {{{ Required Libraries\n\ngears 	        = require(\"gears\")\nawful           = require(\"awful\")\nawful.rules     = require(\"awful.rules\")\nawful.autofocus = require(\"awful.autofocus\")\nwibox           = require(\"wibox\")\nbeautiful       = require(\"beautiful\")\nnaughty         = require(\"naughty\")\nvicious         = require(\"vicious\")\nscratch         = require(\"scratch\")\n\n-- }}}\n\n-- {{{ Autostart\n\nfunction run_once(cmd)\n  findme = cmd\n  firstspace = cmd:find(\" \")\n  if firstspace then\n     findme = cmd:sub(0, firstspace-1)\n  end\n  awful.util.spawn_with_shell(\"pgrep -u $USER -x \" .. findme .. \" > /dev/null || (\" .. cmd .. \")\")\n end \n\nrun_once(\"urxvtd\")\nrun_once(\"unclutter -idle 10\")\n\n-- }}}\n\n-- {{{ Localization\n\nos.setlocale(os.getenv(\"LANG\"))\n\n-- }}}\n\n-- {{{ Error Handling\n\n-- Check if awesome encountered an error during startup and fell back to\n-- another config (This code will only ever execute for the fallback config)\nif awesome.startup_errors then\n    naughty.notify({ preset = naughty.config.presets.critical,\n                     title = \"Oops, there were errors during startup!\",\n                     text = awesome.startup_errors })\nend\n\n-- Handle runtime errors after startup\ndo\n    in_error = false\n    awesome.connect_signal(\"debug::error\", function (err)\n        -- Make sure we don't go into an endless error loop\n        if in_error then return end\n        in_error = true\n\n        naughty.notify({ preset = naughty.config.presets.critical,\n                         title = \"Oops, an error happened!\",\n                         text = err })\n        in_error = false\n    end)\nend\n\n-- }}}\n\n-- {{{ Variable Definitions\n\n-- Useful Paths\nhome = os.getenv(\"HOME\")\nconfdir = home .. \"/.config/awesome\"\nscriptdir = confdir .. \"/scripts/\"\nthemes = confdir .. \"/themes\"\nactive_theme = themes .. \"/powerarrow-darker\"\n\n-- Themes define colours, icons, and wallpapers\nbeautiful.init(active_theme .. \"/theme.lua\")\n\nterminal = \"urxvtc\"\neditor = \"vim\"\neditor_cmd = terminal .. \" -e \" .. editor\ngui_editor = \"geany -ps\"\nbrowser = \"dwb\"\nbrowser2 = \"midori\"\nmail = terminal .. \" -e mutt \"\nchat = terminal .. \" -e irssi \"\ntasks = terminal .. \" -e htop \"\niptraf = terminal .. \" -g 180x54-20+34 -e sudo iptraf-ng -i all \"\nmusicplr = terminal .. \" -g 130x34-320+16 -e ncmpcpp \"\n\n-- Default modkey.\n-- Usually, Mod4 is the key with a logo between Control and Alt.\n-- If you do not like this or do not have such a key,\n-- I suggest you to remap Mod4 to another key using xmodmap or other tools.\n-- However, you can use another modifier like Mod1, but it may interact with others.\nmodkey = \"Mod4\"\naltkey = \"Mod1\"\n\n-- Table of layouts to cover with awful.layout.inc, order matters.\nlayouts =\n{\n    awful.layout.suit.floating,             -- 1\n    awful.layout.suit.tile,                 -- 2\n    awful.layout.suit.tile.left,            -- 3\n    awful.layout.suit.tile.bottom,          -- 4\n    awful.layout.suit.tile.top,             -- 5\n    awful.layout.suit.fair,                 -- 6\n    awful.layout.suit.fair.horizontal,      -- 7\n    awful.layout.suit.spiral,               -- 8\n    awful.layout.suit.spiral.dwindle,       -- 9\n    awful.layout.suit.max,                  -- 10\n    --awful.layout.suit.max.fullscreen,     -- 11\n    --awful.layout.suit.magnifier           -- 12\n}\n\n-- }}}\n\n-- {{{ Wallpaper\n\nif beautiful.wallpaper then\n    for s = 1, screen.count() do\n        gears.wallpaper.maximized(beautiful.wallpaper, s, true)\n    end\nend\n\n-- }}}\n                \n-- {{{ Tags\n\n-- Define a tag table which hold all screen tags.\ntags = {\n       names = { \"1\", \"2\", \"3\", \"4\", \"5\",\"6\",\"7\",\"8\",\"9\"},\n       layout = layouts\n       }\nfor s = 1, screen.count() do\n-- Each screen has its own tag table.\n   tags[s] = awful.tag(tags.names, s, tags.layout)\nend\n-- }}}\n                                          \n-- {{{ Menu\nmyaccessories = {\n   { \"archives\", \"7zFM\" },\n   { \"file manager\", \"spacefm\" },\n   { \"editor\", gui_editor },\n}\nmyinternet = {\n    { \"browser\", browser },\n    { \"irc client\" , chat },\n    { \"torrent\" , \"rtorrent\" },\n    { \"torrtux\" , terminal .. \" -e torrtux \" },\n    { \"torrent search\" , \"torrent-search\" }\n}\nmygames = {\n    { \"NES\", \"fceux\" },\n    { \"Super NES\", \"zsnes\" },\n}\nmygraphics = {\n    { \"gimp\" , \"gimp\" },\n    { \"inkscape\", \"inkscape\" },\n    { \"dia\", \"dia\" },\n    { \"image viewer\" , \"viewnior\" }\n}\nmyoffice = {\n    { \"writer\" , \"lowriter\" },\n    { \"impress\" , \"loimpress\" },\n}\nmysystem = {\n    { \"appearance\" , \"lxappearance\" },\n    { \"cleaning\" , \"bleachbit\" },\n    { \"powertop\" , terminal .. \" -e sudo powertop \" },\n    { \"task manager\" , tasks }\n}\nmymainmenu = awful.menu({ items = {\n				    { \"accessories\" , myaccessories },\n				    { \"graphics\" , mygraphics },\n				    { \"internet\" , myinternet },\n				    { \"games\" , mygames },\n				    { \"office\" , myoffice },\n				    { \"system\" , mysystem },\n            }\n            })\nmylauncher = awful.widget.launcher({ image = beautiful.awesome_icon,\n                                     menu = mymainmenu })\n-- }}}\n\n-- {{{ Wibox\n\n-- Colours\ncoldef  = \"</span>\"\ncolwhi  = \"<span color='#b2b2b2'>\"\nred = \"<span color='#e54c62'>\"\n\n-- Textclock widget\nclockicon = wibox.widget.imagebox()\nclockicon:set_image(beautiful.widget_clock)\nmytextclock = awful.widget.textclock(\"<span font=\\\"Terminus 12\\\"><span font=\\\"Terminus 9\\\" color=\\\"#DDDDFF\\\"> %a %d %b  %H:%M</span></span>\")\n\n-- Calendar attached to the textclock\nlocal os = os\nlocal string = string\nlocal table = table\nlocal util = awful.util\n\nchar_width = nil\ntext_color = theme.fg_normal or \"#FFFFFF\"\ntoday_color = theme.tasklist_fg_focus or \"#FF7100\"\ncalendar_width = 21\n\nlocal calendar = nil\nlocal offset = 0\n\nlocal data = nil\n\nlocal function pop_spaces(s1, s2, maxsize)\n   local sps = \"\"\n   for i = 1, maxsize - string.len(s1) - string.len(s2) do\n      sps = sps .. \" \"\n   end\n   return s1 .. sps .. s2\nend\n\nlocal function create_calendar()\n   offset = offset or 0\n\n   local now = os.date(\"*t\")\n   local cal_month = now.month + offset\n   local cal_year = now.year\n   if cal_month > 12 then\n      cal_month = (cal_month % 12)\n      cal_year = cal_year + 1\n   elseif cal_month < 1 then\n      cal_month = (cal_month + 12)\n      cal_year = cal_year - 1\n   end\n\n   local last_day = os.date(\"%d\", os.time({ day = 1, year = cal_year,\n                                            month = cal_month + 1}) - 86400)\n   local first_day = os.time({ day = 1, month = cal_month, year = cal_year})\n   local first_day_in_week =\n      os.date(\"%w\", first_day)\n   local result = \"do lu ma me gi ve sa\\n\"\n   for i = 1, first_day_in_week do\n      result = result .. \"   \"\n   end\n\n   local this_month = false\n   for day = 1, last_day do\n      local last_in_week = (day + first_day_in_week) % 7 == 0\n      local day_str = pop_spaces(\"\", day, 2) .. (last_in_week and \"\" or \" \")\n      if cal_month == now.month and cal_year == now.year and day == now.day then\n         this_month = true\n         result = result ..\n            string.format('<span weight=\"bold\" foreground = \"%s\">%s</span>',\n                          today_color, day_str)\n      else\n         result = result .. day_str\n      end\n      if last_in_week and day ~= last_day then\n         result = result .. \"\\n\"\n      end\n   end\n\n   local header\n   if this_month then\n      header = os.date(\"%a, %d %b %Y\")\n   else\n      header = os.date(\"%B %Y\", first_day)\n   end\n   return header, string.format('<span font=\"%s\" foreground=\"%s\">%s</span>',\n                                theme.font, text_color, result)\nend\n\nlocal function calculate_char_width()\n   return beautiful.get_font_height(theme.font) * 0.555\nend\n\nfunction hide()\n   if calendar ~= nil then\n      naughty.destroy(calendar)\n      calendar = nil\n      offset = 0\n   end\nend\n\nfunction show(inc_offset)\n   inc_offset = inc_offset or 0\n\n   local save_offset = offset\n   hide()\n   offset = save_offset + inc_offset\n\n   local char_width = char_width or calculate_char_width()\n   local header, cal_text = create_calendar()\n   calendar = naughty.notify({ title = header,\n                               text = cal_text,\n                               timeout = 0, hover_timeout = 0.5,\n                            })\nend\n\nmytextclock:connect_signal(\"mouse::enter\", function() show(0) end)\nmytextclock:connect_signal(\"mouse::leave\", hide)\nmytextclock:buttons(util.table.join( awful.button({ }, 1, function() show(-1) end),\n                                     awful.button({ }, 3, function() show(1) end)))\n\n-- Mail widget\nmygmail = wibox.widget.textbox()\nnotify_shown = false\ngmail_t = awful.tooltip({ objects = { mygmail },})\nmygmailimg = wibox.widget.imagebox(beautiful.widget_mail)\nvicious.register(mygmail, vicious.widgets.gmail,\nfunction (widget, args)\n  notify_title = \"Hai un nuovo messaggio\"\n  notify_text = '\"' .. args[\"{subject}\"] .. '\"'\n  gmail_t:set_text(args[\"{subject}\"])\n  gmail_t:add_to_object(mygmailimg)\n  if (args[\"{count}\"] > 0) then\n    if (notify_shown == false) then\n      if (args[\"{count}\"] > 1) then \n          notify_title = \"Hai \" .. args[\"{count}\"] .. \" nuovi messaggi\"\n          notify_text = 'Ultimo: \"' .. args[\"{subject}\"] .. '\"'\n      else\n          notify_title = \"Hai un nuovo messaggio\"\n          notify_text = args[\"{subject}\"]\n      end\n      naughty.notify({ title = notify_title, text = notify_text,\n      timeout = 7,\n      position = \"top_left\",\n      icon = beautiful.widget_mail_notify,\n      fg = beautiful.fg_urgent,\n      bg = beautiful.bg_urgent })\n      notify_shown = true\n    end\n    return '<span background=\"#313131\" font=\"Terminus 13\" rise=\"2000\"> <span font=\"Terminus 9\">' .. args[\"{count}\"] .. ' </span></span>'\n  else\n    notify_shown = false\n    return \"\"\n  end\nend, 60)\nmygmail:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.util.spawn(mail, false) end)))\n\n-- Music widget\nmpdwidget = wibox.widget.textbox()\nmpdicon = wibox.widget.imagebox()\nmpdicon:set_image(beautiful.widget_music)\nmpdicon:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.util.spawn_with_shell(musicplr) end)))\n\nvicious.register(mpdwidget, vicious.widgets.mpd,\nfunction(widget, args)\n	-- play\n	if (args[\"{state}\"] == \"Play\") then\n    mpdicon:set_image(beautiful.widget_music_on)\n		return \"<span background='#313131' font='Terminus 13' rise='2000'> <span font='Terminus 9'>\" .. red .. args[\"{Title}\"] .. coldef .. colwhi .. \" - \" .. coldef .. colwhi  .. args[\"{Artist}\"] .. coldef .. \" </span></span>\"\n	-- pause\n	elseif (args[\"{state}\"] == \"Pause\") then\n    mpdicon:set_image(beautiful.widget_music)\n		return \"<span background='#313131' font='Terminus 13' rise='2000'> <span font='Terminus 9'>\" .. colwhi .. \"mpd in pausa\" .. coldef .. \" </span></span>\"\n	else\n    mpdicon:set_image(beautiful.widget_music)\n		return \"\"\n	end\nend, 1)\n\n-- MEM widget\nmemicon = wibox.widget.imagebox()\nmemicon:set_image(beautiful.widget_mem)\nmemwidget = wibox.widget.textbox()\nvicious.register(memwidget, vicious.widgets.mem, ' $2MB ', 13)\n\n-- CPU widget\ncpuicon = wibox.widget.imagebox()\ncpuicon:set_image(beautiful.widget_cpu)\ncpuwidget = wibox.widget.textbox()\nvicious.register(cpuwidget, vicious.widgets.cpu, '<span background=\"#313131\" font=\"Terminus 13\" rise=\"2000\"> <span font=\"Terminus 9\">$1% </span></span>', 3)\ncpuicon:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.util.spawn(tasks, false) end)))\n\n-- Temp widget\ntempicon = wibox.widget.imagebox()\ntempicon:set_image(beautiful.widget_temp)\ntempicon:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.util.spawn(terminal .. \" -e sudo powertop \", false) end)))\ntempwidget = wibox.widget.textbox()\nvicious.register(tempwidget, vicious.widgets.thermal, '<span font=\"Terminus 12\"> <span font=\"Terminus 9\">$1°C </span></span>', 9, {\"coretemp.0\", \"core\"} )\n\n-- /home fs widget\nfshicon = wibox.widget.imagebox()\nfshicon:set_image(beautiful.widget_hdd)\nfshwidget = wibox.widget.textbox()\nvicious.register(fshwidget, vicious.widgets.fs,\nfunction (widget, args)\n  if args[\"{/home used_p}\"] >= 95 and args[\"{/home used_p}\"] < 99 then\n    return '<span background=\"#313131\" font=\"Terminus 13\" rise=\"2000\"> <span font=\"Terminus 9\">' .. args[\"{/home used_p}\"] .. '% </span></span>' \n  elseif args[\"{/home used_p}\"] >= 99 and args[\"{/home used_p}\"] <= 100 then\n    naughty.notify({ title = \"Attenzione\", text = \"Partizione /home esaurita!\\nFa' un po' di spazio.\",\n    timeout = 10,\n    position = \"top_right\",\n    fg = beautiful.fg_urgent,\n    bg = beautiful.bg_urgent })\n    return '<span background=\"#313131\" font=\"Terminus 13\" rise=\"2000\"> <span font=\"Terminus 9\">' .. args[\"{/home used_p}\"] .. '% </span></span>' \n  else\n    return '<span background=\"#313131\" font=\"Terminus 13\" rise=\"2000\"> <span font=\"Terminus 9\">' .. args[\"{/home used_p}\"] .. '% </span></span>' \n  end\nend, 600)\n\n\nlocal infos = nil\n\nfunction remove_info()\n    if infos ~= nil then \n        naughty.destroy(infos)\n        infos = nil\n    end\nend\n\nfunction add_info()\n    remove_info()\n    local capi = {\n		mouse = mouse,\n		screen = screen\n	  }\n    local cal = awful.util.pread(scriptdir .. \"dfs\")\n    cal = string.gsub(cal, \"          ^%s*(.-)%s*$\", \"%1\")\n    infos = naughty.notify({\n        text = string.format('<span font_desc=\"%s\">%s</span>', \"Terminus\", cal),\n      	timeout = 0,\n        position = \"top_right\",\n        margin = 10,\n        height = 170,\n        width = 585,\n        screen	= capi.mouse.screen\n    })\nend\n\nfshicon:connect_signal('mouse::enter', function () add_info() end)\nfshicon:connect_signal('mouse::leave', function () remove_info() end)\n\n-- Battery widget\nbaticon = wibox.widget.imagebox()\nbaticon:set_image(beautiful.widget_battery)\n\nfunction batstate()\n\n  local file = io.open(\"/sys/class/power_supply/BAT0/status\", \"r\")\n\n  if (file == nil) then\n    return \"Cable plugged\"\n  end\n\n  local batstate = file:read(\"*line\")\n  file:close()\n\n  if (batstate == 'Discharging' or batstate == 'Charging') then\n    return batstate\n  else\n    return \"Fully charged\"\n  end\nend\n\nbatwidget = wibox.widget.textbox()\nvicious.register(batwidget, vicious.widgets.bat,\nfunction (widget, args)\n  -- plugged\n  if (batstate() == 'Cable plugged' or batstate() == 'Unknown') then\n    baticon:set_image(beautiful.widget_ac)     \n    return '<span font=\"Terminus 12\"> <span font=\"Terminus 9\">AC </span></span>'\n    -- critical\n  elseif (args[2] <= 5 and batstate() == 'Discharging') then\n    baticon:set_image(beautiful.widget_battery_empty)\n    naughty.notify({\n      text = \"sto per spegnermi...\",\n      title = \"Carica quasi esaurita!\",\n      position = \"top_right\",\n      timeout = 1,\n      fg=\"#000000\",\n      bg=\"#ffffff\",\n      screen = 1,\n      ontop = true,\n    })\n    -- low\n  elseif (args[2] <= 10 and batstate() == 'Discharging') then\n    baticon:set_image(beautiful.widget_battery_low)\n    naughty.notify({\n      text = \"attacca il cavo!\",\n      title = \"Carica bassa\",\n      position = \"top_right\",\n      timeout = 1,\n      fg=\"#ffffff\",\n      bg=\"#262729\",\n      screen = 1,\n      ontop = true,\n    })\n   else baticon:set_image(beautiful.widget_battery)\n  end\n    return '<span font=\"Terminus 12\"> <span font=\"Terminus 9\">' .. args[2] .. '% </span></span>'\nend, 1, 'BAT0')\n\n-- Volume widget\nvolicon = wibox.widget.imagebox()\nvolicon:set_image(beautiful.widget_vol)\nvolumewidget = wibox.widget.textbox()\nvicious.register(volumewidget, vicious.widgets.volume,  \nfunction (widget, args)\n  if (args[2] ~= \"♩\" ) then \n      if (args[1] == 0) then volicon:set_image(beautiful.widget_vol_no)\n      elseif (args[1] <= 50) then  volicon:set_image(beautiful.widget_vol_low)\n      else volicon:set_image(beautiful.widget_vol)\n      end\n  else volicon:set_image(beautiful.widget_vol_mute) \n  end\n  return '<span font=\"Terminus 12\"> <span font=\"Terminus 9\">' .. args[1] .. '% </span></span>'\nend, 1, \"Master\")\n\n-- Net widget\nnetwidget = wibox.widget.textbox()\nvicious.register(netwidget, vicious.widgets.net, '<span background=\"#313131\" font=\"Terminus 13\" rise=\"2000\"> <span font=\"Terminus 9\" color=\"#7AC82E\">${wlan0 down_kb}</span> <span font=\"Terminus 7\" color=\"#EEDDDD\">↓↑</span> <span font=\"Terminus 9\" color=\"#46A8C3\">${wlan0 up_kb} </span></span>', 3)\nneticon = wibox.widget.imagebox()\nneticon:set_image(beautiful.widget_net)\nnetwidget:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.util.spawn_with_shell(iptraf) end)))\n\n-- Separators\nspr = wibox.widget.textbox(' ')\narrl = wibox.widget.imagebox()\narrl:set_image(beautiful.arrl)\narrl_dl = wibox.widget.imagebox()\narrl_dl:set_image(beautiful.arrl_dl)\narrl_ld = wibox.widget.imagebox()\narrl_ld:set_image(beautiful.arrl_ld)\n\n-- }}}\n\n-- {{{ Layout\n\n-- Create a wibox for each screen and add it\nmywibox = {}\nmypromptbox = {}\nmylayoutbox = {}\nmytaglist = {}\nmytaglist.buttons = awful.util.table.join(\n                    awful.button({ }, 1, awful.tag.viewonly),\n                    awful.button({ modkey }, 1, awful.client.movetotag),\n                    awful.button({ }, 3, awful.tag.viewtoggle),\n                    awful.button({ modkey }, 3, awful.client.toggletag),\n                    awful.button({ }, 4, function(t) awful.tag.viewnext(awful.tag.getscreen(t)) end),\n                    awful.button({ }, 5, function(t) awful.tag.viewprev(awful.tag.getscreen(t)) end)\n                    )\nmytasklist = {}\nmytasklist.buttons = awful.util.table.join(\n                     awful.button({ }, 1, function (c)\n                                              if c == client.focus then\n                                                  c.minimized = true\n                                              else\n                                                  -- Without this, the following\n                                                  -- :isvisible() makes no sense\n                                                  c.minimized = false\n                                                  if not c:isvisible() then\n                                                      awful.tag.viewonly(c:tags()[1])\n                                                  end\n                                                  -- This will also un-minimize\n                                                  -- the client, if needed\n                                                  client.focus = c\n                                                  c:raise()\n                                              end\n                                          end),\n                     awful.button({ }, 3, function ()\n                                              if instance then\n                                                  instance:hide()\n                                                  instance = nil\n                                              else\n                                                  instance = awful.menu.clients({ width=250 })\n                                              end\n                                          end),\n                     awful.button({ }, 4, function ()\n                                              awful.client.focus.byidx(1)\n                                              if client.focus then client.focus:raise() end\n                                          end),\n                     awful.button({ }, 5, function ()\n                                              awful.client.focus.byidx(-1)\n                                              if client.focus then client.focus:raise() end\n                                          end))\n\nfor s = 1, screen.count() do\n    \n    -- Create a promptbox for each screen\n    mypromptbox[s] = awful.widget.prompt()\n\n    -- We need one layoutbox per screen.\n    mylayoutbox[s] = awful.widget.layoutbox(s)\n    mylayoutbox[s]:buttons(awful.util.table.join(\n                            awful.button({ }, 1, function () awful.layout.inc(layouts, 1) end),\n                            awful.button({ }, 3, function () awful.layout.inc(layouts, -1) end),\n                            awful.button({ }, 4, function () awful.layout.inc(layouts, 1) end),\n                            awful.button({ }, 5, function () awful.layout.inc(layouts, -1) end)))\n\n    -- Create a taglist widget\n    mytaglist[s] = awful.widget.taglist(s, awful.widget.taglist.filter.all, mytaglist.buttons)\n\n    -- Create a tasklist widget\n    mytasklist[s] = awful.widget.tasklist(s, awful.widget.tasklist.filter.currenttags, mytasklist.buttons)\n\n    -- Create the upper wibox\n    mywibox[s] = awful.wibox({ position = \"top\", screen = s, height = 18 }) \n        \n    -- Widgets that are aligned to the upper left\n    local left_layout = wibox.layout.fixed.horizontal()\n    left_layout:add(spr)\n    left_layout:add(mytaglist[s])\n    left_layout:add(mypromptbox[s])\n    left_layout:add(spr)\n\n    -- Widgets that are aligned to the upper right\n    local right_layout = wibox.layout.fixed.horizontal()\n    if s == 1 then right_layout:add(wibox.widget.systray()) end\n    right_layout:add(spr)\n    right_layout:add(arrl)\n    right_layout:add(arrl_ld)\n    right_layout:add(mpdicon)\n    right_layout:add(mpdwidget)\n    right_layout:add(arrl_dl)\n    right_layout:add(volicon)\n    right_layout:add(volumewidget)\n    right_layout:add(arrl_ld)\n    right_layout:add(mygmailimg)\n    right_layout:add(mygmail)\n    right_layout:add(arrl_dl)\n    right_layout:add(memicon)\n    right_layout:add(memwidget)\n    right_layout:add(arrl_ld)\n    right_layout:add(cpuicon)\n    right_layout:add(cpuwidget)    \n    right_layout:add(arrl_dl)\n    right_layout:add(tempicon)\n    right_layout:add(tempwidget)\n    right_layout:add(arrl_ld)\n    right_layout:add(fshicon)\n    right_layout:add(fshwidget)\n    right_layout:add(arrl_dl)     \n    right_layout:add(baticon)\n    right_layout:add(batwidget)\n    right_layout:add(arrl_ld)\n    right_layout:add(neticon)\n    right_layout:add(netwidget)\n    right_layout:add(arrl_dl)\n    right_layout:add(mytextclock)\n    right_layout:add(spr)\n    right_layout:add(arrl_ld)\n    right_layout:add(mylayoutbox[s])\n\n    -- Now bring it all together (with the tasklist in the middle)\n    local layout = wibox.layout.align.horizontal()\n    layout:set_left(left_layout)\n    layout:set_middle(mytasklist[s])\n    layout:set_right(right_layout)    \n    mywibox[s]:set_widget(layout)\n\nend\n\n-- }}}\n\n-- {{{ Mouse Bindings\n\nroot.buttons(awful.util.table.join(\n    awful.button({ }, 4, awful.tag.viewnext),\n    awful.button({ }, 5, awful.tag.viewprev)\n))\n\n-- }}}\n\n-- {{{ Key bindings\nglobalkeys = awful.util.table.join(\n\n    -- Capture a screenshot\n    awful.key({ altkey }, \"p\", function() awful.util.spawn(\"screenshot\",false) end),\n    -- Menubar\n    awful.key({ modkey }, \"p\", function() menubar.show() end),\n    -- Move clients\n    awful.key({ altkey }, \"Next\",  function () awful.client.moveresize( 1,  1, -2, -2) end),\n    awful.key({ altkey }, \"Prior\", function () awful.client.moveresize(-1, -1,  2,  2) end),\n    awful.key({ altkey }, \"Down\",  function () awful.client.moveresize(  0,  1,   0,   0) end),\n    awful.key({ altkey }, \"Up\",    function () awful.client.moveresize(  0, -1,   0,   0) end),\n    awful.key({ altkey }, \"Left\",  function () awful.client.moveresize(-1,   0,   0,   0) end),\n    awful.key({ altkey }, \"Right\", function () awful.client.moveresize( 1,   0,   0,   0) end),\n    awful.key({ modkey,           }, \"Left\",   awful.tag.viewprev       ),\n    awful.key({ modkey,           }, \"Right\",  awful.tag.viewnext       ),\n    awful.key({ modkey,           }, \"Escape\", awful.tag.history.restore),\n    awful.key({ modkey,           }, \"k\",\n        function ()\n            awful.client.focus.byidx( 1)\n            if client.focus then client.focus:raise() end\n        end),\n    awful.key({ modkey,           }, \"j\",\n        function ()\n            awful.client.focus.byidx(-1)\n            if client.focus then client.focus:raise() end\n        end),\n    awful.key({ modkey,           }, \"w\", function () mymainmenu:show({keygrabber=true}) end),\n\n    -- Show/Hide Wibox\n    awful.key({ modkey }, \"b\", function ()\n    mywibox[mouse.screen].visible = not mywibox[mouse.screen].visible\n    end),\n\n    -- Layout manipulation\n    awful.key({ modkey, \"Shift\"   }, \"j\", function () awful.client.swap.byidx(  1)    end),\n    awful.key({ modkey, \"Shift\"   }, \"k\", function () awful.client.swap.byidx( -1)    end),\n    awful.key({ modkey, \"Control\" }, \"j\", function () awful.screen.focus_relative( 1) end),\n    awful.key({ modkey, \"Control\" }, \"k\", function () awful.screen.focus_relative(-1) end),\n    awful.key({ modkey,           }, \"u\", awful.client.urgent.jumpto),\n    awful.key({ modkey,           }, \"Tab\",\n        function ()\n            awful.client.focus.history.previous()\n            if client.focus then\n                client.focus:raise()\n            end\n        end),\n\n    -- Standard program\n    awful.key({ modkey,           }, \"Return\", function () awful.util.spawn(terminal) end),\n    awful.key({ modkey, \"Control\" }, \"r\", awesome.restart),\n    awful.key({ modkey, \"Shift\"   }, \"q\", awesome.quit),\n    awful.key({ modkey,           }, \"l\",     function () awful.tag.incmwfact( 0.05)     end),\n    awful.key({ modkey,           }, \"h\",     function () awful.tag.incmwfact(-0.05)     end),\n    awful.key({ modkey, \"Shift\"   }, \"h\",     function () awful.tag.incnmaster( 1)       end),\n    awful.key({ modkey, \"Shift\"   }, \"l\",     function () awful.tag.incnmaster(-1)       end),\n    awful.key({ modkey, \"Control\" }, \"h\",     function () awful.tag.incncol( 1)          end),\n    awful.key({ modkey, \"Control\" }, \"l\",     function () awful.tag.incncol(-1)          end),\n    awful.key({ modkey,           }, \"space\", function () awful.layout.inc(layouts,  1)  end),\n    awful.key({ modkey, \"Shift\"   }, \"space\", function () awful.layout.inc(layouts, -1)  end),\n    awful.key({ modkey, \"Control\" }, \"n\", awful.client.restore),\n\n    -- Dropdown terminal\n    awful.key({ modkey,	          }, \"z\",     function () scratch.drop(terminal) end),\n\n    -- Widgets popups\n    awful.key({ altkey,           }, \"c\",     function () add_calendar(7) end),\n\n    -- Volume control\n    awful.key({ \"Control\" }, \"Up\", function ()\n                                       awful.util.spawn(\"amixer set Master playback 1%+\", false )\n                                       vicious.force({ volumewidget })\n                                   end),\n    awful.key({ \"Control\" }, \"Down\", function ()\n                                       awful.util.spawn(\"amixer set Master playback 1%-\", false )\n                                       vicious.force({ volumewidget })\n                                     end),\n    awful.key({ \"Control\" }, \"m\", function ()\n                                       awful.util.spawn(\"amixer set Master playback toggle\", false )\n                                       vicious.force({ volumewidget })\n                                     end),\n    awful.key({ altkey, \"Control\" }, \"m\", function () \n                                              awful.util.spawn(\"amixer set Master playback 100%\", false )\n                                              vicious.force({ volumewidget })\n                                          end),\n\n    -- Music control\n    awful.key({ altkey, \"Control\" }, \"Up\", function () \n                                              awful.util.spawn( \"mpc toggle\", false ) \n                                              vicious.force({ mpdwidget } )\n                                           end),\n    awful.key({ altkey, \"Control\" }, \"Down\", function () \n                                                awful.util.spawn( \"mpc stop\", false ) \n                                                vicious.force({ mpdwidget } )\n                                             end ),\n    awful.key({ altkey, \"Control\" }, \"Left\", function ()\n                                                awful.util.spawn( \"mpc prev\", false )\n                                                vicious.force({ mpdwidget } )\n                                             end ),\n    awful.key({ altkey, \"Control\" }, \"Right\", function () \n                                                awful.util.spawn( \"mpc next\", false )\n                                                vicious.force({ mpdwidget } )\n                                              end ),\n\n    -- Copy to clipboard\n    awful.key({ modkey,        }, \"c\",      function () os.execute(\"xsel -p -o | xsel -i -b\") end),\n\n    -- User programs\n    awful.key({ modkey,        }, \"q\",      function () awful.util.spawn( \"dwb\", false ) end),\n    awful.key({ modkey,        }, \"a\",      function () awful.util.spawn( \"midori\", false ) end),\n    awful.key({ modkey,        }, \"s\",      function () awful.util.spawn(gui_editor) end),\n    awful.key({ modkey, 	     }, \"t\", 	    function () awful.util.spawn( \"thunderbird\", false ) end),\n    awful.key({ modkey,        }, \"d\", 	    function () awful.util.spawn( \"spacefm\", false ) end),\n    \n    -- Prompt\n    awful.key({ modkey }, \"r\", function () mypromptbox[mouse.screen]:run() end),\n\n    awful.key({ modkey }, \"x\",\n              function ()\n                  awful.prompt.run({ prompt = \"Run Lua code: \" },\n                  mypromptbox[mouse.screen].widget,\n                  awful.util.eval, nil,\n                  awful.util.getdir(\"cache\") .. \"/history_eval\")\n              end)\n)\n\nclientkeys = awful.util.table.join(\n    awful.key({ modkey,           }, \"f\",      function (c) c.fullscreen = not c.fullscreen  end),\n    awful.key({ modkey, \"Shift\"   }, \"c\",      function (c) c:kill()                         end),\n    awful.key({ modkey, \"Control\" }, \"space\",  awful.client.floating.toggle                     ),\n    awful.key({ modkey, \"Control\" }, \"Return\", function (c) c:swap(awful.client.getmaster()) end),\n    awful.key({ modkey,           }, \"o\",      awful.client.movetoscreen                        ),\n    awful.key({ modkey,           }, \"t\",      function (c) c.ontop = not c.ontop            end),\n    awful.key({ modkey,           }, \"n\",\n        function (c)\n            -- The client currently has the input focus, so it cannot be\n            -- minimized, since minimized clients can't have the focus.\n            c.minimized = true\n        end),\n    awful.key({ modkey,           }, \"m\",\n        function (c)\n            c.maximized_horizontal = not c.maximized_horizontal\n            c.maximized_vertical   = not c.maximized_vertical\n        end)\n)\n\n-- Compute the maximum number of digit we need, limited to 9\nkeynumber = 0\nfor s = 1, screen.count() do\n   keynumber = math.min(9, math.max(#tags[s], keynumber));\nend\n\n-- Bind all key numbers to tags.\n-- Be careful: we use keycodes to make it works on any keyboard layout.\n-- This should map on the top row of your keyboard, usually 1 to 9.\nfor i = 1, keynumber do\n    globalkeys = awful.util.table.join(globalkeys,\n        awful.key({ modkey }, \"#\" .. i + 9,\n                  function ()\n                        screen = mouse.screen\n                        if tags[screen][i] then\n                            awful.tag.viewonly(tags[screen][i])\n                        end\n                  end),\n        awful.key({ modkey, \"Control\" }, \"#\" .. i + 9,\n                  function ()\n                      screen = mouse.screen\n                      if tags[screen][i] then\n                          awful.tag.viewtoggle(tags[screen][i])\n                      end\n                  end),\n        awful.key({ modkey, \"Shift\" }, \"#\" .. i + 9,\n                  function ()\n                      if client.focus and tags[client.focus.screen][i] then\n                          awful.client.movetotag(tags[client.focus.screen][i])\n                      end\n                  end),\n        awful.key({ modkey, \"Control\", \"Shift\" }, \"#\" .. i + 9,\n                  function ()\n                      if client.focus and tags[client.focus.screen][i] then\n                          awful.client.toggletag(tags[client.focus.screen][i])\n                      end\n                  end))\nend\n\nclientbuttons = awful.util.table.join(\n    awful.button({ }, 1, function (c) client.focus = c; c:raise() end),\n    awful.button({ modkey }, 1, awful.mouse.client.move),\n    awful.button({ modkey }, 3, awful.mouse.client.resize))\n\n-- Set keys\nroot.keys(globalkeys)\n\n-- }}}\n\n-- {{{ Rules\n\nawful.rules.rules = {\n     -- All clients will match this rule.\n     { rule = { },\n       properties = { border_width = beautiful.border_width,\n                      border_color = beautiful.border_normal,\n                      focus = true,\n                      keys = clientkeys,\n                      buttons = clientbuttons,\n	                  size_hints_honor = false\n                     }\n    },\n   \n    { rule = { class = \"MPlayer\" },\n      properties = { floating = true } },\n\n    { rule = { class = \"Dwb\" },\n          properties = { tag = tags[1][1],\n          			     maximized_vertical=true,\n          			     maximized_horizontal=true } },\n\n    { rule = { class = \"Midori\" },\n          properties = { tag = tags[1][1],\n          			     maximized_vertical=true,\n          			     maximized_horizontal=true } },\n\n    { rule = { class = \"Geany\" },\n          properties = { tag = tags[1][2] } },\n\n	  { rule = { class = \"Zathura\" },\n     	  properties = { tag = tags[1][3] } },\n\n    { rule = { class = \"Thunderbird\" },\n          properties = { tag = tags[1][3] } },\n\n    { rule = { class = \"Dia\" },\n          properties = { tag = tags[1][4], \n          floating = true } },\n\n    { rule = { class = \"Gimp\" },\n          properties = { tag = tags[1][4],\n          floating = true } },\n\n    { rule = { class = \"Inkscape\" },\n          properties = { tag = tags[1][4],\n          floating = true } },\n\n    { rule = { class = \"Transmission-gtk\" },\n          properties = { tag = tags[1][5] } },\n\n    { rule = { class = \"Torrent-search\" },\n          properties = { tag = tags[1][5] } },\n}\n\n-- }}}\n\n-- {{{ Signals\n\n-- Signal function to execute when a new client appears.\nclient.connect_signal(\"manage\", function (c, startup)\n    -- Enable sloppy focus\n    c:connect_signal(\"mouse::enter\", function(c)\n        if awful.layout.get(c.screen) ~= awful.layout.suit.magnifier\n            and awful.client.focus.filter(c) then\n            client.focus = c\n        end\n    end)\n\n    if not startup then\n        -- Set the windows at the slave,\n        -- i.e. put it at the end of others instead of setting it master.\n        -- awful.client.setslave(c)\n\n        -- Put windows in a smart way, only if they does not set an initial position.\n        if not c.size_hints.user_position and not c.size_hints.program_position then\n            awful.placement.no_overlap(c)\n            awful.placement.no_offscreen(c)\n        end\n    end\n\n    local titlebars_enabled = false\n    if titlebars_enabled and (c.type == \"normal\" or c.type == \"dialog\") then\n        -- Widgets that are aligned to the left\n        local left_layout = wibox.layout.fixed.horizontal()\n        left_layout:add(awful.titlebar.widget.iconwidget(c))\n\n        -- Widgets that are aligned to the right\n        local right_layout = wibox.layout.fixed.horizontal()\n        right_layout:add(awful.titlebar.widget.floatingbutton(c))\n        right_layout:add(awful.titlebar.widget.maximizedbutton(c))\n        right_layout:add(awful.titlebar.widget.stickybutton(c))\n        right_layout:add(awful.titlebar.widget.ontopbutton(c))\n        right_layout:add(awful.titlebar.widget.closebutton(c))\n        right_layout:add(awful.titlebar.widget.closebutton(c))\n\n        -- The title goes in the middle\n        local title = awful.titlebar.widget.titlewidget(c)\n        title:buttons(awful.util.table.join(\n                awful.button({ }, 1, function()\n                    client.focus = c\n                    c:raise()\n                    awful.mouse.client.move(c)\n                end),\n                awful.button({ }, 3, function()\n                    client.focus = c\n                    c:raise()\n                    awful.mouse.client.resize(c)\n                end)\n                ))\n\n        -- Now bring it all together\n        local layout = wibox.layout.align.horizontal()\n        layout:set_left(left_layout)\n        layout:set_right(right_layout)\n        layout:set_middle(title)\n\n        awful.titlebar(c):set_widget(layout)\n    end\nend)\n\nclient.connect_signal(\"focus\", function(c) c.border_color = beautiful.border_focus end)\nclient.connect_signal(\"unfocus\", function(c) c.border_color = beautiful.border_normal end)\n\n-- }}}\n",
 			"file": "rc.lua",
-			"file_size": 36594,
-			"file_write_time": 130192633575185101,
 			"settings":
 			{
-				"buffer_size": 36587,
+				"buffer_size": 39610,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "--[[                                     ]]--\n--                                         -\n--    Blackburn Awesome WM 3.5.+ config    --\n--        github.com/copycat-killer        --\n--                                         -\n--[[                                     ]]--\n\n\n-- Required Libraries\n\nlocal gears           = require(\"gears\")\nlocal awful           = require(\"awful\")\nawful.rules           = require(\"awful.rules\")\nawful.autofocus       = require(\"awful.autofocus\")\nlocal wibox           = require(\"wibox\")\nlocal beautiful       = require(\"beautiful\")\nlocal naughty         = require(\"naughty\")\nlocal vicious         = require(\"vicious\")\nlocal scratch         = require(\"scratch\")\nlocal yawn            = require(\"yawn\")\n\n-- Run once function\n\nfunction run_once(cmd)\n  findme = cmd\n  firstspace = cmd:find(\" \")\n  if firstspace then\n     findme = cmd:sub(0, firstspace-1)\n  end\n  awful.util.spawn_with_shell(\"pgrep -u $USER -x \" .. findme .. \" > /dev/null || (\" .. cmd .. \")\")\nend\n\n-- autostart applications\nrun_once(\"urxvtd\")\nrun_once(\"unclutter -idle 10\")\nrun_once(\"compton\")\n\n\n-- Localization\n\nos.setlocale(os.getenv(\"LANG\"))\n\n\n-- Error Handling\n\n-- Check if awesome encountered an error during startup and fell back to\n-- another config (This code will only ever execute for the fallback config)\nif awesome.startup_errors then\n    naughty.notify({ preset = naughty.config.presets.critical,\n                     title = \"Oops, there were errors during startup!\",\n                     text = awesome.startup_errors })\nend\n\n-- Handle runtime errors after startup\ndo\n    local in_error = false\n    awesome.connect_signal(\"debug::error\", function (err)\n        -- Make sure we don't go into an endless error loop\n        if in_error then return end\n        in_error = true\n\n        naughty.notify({ preset = naughty.config.presets.critical,\n                         title = \"Oops, an error happened!\",\n                         text = err })\n        local in_error = false\n    end)\nend\n\n\n-- Global variables\n\nhome = os.getenv(\"HOME\")\nconfdir = home .. \"/.config/awesome\"\nscriptdir = confdir .. \"/scripts/\"\nthemes = confdir .. \"/themes\"\nactive_theme = themes .. \"/blackburn\"\nlanguage = string.gsub(os.getenv(\"LANG\"), \".utf8\", \"\")\n\nbeautiful.init(active_theme .. \"/theme.lua\")\n\nterminal = \"urxvtc\"\neditor = os.getenv(\"EDITOR\")\neditor_cmd = terminal .. \" -e \" .. editor\ngui_editor = \"gvim\"\nbrowser = \"dwb\"\nmail = terminal .. \" -e mutt \"\nwifi = terminal .. \" -e sudo wifi-menu \"\nmusicplr = terminal .. \" -g 130x34-320+16 -e ncmpcpp \"\n\nmodkey = \"Mod4\"\naltkey = \"Mod1\"\n\nlayouts =\n{\n    awful.layout.suit.floating,             -- 1\n    awful.layout.suit.tile,                 -- 2\n    awful.layout.suit.fair,                 -- 3\n    awful.layout.suit.tile.left,            -- 4\n    awful.layout.suit.tile.top,             -- 5\n}\n\n\n-- Wallpaper\n\nif beautiful.wallpaper then\n    for s = 1, screen.count() do\n        gears.wallpaper.maximized(beautiful.wallpaper, s, true)\n    end\nend\n\n-- Tags\ntyrannical.tags = {\n    {\n        name        = \"Term\",                 -- Call the tag \"Term\"\n        init        = true,                   -- Load the tag on startup\n        exclusive   = true,                   -- Refuse any other type of clients (by classes)\n        screen      = {1,2},                  -- Create this tag on screen 1 and screen 2\n        layout      = awful.layout.suit.tile, -- Use the tile layout\n        class       = { --Accept the following classes, refuse everything else (because of \"exclusive=true\")\n            \"xterm\" , \"urxvt\" , \"aterm\",\"URxvt\",\"XTerm\",\"konsole\",\"terminator\",\"gnome-terminal\"\n        }\n    } ,\n    {\n        name        = \"Internet\",\n        init        = true,\n        exclusive   = true,\n      --icon        = \"~net.png\",                 -- Use this icon for the tag (uncomment with a real path)\n        screen      = screen.count()>1 and 2 or 1,-- Setup on screen 2 if there is more than 1 screen, else on screen 1\n        layout      = awful.layout.suit.max,      -- Use the max layout\n        class = {\n            \"Opera\"         , \"Firefox\"        , \"Rekonq\"    , \"Dillo\"        , \"Arora\",\n            \"Chromium\"      , \"nightly\"        , \"minefield\"     }\n    } ,\n    {\n        name = \"Files\",\n        init        = true,\n        exclusive   = true,\n        screen      = 1,\n        layout      = awful.layout.suit.tile,\n        exec_once   = {\"dolphin\"}, --When the tag is accessed for the first time, execute this command\n        class  = {\n            \"Thunar\", \"Konqueror\", \"Dolphin\", \"ark\", \"Nautilus\",\"emelfm\"\n        }\n    } ,\n    {\n        name = \"Develop\",\n        init        = true,\n        exclusive   = true,\n        screen      = 1,\n        clone_on    = 2, -- Create a single instance of this tag on screen 1, but also show it on screen 2\n                         -- The tag can be used on both screen, but only one at once\n        layout      = awful.layout.suit.max                          ,\n        class ={ \n            \"Kate\", \"KDevelop\", \"Codeblocks\", \"Code::Blocks\" , \"DDD\", \"kate4\"}\n    } ,\n    {\n        name        = \"Doc\",\n        init        = false, -- This tag wont be created at startup, but will be when one of the\n                             -- client in the \"class\" section will start. It will be created on\n                             -- the client startup screen\n        exclusive   = true,\n        layout      = awful.layout.suit.max,\n        class       = {\n            \"Assistant\"     , \"Okular\"         , \"Evince\"    , \"EPDFviewer\"   , \"xpdf\",\n            \"Xpdf\"          ,                                        }\n    } ,\n}\n\n-- Ignore the tag \"exclusive\" property for the following clients (matched by classes)\ntyrannical.properties.intrusive = {\n    \"ksnapshot\"     , \"pinentry\"       , \"gtksu\"     , \"kcalc\"        , \"xcalc\"               ,\n    \"feh\"           , \"Gradient editor\", \"About KDE\" , \"Paste Special\", \"Background color\"    ,\n    \"kcolorchooser\" , \"plasmoidviewer\" , \"Xephyr\"    , \"kruler\"       , \"plasmaengineexplorer\",\n}\n\n-- Ignore the tiled layout for the matching clients\ntyrannical.properties.floating = {\n    \"MPlayer\"      , \"pinentry\"        , \"ksnapshot\"  , \"pinentry\"     , \"gtksu\"          ,\n    \"xine\"         , \"feh\"             , \"kmix\"       , \"kcalc\"        , \"xcalc\"          ,\n    \"yakuake\"      , \"Select Color$\"   , \"kruler\"     , \"kcolorchooser\", \"Paste Special\"  ,\n    \"New Form\"     , \"Insert Picture\"  , \"kcharselect\", \"mythfrontend\" , \"plasmoidviewer\" \n}\n\n-- Make the matching clients (by classes) on top of the default layout\ntyrannical.properties.ontop = {\n    \"Xephyr\"       , \"ksnapshot\"       , \"kruler\"\n}\n\n-- Force the matching clients (by classes) to be centered on the screen on init\ntyrannical.properties.centered = {\n    \"kcalc\"\n}\n\ntyrannical.settings.block_children_focus_stealing = true --Block popups ()\ntyrannical.settings.group_children = true --Force popups/dialogs to have the same tags as the parent client\n-- Menu\nmyaccessories = {\n   { \"archives\", \"7zFM\" },\n   { \"charmap\", \"gucharmap\" },\n   { \"gbdfed\", \"gbdfed\" },\n   { \"gimp\", \"gimp\" },\n   { \"text editor\", gui_editor },\n}\nmyinternet = {\n    { \"torrent\" , \"transmission-gtk\" },\n    { \"torrent search\" , \"torrent-search\" }\n}\nmyoffice = {\n    { \"writer\" , \"lowriter\" },\n    { \"impress\" , \"loimpress\" },\n}\nmysystem = {\n    { \"appearance\" , \"lxappearance\" },\n    { \"cleaning\" , \"bleachbit\" },\n    { \"powertop\" , terminal .. \" -e sudo powertop \" },\n}\nmymainmenu = awful.menu({ items = {\n				    { \"accessories\" , myaccessories },\n				    { \"internet\" , myinternet },\n				    { \"office\" , myoffice },\n				    { \"system\" , mysystem },\n            }\n            })\nmylauncher = awful.widget.launcher({ menu = mymainmenu })\n\n\n-- Wibox\n\n-- Colours\ncoldef  = \"</span>\"\nwhite  = \"<span color='#d7d7d7'>\"\ngray = \"<span color='#9e9c9a'>\"\n\n-- Textclock widget\nmytextclock = awful.widget.textclock(white .. \"%H:%M\"  .. coldef)\n\n-- attached calendar\nlocal os = os\nlocal string = string\nlocal table = table\nlocal util = awful.util\n\nchar_width = nil\ntext_color = theme.fg_normal or \"#FFFFFF\"\ntoday_color = theme.taglist_fg_focus or \"#FF7100\"\ncalendar_width = 21\n\nlocal calendar = nil\nlocal offset = 0\n\nlocal data = nil\n\nlocal function pop_spaces(s1, s2, maxsize)\n   local sps = \"\"\n   for i = 1, maxsize - string.len(s1) - string.len(s2) do\n      sps = sps .. \" \"\n   end\n   return s1 .. sps .. s2\nend\n\nlocal function create_calendar()\n   offset = offset or 0\n\n   local now = os.date(\"*t\")\n   local cal_month = now.month + offset\n   local cal_year = now.year\n   if cal_month > 12 then\n      cal_month = (cal_month % 12)\n      cal_year = cal_year + 1\n   elseif cal_month < 1 then\n      cal_month = (cal_month + 12)\n      cal_year = cal_year - 1\n   end\n\n   local last_day = os.date(\"%d\", os.time({ day = 1, year = cal_year,\n                                            month = cal_month + 1}) - 86400)\n\n   local first_day = os.time({ day = 1, month = cal_month, year = cal_year})\n   local first_day_in_week = os.date(\"%w\", first_day)\n\n   local result = \"do lu ma me gi ve sa\\n\" -- days of the week\n\n   -- Italian localization\n   -- can be a stub for your own localization\n   if language:find(\"it_IT\") == nil\n   then\n       result = \"su mo tu we th fr sa\\n\"\n   else\n       result = \"do lu ma me gi ve sa\\n\"\n   end\n\n   for i = 1, first_day_in_week do\n      result = result .. \"   \"\n   end\n\n   local this_month = false\n   for day = 1, last_day do\n      local last_in_week = (day + first_day_in_week) % 7 == 0\n      local day_str = pop_spaces(\"\", day, 2) .. (last_in_week and \"\" or \" \")\n      if cal_month == now.month and cal_year == now.year and day == now.day then\n         this_month = true\n         result = result ..\n            string.format('<span weight=\"bold\" foreground = \"%s\">%s</span>',\n                          today_color, day_str)\n      else\n         result = result .. day_str\n      end\n      if last_in_week and day ~= last_day then\n         result = result .. \"\\n\"\n      end\n   end\n\n   local header\n   if this_month then\n      header = os.date(\"%a, %d %b %Y\")\n   else\n      header = os.date(\"%B %Y\", first_day)\n   end\n   return header, string.format('<span font=\"%s\" foreground=\"%s\">%s</span>',\n                                theme.font, text_color, result)\nend\n\nlocal function calculate_char_width()\n   return beautiful.get_font_height(theme.font) * 0.555\nend\n\nfunction remove_calendar()\n   if calendar ~= nil then\n      naughty.destroy(calendar)\n      calendar = nil\n      offset = 0\n   end\nend\n\nfunction add_calendar(inc_offset)\n   inc_offset = inc_offset or 0\n\n   local save_offset = offset\n   remove_calendar()\n   offset = save_offset + inc_offset\n\n   local char_width = char_width or calculate_char_width()\n   local header, cal_text = create_calendar()\n   calendar = naughty.notify({ title = header,\n                               text = cal_text,\n                               timeout = 0, hover_timeout = 0.5,\n                               bg = \"#060606\"\n                            })\nend\n\nfunction show_calendar(t_out)\n   remove_calendar()\n   local char_width = char_width or calculate_char_width()\n   local header, cal_text = create_calendar()\n   calendar = naughty.notify({ title = header,\n                               text = cal_text,\n                               timeout = t_out,\n                               bg = \"#060606\"\n                            })\nend\n\nmytextclock:connect_signal(\"mouse::enter\", function() add_calendar(0) end)\nmytextclock:connect_signal(\"mouse::leave\", remove_calendar)\nmytextclock:buttons(util.table.join( awful.button({ }, 1, function() add_calendar(-1) end),\n                                     awful.button({ }, 3, function() add_calendar(1) end)))\n\n-- GMail widget\nmygmail = wibox.widget.textbox()\ngmail_t = awful.tooltip({ objects = { mygmail },})\nnotify_shown = false\nmailcount = 0\nvicious.register(mygmail, vicious.widgets.gmail,\n function (widget, args)\n  gmail_t:set_text(args[\"{subject}\"])\n  gmail_t:add_to_object(mygmail)\n  notify_title = \"\"\n  notify_text = \"\"\n  mailcount = args[\"{count}\"]\n  if (args[\"{count}\"] > 0 ) then\n    if (notify_shown == false) then\n      -- Italian localization\n      -- can be a stub for your own localization\n      if (args[\"{count}\"] == 1) then\n          if language:find(\"it_IT\") ~= nil\n          then\n              notify_title = \"Hai un nuovo messaggio\"\n          else\n              notify_title = \"You got a new mail\"\n          end\n          notify_text = '\"' .. args[\"{subject}\"] .. '\"'\n      else\n          if language:find(\"it_IT\") ~= nil\n          then\n                notify_title = \"Hai \" .. args[\"{count}\"] .. \" nuovi messaggi\"\n                notify_text = 'Ultimo: \"' .. args[\"{subject}\"] .. '\"'\n          else\n                notify_title = \"You got \" .. args[\"{count}\"] .. \" new mails\"\n                notify_text = 'Last one: \"' .. args[\"{subject}\"] .. '\"'\n          end\n      end\n      naughty.notify({\n          title = notify_title,\n          text = notify_text,\n          timeout = 7,\n          position = \"top_left\",\n          icon = beautiful.widget_mail_notify,\n          fg = beautiful.taglist_fg_focus,\n          bg = \"#060606\"\n      })\n      notify_shown = true\n    end\n    if yawn.icon == yawn.sky_na then return gray .. \" Mail \" .. coldef .. white .. args[\"{count}\"]  .. \" \" .. coldef\n    else return gray .. \" Mail \" .. coldef .. white .. args[\"{count}\"] .. coldef .. \" <span font='Tamsyn 5'> </span><span font='Tamsyn 3'> </span>\"\n    end\n  else\n    notify_shown = false\n    return ''\n  end\nend, 60)\nmygmail:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.util.spawn(mail, false) end)))\n\n-- Mpd widget\nmpdwidget = wibox.widget.textbox()\nmpdwidget:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.util.spawn_with_shell(musicplr) end)))\ncurr_track = nil\nvicious.register(mpdwidget, vicious.widgets.mpd,\nfunction(widget, args)\n	if args[\"{state}\"] == \"Play\" then\n    if args[\"{Title}\"] ~= curr_track\n     then\n        curr_track = args[\"{Title}\"]\n        os.execute(scriptdir .. \"mpdinfo\")\n        old_id = naughty.notify({\n            title = \"Now playing\",\n            text = args[\"{Artist}\"] .. \" (\" .. args[\"{Album}\"] .. \")\\n\" .. args[\"{Title}\"],\n            icon = \"/tmp/mpdnotify_cover.png\",\n            bg = \"#060606\",\n            timeout = 5,\n            replaces_id = old_id\n        }).id\n    end\n   if yawn.icon == yawn.sky_na then return gray .. args[\"{Artist}\"] .. coldef .. white .. \" \" .. args[\"{Title}\"] .. \" \" .. coldef\n    elseif mailcount == 0 then return gray .. args[\"{Artist}\"] .. coldef .. white .. \" \" .. args[\"{Title}\"] .. \"<span font='Tamsyn 8'>  <span font ='Tamsyn 2'> </span></span>\" .. coldef\n    else return gray .. args[\"{Artist}\"] .. coldef .. white .. \" \" .. args[\"{Title}\"] .. coldef .. \"<span font='Tamsyn 8'> <span font='Tamsyn 2'> </span></span>\" \n    end\n	 elseif args[\"{state}\"] == \"Pause\" then\n    if mailcount == 0 then return gray .. \"mpd \" .. coldef .. white .. \"in pausa<span font='Tamsyn 6'> </span> \" .. coldef\n    else return gray .. \"mpd \" .. coldef .. white .. \"in pausa \" .. coldef\n    end\n	else\n    curr_track = nil\n		return ''\n	end\nend, 1)\n\n-- /home fs widget\nfshwidget = wibox.widget.textbox()\ntoo_much = false\nvicious.register(fshwidget, vicious.widgets.fs,\nfunction (widget, args)\n  if ( args[\"{/home used_p}\"] >= 90 ) then\n      if ( args[\"{/home used_p}\"] >= 99 and too_much == false ) then\n        naughty.notify({ title = \"Attenzione\", text = \"Partizione /home esaurita!\\nFa' un po' di spazio.\",\n        timeout = 7,\n        position = \"top_right\",\n        fg = beautiful.fg_urgent,\n        bg = beautiful.bg_urgent })\n        too_much = true\n      end\n      return gray .. \" Hdd \" .. coldef .. white .. args[\"{/home used_p}\"] .. coldef .. \" \"\n  else\n    return \"\"\n  end\nend, 600)\n\n-- hhd status notification\nlocal infos = nil\n\nfunction remove_info()\n    if infos ~= nil then\n        naughty.destroy(infos)\n        infos = nil\n    end\nend\n\nfunction show_info(t_out)\n    remove_info()\n    local capi = {\n		mouse = mouse,\n		screen = screen\n	  }\n    local hdd = awful.util.pread(scriptdir .. \"dfs\")\n    hdd = string.gsub(hdd, \"          ^%s*(.-)%s*$\", \"%1\")\n\n    -- Italian localization\n    -- can be a stub for your own localization\n    if language:find(\"it_IT\") ~= nil\n    then\n        hdd = string.gsub(hdd, \"Used \", \"Usato\")\n        hdd = string.gsub(hdd, \"Free  \", \"Libero\")\n        hdd = string.gsub(hdd, \"Total \", \"Totale\")\n    end\n\n    infos = naughty.notify({\n        text = hdd,\n      	timeout = t_out,\n        position = \"top_right\",\n        margin = 10,\n        height = 210,\n        width = 680,\n        bg = \"#060606\",\n		    screen = capi.mouse.screen\n    })\nend\n\nfshwidget:connect_signal('mouse::enter', function () show_info(0) end)\nfshwidget:connect_signal('mouse::leave', function () remove_info() end)\n\n-- Battery widget\nbatwidget = wibox.widget.textbox()\nfunction batstate()\n\n  local file = io.open(\"/sys/class/power_supply/BAT0/status\", \"r\")\n\n  if (file == nil) then\n    return \"Cable plugged\"\n  end\n\n  local batstate = file:read(\"*line\")\n  file:close()\n\n  if (batstate == 'Discharging' or batstate == 'Charging') then\n    return batstate\n  else\n    return \"Fully charged\"\n  end\nend\nvicious.register(batwidget, vicious.widgets.bat,\nfunction (widget, args)\n  -- plugged\n  if (batstate() == 'Cable plugged' or batstate() == 'Unknown') then\n    return ''\n    -- critical\n  elseif (args[2] <= 5 and batstate() == 'Discharging') then\n    naughty.notify{\n      text = \"sto per spegnermi...\",\n      title = \"Carica quasi esaurita!\",\n      position = \"top_right\",\n      timeout = 0,\n      fg=\"#000000\",\n      bg=\"#ffffff\",\n      screen = 1,\n      ontop = true,\n    }\n    -- low\n  elseif (args[2] <= 10 and batstate() == 'Discharging') then\n    naughty.notify({\n      text = \"attacca il cavo!\",\n      title = \"Carica bassa\",\n      position = \"top_right\",\n      timeout = 0,\n      fg=\"#ffffff\",\n      bg=\"#262729\",\n      screen = 1,\n      ontop = true,\n    })\n  end\n  return gray .. \"Bat \" .. coldef .. white .. args[2] .. \" \" .. coldef\nend, 1, 'BAT0')\n\n-- Volume widget\nvolumewidget = wibox.widget.textbox()\nvicious.register(volumewidget, vicious.widgets.volume,\nfunction (widget, args)\n  if (args[2] ~= \"♩\" ) then\n     return gray .. \"Vol \" .. coldef .. white .. args[1] .. \" \" .. coldef\n  else\n     return gray .. \"Vol \" .. coldef .. white .. \"mute \" .. coldef\n  end\nend, 1, \"Master\")\n\n-- Net checker widget\nno_net_shown = true\nnetwidget = wibox.widget.textbox()\nvicious.register(netwidget, vicious.widgets.net,\nfunction (widget, args)\n    if args[\"{wlan0 carrier}\"] == 0 then\n       if no_net_shown == true then\n         naughty.notify({ title = \"wlan0\", text = \"No carrier\",\n         timeout = 7,\n         position = \"top_left\",\n         icon = beautiful.widget_no_net_notify,\n         fg = \"#ff5e5e\",\n         bg = \"#060606\" })\n         no_net_shown = false\n       end\n       return gray .. \" Net \" .. coldef .. \"<span color='#e54c62'>Off \" .. coldef\n    else\n       no_net_shown = true\n       return ''\n    end\nend, 10)\nnetwidget:buttons(awful.util.table.join(awful.button({ }, 1, function () awful.util.spawn_with_shell(wifi) end)))\n\n-- Weather widget\nyawn.register(123456) -- https//github.com/copycat-killer/yawn\n\n-- Separators\nspr = wibox.widget.textbox(' ')\nfirst = wibox.widget.textbox('<span font=\"Tamsyn 4\"> </span>')\narrl_pre = wibox.widget.imagebox()\narrl_pre:set_image(beautiful.arrl_lr_pre)\narrl_post = wibox.widget.imagebox()\narrl_post:set_image(beautiful.arrl_lr_post)\n\n\n-- Layout\n\n-- Create a wibox for each screen and add it\nmywibox = {}\nmypromptbox = {}\nmylayoutbox = {}\nmytaglist = {}\nmytaglist.buttons = awful.util.table.join(\n                    awful.button({ }, 1, awful.tag.viewonly),\n                    awful.button({ modkey }, 1, awful.client.movetotag),\n                    awful.button({ }, 3, awful.tag.viewtoggle),\n                    awful.button({ modkey }, 3, awful.client.toggletag),\n                    awful.button({ }, 4, function(t) awful.tag.viewnext(awful.tag.getscreen(t)) end),\n                    awful.button({ }, 5, function(t) awful.tag.viewprev(awful.tag.getscreen(t)) end)\n                    )\nmytasklist = {}\nmytasklist.buttons = awful.util.table.join(\n                     awful.button({ }, 1, function (c)\n                                              if c == client.focus then\n                                                  c.minimized = true\n                                              else\n                                                  -- Without this, the following\n                                                  -- :isvisible() makes no sense\n                                                  c.minimized = false\n                                                  if not c:isvisible() then\n                                                      awful.tag.viewonly(c:tags()[1])\n                                                  end\n                                                  -- This will also un-minimize\n                                                  -- the client, if needed\n                                                  client.focus = c\n                                                  c:raise()\n                                              end\n                                          end),\n                     awful.button({ }, 3, function ()\n                                              if instance then\n                                                  instance:hide()\n                                                  instance = nil\n                                              else\n                                                  instance = awful.menu.clients({ width=250 })\n                                              end\n                                          end),\n                     awful.button({ }, 4, function ()\n                                              awful.client.focus.byidx(1)\n                                              if client.focus then client.focus:raise() end\n                                          end),\n                     awful.button({ }, 5, function ()\n                                              awful.client.focus.byidx(-1)\n                                              if client.focus then client.focus:raise() end\n                                          end))\n\nfor s = 1, screen.count() do\n    -- Create a promptbox for each screen\n    mypromptbox[s] = awful.widget.prompt()\n    -- Create an imagebox widget which will contains an icon indicating which layout we're using.\n    -- We need one layoutbox per screen.\n    mylayoutbox[s] = awful.widget.layoutbox(s)\n    mylayoutbox[s]:buttons(awful.util.table.join(\n                           awful.button({ }, 1, function () awful.layout.inc(layouts, 1) end),\n                           awful.button({ }, 3, function () awful.layout.inc(layouts, -1) end),\n                           awful.button({ }, 4, function () awful.layout.inc(layouts, 1) end),\n                           awful.button({ }, 5, function () awful.layout.inc(layouts, -1) end)))\n    -- Create a taglist widget\n    mytaglist[s] = awful.widget.taglist(s, awful.widget.taglist.filter.all, mytaglist.buttons)\n\n    -- Create a tasklist widget\n    mytasklist[s] = awful.widget.tasklist(s, awful.widget.tasklist.filter.currenttags, mytasklist.buttons)\n    \n    -- Create the wibox\n    mywibox[s] = awful.wibox({ position = \"top\", screen = s, height = 18 })\n\n    -- Widgets that are aligned to the upper left\n    local left_layout = wibox.layout.fixed.horizontal()\n    left_layout:add(first)\n    left_layout:add(mytaglist[s])\n    left_layout:add(arrl_pre)\n    left_layout:add(mylayoutbox[s])\n    left_layout:add(arrl_post)\n    left_layout:add(mypromptbox[s])\n    left_layout:add(first)\n\n    -- Widgets that are aligned to the upper right\n    local right_layout = wibox.layout.fixed.horizontal()\n    if s == 1 then right_layout:add(wibox.widget.systray()) end\n    right_layout:add(first)\n    right_layout:add(mpdwidget)\n    right_layout:add(mygmail)\n    right_layout:add(yawn.icon)\n    right_layout:add(yawn.widget)\n    right_layout:add(fshwidget)\n    right_layout:add(batwidget)\n    right_layout:add(netwidget)\n    right_layout:add(spr)\n    right_layout:add(volumewidget)\n    right_layout:add(spr)\n    right_layout:add(mytextclock)\n    right_layout:add(spr)\n\n    -- Now bring it all together (with the tasklist in the middle)\n    local layout = wibox.layout.align.horizontal()\n    layout:set_left(left_layout)\n    layout:set_middle(mytasklist[s])\n    layout:set_right(right_layout)\n\n    mywibox[s]:set_widget(layout)\n\nend\n\n-- Mouse Bindings\n\nroot.buttons(awful.util.table.join(\n    awful.button({ }, 3, function () mymainmenu:toggle() end),\n    awful.button({ }, 4, awful.tag.viewnext),\n    awful.button({ }, 5, awful.tag.viewprev)\n))\n\n\n-- Key bindings\nglobalkeys = awful.util.table.join(\n\n    -- Capture a screenshot\n    awful.key({ altkey }, \"p\", function() awful.util.spawn(\"screenshot\",false) end),\n\n    -- Move clients\n    --awful.key({ altkey }, \"Next\",  function () awful.client.moveresize( 1,  1, -2, -2) end),\n    --awful.key({ altkey }, \"Prior\", function () awful.client.moveresize(-1, -1,  2,  2) end),\n    --awful.key({ altkey }, \"Down\",  function () awful.client.moveresize(  0,  1,   0,   0) end),\n    --awful.key({ altkey }, \"Up\",    function () awful.client.moveresize(  0, -1,   0,   0) end),\n    --awful.key({ altkey }, \"Left\",  function () awful.client.moveresize(-1,   0,   0,   0) end),\n    --awful.key({ altkey }, \"Right\", function () awful.client.moveresize( 1,   0,   0,   0) end),\n    awful.key({ modkey,           }, \"Left\",   awful.tag.viewprev       ),\n    awful.key({ modkey,           }, \"Right\",  awful.tag.viewnext       ),\n    awful.key({ modkey,           }, \"Escape\", awful.tag.history.restore),\n    awful.key({ modkey,           }, \"k\",\n        function ()\n            awful.client.focus.byidx( 1)\n            if client.focus then client.focus:raise() end\n        end),\n    awful.key({ modkey,           }, \"j\",\n        function ()\n            awful.client.focus.byidx(-1)\n            if client.focus then client.focus:raise() end\n        end),\n    awful.key({ modkey,           }, \"w\", function () mymainmenu:show({keygrabber=true}) end),\n\n    -- Show/Hide Wibox\n    awful.key({ modkey }, \"b\", function ()\n        mywibox[mouse.screen].visible = not mywibox[mouse.screen].visible\n    end),\n\n    -- Layout manipulation\n    awful.key({ modkey, \"Shift\"   }, \"j\", function () awful.client.swap.byidx(  1)    end),\n    awful.key({ modkey, \"Shift\"   }, \"k\", function () awful.client.swap.byidx( -1)    end),\n    awful.key({ modkey, \"Control\" }, \"j\", function () awful.screen.focus_relative( 1) end),\n    awful.key({ modkey, \"Control\" }, \"k\", function () awful.screen.focus_relative(-1) end),\n    awful.key({ modkey,           }, \"u\", awful.client.urgent.jumpto),\n    awful.key({ modkey,           }, \"Tab\",\n        function ()\n            awful.client.focus.history.previous()\n            if client.focus then\n                client.focus:raise()\n            end\n        end),\n\n    -- Standard program\n    awful.key({ modkey,           }, \"Return\", function () awful.util.spawn(terminal) end),\n    awful.key({ modkey, \"Control\" }, \"r\", awesome.restart),\n    awful.key({ modkey, \"Shift\"   }, \"q\", awesome.quit),\n    awful.key({ modkey,           }, \"l\",     function () awful.tag.incmwfact( 0.05)     end),\n    awful.key({ modkey,           }, \"h\",     function () awful.tag.incmwfact(-0.05)     end),\n    awful.key({ modkey, \"Shift\"   }, \"h\",     function () awful.tag.incnmaster( 1)       end),\n    awful.key({ modkey, \"Shift\"   }, \"l\",     function () awful.tag.incnmaster(-1)       end),\n    awful.key({ modkey, \"Control\" }, \"h\",     function () awful.tag.incncol( 1)          end),\n    awful.key({ modkey, \"Control\" }, \"l\",     function () awful.tag.incncol(-1)          end),\n    awful.key({ modkey,           }, \"space\", function () awful.layout.inc(layouts,  1)  end),\n    awful.key({ modkey, \"Shift\"   }, \"space\", function () awful.layout.inc(layouts, -1)  end),\n    awful.key({ modkey, \"Control\" }, \"n\", awful.client.restore),\n\n    -- Dropdown terminal\n    awful.key({ modkey,	          }, \"z\",     function () scratch.drop(terminal) end),\n\n    -- Widgets popups\n    awful.key({ altkey,           }, \"c\",     function () show_calendar(7) end),\n    awful.key({ altkey,           }, \"h\",     function ()\n                                                vicious.force({ fshwidget })\n                                                show_info(7)\n                                              end),\n    awful.key({ altkey,           }, \"w\",     function () yawn.show_weather(5) end),\n\n    -- Volume control\n    awful.key({ altkey }, \"Up\", function ()\n                                       awful.util.spawn(\"amixer set Master playback 1%+\", false )\n                                       vicious.force({ volumewidget })\n                                   end),\n    awful.key({ altkey }, \"Down\", function ()\n                                       awful.util.spawn(\"amixer set Master playback 1%-\", false )\n                                       vicious.force({ volumewidget })\n                                     end),\n    awful.key({ altkey }, \"m\", function ()\n                                       awful.util.spawn(\"amixer set Master playback toggle\", false )\n                                       vicious.force({ volumewidget })\n                                     end),\n    awful.key({ altkey, \"Control\" }, \"m\",\n                                  function ()\n                                      awful.util.spawn(\"amixer set Master playback 100%\", false )\n                                      vicious.force({ volumewidget })\n                                  end),\n\n    -- Music control\n    awful.key({ altkey, \"Control\" }, \"Up\", function ()\n                                              awful.util.spawn( \"mpc toggle\", false )\n                                              vicious.force({ mpdwidget } )\n                                           end),\n    awful.key({ altkey, \"Control\" }, \"Down\", function ()\n                                                awful.util.spawn( \"mpc stop\", false )\n                                                vicious.force({ mpdwidget } )\n                                             end ),\n    awful.key({ altkey, \"Control\" }, \"Left\", function ()\n                                                awful.util.spawn( \"mpc prev\", false )\n                                                vicious.force({ mpdwidget } )\n                                             end ),\n    awful.key({ altkey, \"Control\" }, \"Right\", function ()\n                                                awful.util.spawn( \"mpc next\", false )\n                                                vicious.force({ mpdwidget } )\n                                              end ),\n\n    -- Copy to clipboard\n    awful.key({ modkey }, \"c\", function () os.execute(\"xsel -p -o | xsel -i -b\") end),\n\n    -- User programs\n    awful.key({ modkey }, \"q\", function () awful.util.spawn( \"dwb\", false ) end),\n    awful.key({ modkey }, \"s\", function () awful.util.spawn(gui_editor) end),\n\n    -- Prompt\n    awful.key({ modkey }, \"r\", function () mypromptbox[mouse.screen]:run() end),\n    awful.key({ modkey }, \"x\",\n              function ()\n                  awful.prompt.run({ prompt = \"Run Lua code: \" },\n                  mypromptbox[mouse.screen].widget,\n                  awful.util.eval, nil,\n                  awful.util.getdir(\"cache\") .. \"/history_eval\")\n              end)\n)\n\nclientkeys = awful.util.table.join(\n    awful.key({ modkey,           }, \"f\",      function (c) c.fullscreen = not c.fullscreen  end),\n    awful.key({ modkey, \"Shift\"   }, \"c\",      function (c) c:kill()                         end),\n    awful.key({ modkey, \"Control\" }, \"space\",  awful.client.floating.toggle                     ),\n    awful.key({ modkey, \"Control\" }, \"Return\", function (c) c:swap(awful.client.getmaster()) end),\n    awful.key({ modkey,           }, \"o\",      awful.client.movetoscreen                        ),\n    awful.key({ modkey,           }, \"t\",      function (c) c.ontop = not c.ontop            end),\n    awful.key({ modkey,           }, \"n\",\n        function (c)\n            -- The client currently has the input focus, so it cannot be\n            -- minimized, since minimized clients can't have the focus.\n            c.minimized = true\n        end),\n    awful.key({ modkey,           }, \"m\",\n        function (c)\n            c.maximized_horizontal = not c.maximized_horizontal\n            c.maximized_vertical   = not c.maximized_vertical\n        end)\n)\n\n\n-- Compute the maximum number of digit we need, limited to 9\n-- keynumber = 0\n-- for s = 1, screen.count() do\n--    keynumber = math.min(9, math.max(#tags[s], keynumber));\n-- end\n\n-- Bind all key numbers to tags.\n-- Be careful: we use keycodes to make it works on any keyboard layout.\n-- This should map on the top row of your keyboard, usually 1 to 9.\n-- for i = 1, keynumber do\n--     globalkeys = awful.util.table.join(globalkeys,\n--         awful.key({ modkey }, \"#\" .. i + 9,\n--                   function ()\n--                         screen = mouse.screen\n--                         if tags[screen][i] then\n--                             awful.tag.viewonly(tags[screen][i])\n--                         end\n--                   end),\n--         awful.key({ modkey, \"Control\" }, \"#\" .. i + 9,\n--                   function ()\n--                       screen = mouse.screen\n--                       if tags[screen][i] then\n--                           awful.tag.viewtoggle(tags[screen][i])\n--                       end\n--                   end),\n--         awful.key({ modkey, \"Shift\" }, \"#\" .. i + 9,\n--                   function ()\n--                       if client.focus and tags[client.focus.screen][i] then\n--                           awful.client.movetotag(tags[client.focus.screen][i])\n--                       end\n--                   end),\n--         awful.key({ modkey, \"Control\", \"Shift\" }, \"#\" .. i + 9,\n--                   function ()\n--                       if client.focus and tags[client.focus.screen][i] then\n--                           awful.client.toggletag(tags[client.focus.screen][i])\n--                       end\n--                   end))\n-- end\n\nclientbuttons = awful.util.table.join(\n    awful.button({ }, 1, function (c) client.focus = c; c:raise() end),\n    awful.button({ modkey }, 1, awful.mouse.client.move),\n    awful.button({ modkey }, 3, awful.mouse.client.resize))\n\n-- Set keys\nroot.keys(globalkeys)\n\n\n-- Rules\n\nawful.rules.rules = {\n     -- All clients will match this rule.\n     { rule = { },\n       properties = { border_width = beautiful.border_width,\n                      border_color = beautiful.border_normal,\n                      focus = awful.client.focus.filter,\n                      keys = clientkeys,\n                      buttons = clientbuttons,\n	                    size_hints_honor = false\n                     }\n    },\n\n    { rule = { class = \"URxvt\" },\n      properties = { opacity = 0.95 } }, \n\n    { rule = { class = \"MPlayer\" },\n      properties = { floating = true } },\n\n    { rule = { class = \"Dwb\" },\n          properties = { tag = tags[1][1] } },\n\n	  { rule = { class = \"Gimp\" },\n     	  properties = { tag = tags[1][4] } },\n\n    { rule = { class = \"Gimp\", role = \"gimp-image-window\" },\n          properties = { maximized_horizontal = true,\n                         maximized_vertical = true } },\n\n    { rule = { class = \"Transmission-gtk\" },\n          properties = { tag = tags[1][5] } },\n\n    { rule = { class = \"Torrent-search\" },\n          properties = { tag = tags[1][5] } },\n}\n\n\n-- Signals\n\n-- Signal function to execute when a new client appears.\nclient.connect_signal(\"manage\", function (c, startup)\n    -- Enable sloppy focus\n    c:connect_signal(\"mouse::enter\", function(c)\n        if awful.layout.get(c.screen) ~= awful.layout.suit.magnifier\n            and awful.client.focus.filter(c) then\n            client.focus = c\n        end\n    end)\n\n    if not startup then\n        -- Set the windows at the slave,\n        -- i.e. put it at the end of others instead of setting it master.\n        -- awful.client.setslave(c)\n\n        -- Put windows in a smart way, only if they does not set an initial position.\n        if not c.size_hints.user_position and not c.size_hints.program_position then\n            awful.placement.no_overlap(c)\n            awful.placement.no_offscreen(c)\n        end\n    end\n\n    local titlebars_enabled = false\n    if titlebars_enabled and (c.type == \"normal\" or c.type == \"dialog\") then\n        -- buttons for the titlebar\n        local buttons = awful.util.table.join(\n                awful.button({ }, 1, function()\n                    client.focus = c\n                    c:raise()\n                    awful.mouse.client.move(c)\n                end),\n                awful.button({ }, 3, function()\n                    client.focus = c\n                    c:raise()\n                    awful.mouse.client.resize(c)\n                end)\n                )\n\n        -- Widgets that are aligned to the left\n        local left_layout = wibox.layout.fixed.horizontal()\n        left_layout:add(awful.titlebar.widget.iconwidget(c))\n        left_layout:buttons(buttons)\n\n        -- Widgets that are aligned to the right\n        local right_layout = wibox.layout.fixed.horizontal()\n        right_layout:add(awful.titlebar.widget.floatingbutton(c))\n        right_layout:add(awful.titlebar.widget.maximizedbutton(c))\n        right_layout:add(awful.titlebar.widget.stickybutton(c))\n        right_layout:add(awful.titlebar.widget.ontopbutton(c))\n        right_layout:add(awful.titlebar.widget.closebutton(c))\n\n        -- The title goes in the middle\n        local middle_layout = wibox.layout.flex.horizontal()\n        local title = awful.titlebar.widget.titlewidget(c)\n        title:set_align(\"center\")\n        middle_layout:add(title)\n        middle_layout:buttons(buttons)\n\n        -- Now bring it all together\n        local layout = wibox.layout.align.horizontal()\n        layout:set_left(left_layout)\n        layout:set_right(right_layout)\n        layout:set_middle(middle_layout)\n\n        awful.titlebar(c):set_widget(layout)\n    end\nend)\n\nclient.connect_signal(\"focus\", function(c) c.border_color = beautiful.border_focus end)\nclient.connect_signal(\"unfocus\", function(c) c.border_color = beautiful.border_normal end)\n",
+			"file": "themes/powerarrow-darker/theme.lua",
 			"settings":
 			{
-				"buffer_size": 38504,
+				"buffer_size": 4870,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/tad/.config/awesome_partially_done/rc.lua.new",
+			"file": "vicious/init.lua",
 			"settings":
 			{
-				"buffer_size": 21964,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rc.lua.blackburn",
-			"settings":
-			{
-				"buffer_size": 34666,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rc.lua.powerarrow-darker",
-			"settings":
-			{
-				"buffer_size": 36563,
+				"buffer_size": 6024,
 				"line_ending": "Unix"
 			}
 		}
@@ -398,89 +363,131 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 372.0,
+		"height": 209.0,
 		"selected_items":
 		[
 			[
-				"lua",
-				"Set Syntax: Lua"
-			],
-			[
-				"markdo",
-				"Set Syntax: Markdown"
-			],
-			[
-				"ruby",
-				"Set Syntax: Ruby"
-			],
-			[
 				"Package Control: i",
 				"Package Control: Install Package"
+			],
+			[
+				"Package Control: r",
+				"Package Control: Remove Package"
+			],
+			[
+				"tidy ",
+				"Tidy PHP"
+			],
+			[
+				"php",
+				"Format: Php"
+			],
+			[
+				"js",
+				"Set Syntax: JSON"
 			],
 			[
 				"json",
 				"Set Syntax: JSON"
 			],
 			[
-				"java",
-				"Set Syntax: JavaScript"
+				"format",
+				"Format: Php"
 			],
 			[
-				"prett",
+				"html",
+				"HTMLPrettify: Prettify"
+			],
+			[
+				"ini",
+				"Set Syntax: INI"
+			],
+			[
+				"behat",
+				"Set Syntax: Behat"
+			],
+			[
+				"forma",
+				"Format: Php"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Package Control: l",
+				"Package Control: List Packages"
+			],
+			[
+				"twig",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"markdo",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"markdon",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mar",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"twi",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"j",
 				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
 			],
 			[
 				"jso",
 				"Set Syntax: JSON"
 			],
 			[
-				"pretty",
-				"Pretty JSON: Reformat (Pretty Print) JSON"
-			],
-			[
-				"Package Control: ins",
-				"Package Control: Install Package"
-			],
-			[
 				"form",
 				"Format: Php"
 			],
 			[
-				"Package Control: insta",
+				"diff",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
+				"Package Control: ins",
 				"Package Control: Install Package"
-			],
-			[
-				"Package Control: in",
-				"Package Control: Install Package"
-			],
-			[
-				"for",
-				"Tag: Auto-Format Tags on Document"
-			],
-			[
-				"Package Control: install",
-				"Package Control: Install Package"
-			],
-			[
-				"add re",
-				"Package Control: Add Repository"
-			],
-			[
-				"Package Control: ",
-				"Package Control: Enable Package"
-			],
-			[
-				"html",
-				"HTMLPrettify: Prettify"
 			]
 		],
-		"width": 449.0
+		"width": 435.0
 	},
 	"console":
 	{
-		"height": 139.0,
+		"height": 111.0,
 		"history":
 		[
+			"from selenium import webdriver",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
 		]
 	},
 	"distraction_free":
@@ -494,150 +501,152 @@
 	},
 	"file_history":
 	[
-		"/home/tad/code/consie_api/spec/controllers/consie/organizations_controller_spec.rb",
-		"/home/tad/.config/awesome/delightful/awesome-3.4.3-delightful-sample-configuration.diff",
-		"/home/tad/.config/awesome/delightful/awesome-3.4.3-delightful-sample-configuration.diff ",
+		"/etc/xdg/awesome/rc.lua",
+		"/home/tad/.config/awesome.old/rc-3.4.lua",
+		"/home/tad/.config/awesome.old/rc.lua",
+		"/home/tad/.config/awesome.old/rc.lua.new",
+		"/home/tad/.config/awesome/dots/.compton.conf",
+		"/home/tad/.config/awesome/scripts/mpdinfo",
 		"/home/tad/.config/awesome/rc.lua.new",
+		"/home/tad/.config/awesome/rc-3.4.lua",
+		"/home/tad/code/phpProjects/helpdesk/application/modules/helpdesk/controllers/TicketController.php.bak",
+		"/home/tad/code/phpProjects/serug/css/main.css",
+		"/home/tad/code/phpProjects/serug/navigation.php",
+		"/home/tad/code/phpProjects/serug/layout.php",
+		"/home/tad/code/phpProjects/serug/about.php",
+		"/home/tad/code/phpProjects/serug/submit-session.php",
+		"/home/tad/code/phpProjects/serug/serug.sublime-project",
 		"/home/tad/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-		"/home/tad/code/consie_api/Guardfile",
-		"/home/tad/code/consie_api/.rspec",
-		"/home/tad/code/consie_api/config/routes.rb",
-		"/home/tad/code/concierge-api/spec/controllers/consie/events_controller_spec.rb",
-		"/home/tad/code/concierge/app/models/organization_event_map.rb",
-		"/home/tad/code/concierge/tmp/cache/assets/CAD/710/sprockets%2Fc03e6bd578aad553026cd90188194426",
-		"/home/tad/code/concierge/app/controllers/concierge/events_controller.rb",
-		"/home/tad/code/concierge/app/models/closed_organization.rb",
-		"/home/tad/code/concierge/app/models/organization.rb",
-		"/home/tad/code/concierge/spec/factories/organization.rb",
-		"/home/tad/code/concierge/app/controllers/consie/application_controller.rb",
-		"/home/tad/code/concierge/spec/controllers/consie/events_controller_spec.rb",
-		"/home/tad/code/concierge/spec/controllers/consie/specials_controller_spec.rb",
-		"/home/tad/code/concierge/app/controllers/consie/specials_controller.rb",
-		"/home/tad/code/concierge/app/models/tag.rb",
-		"/home/tad/code/concierge/spec/controllers/consie/organizations_controller_spec.rb",
-		"/home/tad/code/concierge/app/controllers/consie/events_controller.rb",
-		"/home/tad/code/concierge/app/models/event.rb",
-		"/home/tad/code/concierge/spec/factories/event.rb",
-		"/home/tad/code/concierge/spec/controllers/concierge/organizations_controller_spec.rb",
-		"/home/tad/code/concierge/spec/api/organizations_spec.rb",
-		"/home/tad/code/concierge/spec/api/events_spec.rb",
-		"/home/tad/code/concierge/app/models/special.rb",
-		"/home/tad/code/concierge/config/routes.rb",
-		"/home/tad/code/concierge/app/models/special_recurs_saturday.rb",
-		"/home/tad/code/concierge/spec/models/special_spec.rb",
-		"/home/tad/code/concierge/spec/spec_helper.rb",
-		"/home/tad/code/concierge/vendor/assets/javascripts/moment.min.js",
-		"/home/tad/code/concierge/spec/javascripts/spec.js.coffee",
-		"/home/tad/code/concierge/app/models/special_recurs_friday.rb",
-		"/home/tad/code/concierge/app/models/place.rb",
-		"/home/tad/code/concierge/app/models/menu_item.rb",
-		"/home/tad/code/concierge/app/models/event_tag_map.rb",
-		"/home/tad/code/concierge/app/models/featured_event.rb",
-		"/home/tad/code/concierge/app/models/special_title.rb",
-		"/home/tad/code/concierge/app/models/special_all_day.rb",
-		"/home/tad/code/concierge/.rspec",
-		"/home/tad/code/concierge/app/controllers/whmobile/application_controller.rb",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/routers/app.js.coffee",
-		"/home/tad/code/concierge/app/controllers/whatshappenin/application_controller.rb",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/cards/todays-events.js.coffee",
-		"/home/tad/code/concierge/app/assets/templates/mobile/cards/special-listing.jst.eco",
-		"/home/tad/code/concierge/app/assets/javascripts/concierge-scripts/models/base/special.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/specials.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/panes/featured-events.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/common/views/_base.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/restaurant-specials-hub.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/main-menu.js.coffee",
+		"/home/tad/code/phpProjects/newEmployee.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Resources/views/Clothing/index.html.twig",
+		"/home/tad/.config/sublime-text-3/Packages/User/HTML (Twig).sublime-settings",
+		"/home/tad/.config/sublime-text-3/Packages/Schemr/Default (Linux).sublime-keymap",
+		"/home/tad/.config/sublime-text-3/Packages/Camaleon/Camaleon.sublime-settings",
+		"/home/tad/.config/sublime-text-3/Packages/User/Camaleon.sublime-settings",
+		"/home/tad/code/phpProjects/serug/css/bootstrap-responsive.css",
+		"/home/tad/code/phpProjects/serug/css/bootstrap.min.css",
+		"/home/tad/code/phpProjects/serug/watchAndRefresh.sh",
+		"/home/tad/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/tad/code/phpProjects/helpdesk/application/modules/helpdesk/controllers/TicketController.php",
+		"/home/tad/code/phpProjects/helpdesk/public/receiptPad/report.asp",
+		"/home/tad/code/phpProjects/helpdesk/helpdesk.sublime-project",
+		"/home/tad/code/phpProjects/conman/public/.htaccess",
+		"/home/tad/code/phpProjects/conman/application/models/Conference.php",
+		"/home/tad/code/phpProjects/conman/application/modules/offlinePayment/controllers/IndexController.php",
+		"/home/tad/code/phpProjects/conman/application/layouts/scripts/admin_layout.phtml",
+		"/home/tad/code/phpProjects/conman/logs/application.log",
+		"/home/tad/code/phpProjects/conman/application/modules/invoice/controllers/IndexController.php",
+		"/home/tad/code/phpProjects/conman/application/forms/MSUGRegistrationForm.php",
+		"/home/tad/code/phpProjects/conman/application/controllers/AdminController.php",
+		"/home/tad/code/phpProjects/conman/application/models/Registration.php",
+		"/home/tad/code/phpProjects/conman/application/forms/AdminRegistrationEnclosingForm.php",
+		"/home/tad/code/phpProjects/conman/application/models/RegistrationMapper.php",
+		"/home/tad/code/phpProjects/conman/application/forms/MLARegistrationform.php",
 		"/home/tad/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
-		"/home/tad/code/concierge/app/controllers/whmobile/restaurants_controller.rb",
-		"/home/tad/code/concierge/app/controllers/whatshappenin/events_controller.rb",
-		"/home/tad/code/concierge/app/controllers/application_controller.rb",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/panes/item-preview.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/card.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/mixins/specials-button.js.coffee",
-		"/home/tad/code/concierge/app/assets/templates/mobile/cards/special-listing--none.jst.eco",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/stack-items/card-container.js.coffee",
-		"/home/tad/.config/awesome/rc.lua",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/music/hub.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/cards/todays-specials.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/restaurants/hub.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/stack-item.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/restaurants/restaurant-specials.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/concierge-scripts/models/base/organization.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/routers/_base.js.coffee",
-		"/home/tad/code/concierge/config/environment.rb",
-		"/home/tad/code/concierge/config/environments/development.rb",
-		"/home/tad/code/concierge/app/assets/javascripts/common/views/app.js.coffee",
-		"/home/tad/code/concierge/app/controllers/concierge/file",
-		"/home/tad/code/concierge notes",
-		"/home/tad/code/concierge/app/assets/javascripts/common/views/region.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/region.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/app.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/restaurants/restaurant-profile.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/hub.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/profile.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/common/views/restaurant-item.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/region-no-ads.js.coffee",
-		"/home/tad/scratch/routes.rb",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/all-restaurant-specials.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/common/views/stack-items.js.coffee",
-		"/home/tad/code/concierge/app/assets/templates/mobile/specials/item--no-image-show-restaurant.jst.eco",
-		"/home/tad/code/concierge/app/assets/javascripts/concierge-scripts/collections/specials.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/concierge-scripts/collections/base.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/concierge-scripts/models/concierge/concierge_special.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/restaurants/menus/free-menu.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/common/views/tab.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/panes.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/common/views/pane.js.coffee",
-		"/home/tad/code/concierge/app/assets/templates/mobile/food-and-drink/free-menu.jst.eco",
-		"/home/tad/code/concierge/app/assets/templates/mobile/hubs/music/hub-items/music-hub/featured-events/featured-event.jst.eco",
-		"/home/tad/code/concierge/app/assets/templates/mobile/hubs/food-and-drink/hub-items/food-and-drink/restaurant-item.jst.eco",
-		"/home/tad/code/concierge/app/assets/templates/mobile/hubs/food-and-drink/event-button.jst.eco",
-		"/home/tad/code/concierge/app/assets/templates/mobile/hubs/food-and-drink/restaurant-profile-event-listing.jst.eco",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/mixins/items/organization-name.js.coffee",
-		"/home/tad/code/concierge/app/controllers/whmobile/specials_controller.rb",
-		"/home/tad/code/concierge/app/assets/templates/mobile/specials/item--no-image.jst.eco",
-		"/home/tad/code/concierge/lib/concierge/card.rb",
-		"/home/tad/scratch/restaurants_controller.rb",
-		"/home/tad/code/concierge/app/assets/javascripts/common/views/item.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/home.js.coffee",
-		"/home/tad/code/plasticdeath",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/restaurants/specials.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/mobile/views/organization-item.js.coffee",
-		"/home/tad/code/concierge/app/assets/templates/common/restaurant-item.jst.eco",
-		"/home/tad/code/concierge/app/controllers/whmobile/pages_controller.rb",
-		"/home/tad/code/concierge/app/models/inventory_item.rb",
-		"/home/tad/code/concierge/app/assets/javascripts/common/routers/_base.js.coffee",
-		"/home/tad/code/concierge/config.ru",
-		"/home/tad/apartments",
-		"/home/tad/code/concierge/app/models/ability.rb",
-		"/home/tad/code/concierge/app/assets/javascripts/concierge-scripts/models/base/menu-item.js.coffee",
-		"/home/tad/code/concierge/app/assets/javascripts/common/common.js.coffee",
-		"/home/tad/file",
-		"/home/tad/code/phpProjects/snake/file",
-		"/media/Storage/warez/Adobe CS5/serial.txt",
-		"/media/Storage/warez/Adobe CS5/file",
-		"/home/tad/code/phpProjects/helpdesk/application/modules/helpdesk/models/Mailer.php",
-		"/home/tad/code/phpProjects/boss.zf1/README",
-		"/home/tad/code/phpProjects/boss.zf1/API Design notes",
-		"/home/tad/code/phpProjects/boss/app/config/security.yml",
-		"/home/tad/code/phpProjects/boss/app/config/routing_dev.yml",
-		"/home/tad/code/phpProjects/boss/src/Ezmac/BossBundle/Controller/QueueController.php"
+		"/home/tad/.config/sublime-text-2/Packages/User/PHP.sublime-settings",
+		"/home/tad/.config/sublime-text-2/Packages/User/JSON.sublime-settings",
+		"/home/tad/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/tad/code/phpProjects/conman/application/modules/paypalCC/controllers/IndexController.php",
+		"/home/tad/code/phpProjects/conman/application/views/scripts/admin/receipt.phtml",
+		"/home/tad/code/phpProjects/conman/application/views/scripts/index/receipt.phtml",
+		"/home/tad/code/phpProjects/conman/application/views/scripts/index/print-registration.phtml",
+		"/home/tad/code/phpProjects/conman/application/forms/Common.php",
+		"/home/tad/code/phpProjects/conman/public/css/global.css",
+		"/home/tad/code/phpProjects/conman/public/js/global.js",
+		"/home/tad/code/phpProjects/conman/application/views/scripts/index/payment.phtml",
+		"/home/tad/code/phpProjects/conman/application/controllers/IndexController.php",
+		"/home/tad/code/phpProjects/conman/application/models/Utilities.php",
+		"/home/tad/code/phpProjects/conman/application/forms/Registrationform.php",
+		"/home/tad/code/phpProjects/conman/library/cc/receipt.php",
+		"/home/tad/code/phpProjects/conman/application/controllers/ErrorController.php",
+		"/home/tad/code/phpProjects/conman/application/Bootstrap.php",
+		"/home/tad/code/phpProjects/conman/application/layouts/scripts/layout.phtml",
+		"/home/tad/code/phpProjects/conman/application/layouts/scripts/msug.phtml",
+		"/home/tad/code/phpProjects/conman/application/controllers/LoginController.php",
+		"/home/tad/code/phpProjects/conman/application/configs/application.ini",
+		"/home/tad/code/phpProjects/conman/library/myPaypal/paypalfunctions.php",
+		"/home/tad/code/phpProjects/conman/public/index.php",
+		"/home/tad/code/phpProjects/conman/conman.sublime-project",
+		"/home/tad/code/phpProjects/conman/application/forms/Decorators/RegistrationSelect.php",
+		"/home/tad/code/phpProjects/conman/application/modules/paypalCC/models/PPCreditCard.php",
+		"/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware/keyboard/controller.h",
+		"/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware/keyboard/matrix.h",
+		"/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware/keyboard/layout.h",
+		"/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware/keyboard/ergodox/layout/default--layout.h",
+		"/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware/keyboard/ergodox/matrix.h",
+		"/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware/keyboard/ergodox/layout.md",
+		"/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware/keyboard/ergodox/layout.h",
+		"/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware/keyboard/ergodox/controller.h",
+		"/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware/keyboard/ergodox/layout/default--layout.c",
+		"/home/tad/code/phpProjects/conman/application/layouts/scripts/megaresources.phtml",
+		"/home/tad/code/phpProjects/conman/application/layouts/scripts/mla-conference.phtml",
+		"/home/tad/code/phpProjects/conman/application/layouts/scripts/ragtime.phtml",
+		"/home/tad/code/phpProjects/conman/application/configs/sdk_config.ini",
+		"/home/tad/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/tad/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/tad/code/phpProjects/conman/composer.json",
+		"/home/tad/code/phpProjects/conman/application/modules/paypalCC/models/PPRestClient.php",
+		"/home/tad/code/phpProjects/conman/application/modules/paypalCC/models/PPAdaptivePayments.php",
+		"/home/tad/code/phpProjects/paypaltest.html",
+		"/home/tad/code/phpProjects/conman/application/models/ConferenceMapper.php",
+		"/home/tad/code/phpProjects/conman/library/Zend/Service/Abstract.php",
+		"/home/tad/chronicabrowse.html",
+		"/home/tad/code/phpProjects/conman/library/Zend/Layout.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Resources/views/Clothing/edit.html.twig",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/UserBundle/Controller/DefaultController.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Controller/RentalItemController.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Resources/views/Clothing/new.html.twig",
+		"/home/tad/code/phpProjects/loanshark/app/Resources/js/bootstrap.js",
+		"/home/tad/code/phpProjects/loanshark/app/config/parameters.yml",
+		"/home/tad/code/phpProjects/loanshark/app/Resources/views/base.html.twig",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/FrontendBundle/Resources/views/Default/index.html.twig",
+		"/home/tad/code/phpProjects/loanshark/.gitignore",
+		"/home/tad/code/phpProjects/loanshark/app/config/routing.yml",
+		"/home/tad/code/phpProjects/loanshark/app/config/config.yml",
+		"/home/tad/code/phpProjects/loanshark/composer.json",
+		"/home/tad/code/phpProjects/loanshark/app/Resources/js/global.js",
+		"/home/tad/code/phpProjects/loanshark/app/AppKernel.php",
+		"/home/tad/code/phpProjects/loanshark/vendor/behat/symfony2-extension/testapp/behat.yml",
+		"/home/tad/code/phpProjects/loanshark/vendor/behat/behat/behat.yml",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/features/bootstrap/FeatureContext.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/FrontendBundle/Tests/Controller/DefaultControllerTest.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Tests/Controller/ClothingControllerTest.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Entity/RentalItem.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Resources/views/Clothing/show.html.twig",
+		"/var/porterhouse/c/test.sql",
+		"/home/tad/code/phpProjects/loanshark/features/showItems.feature",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Controller/ClothingController.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Entity/Image.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Resources/config/services.yml",
+		"/home/tad/code/phpProjects/loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/Resources/config/services.yml",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Services/FileManager.php",
+		"/home/tad/code/phpProjects/loanshark/web/bundles/punkavefileuploader/js/FileUploader.js",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Features/showItems.feature",
+		"/home/tad/code/phpProjects/loanshark/app/autoload.php",
+		"/home/tad/code/phpProjects/loanshark/features/untitled.feature",
+		"/home/tad/code/phpProjects/loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/Resources/views/Default/templates.html.twig",
+		"/home/tad/code/phpProjects/loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/BlueImp/UploadHandler.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Services/FileUploader.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Entity/Clothing.php",
+		"/home/tad/code/phpProjects/loanshark/app/cache/dev/edit"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 86.0,
 		"where_history":
 		[
-			"/home/tad/code/concierge/spec",
-			"/home/tad/code/concierge",
-			"/home/tad/code/concierge/app/",
-			"/home/tad/code/concierge/app/assets/",
-			"/home/tad/code/concierge/app/assets/javascripts",
-			"/home/tad/code/concierge"
+			"/home/tad/.config/awesome",
+			"",
+			"/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware",
+			"/home/tad/scratch/,/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware",
+			"/home/tad/code/phpProjects/loanshark/",
+			"/home/tad/code/phpProjects/loanshark/src",
+			"/home/tad/code/phpProjects/loanshark",
+			"/home/tad/code/phpProjects/mclcp-drupal/sites/all/modules/agreservations"
 		]
 	},
 	"find_state":
@@ -645,177 +654,204 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"layout",
-			"5",
-			"tag",
+			"font",
+			"Terminus",
 			"tags",
-			"delightful.widgets",
-			"[^\\+].*\\+",
-			"[^\\+].*+",
-			"apt",
-			"\\$ ",
-			"^[^$].*",
-			"featured",
-			"tags",
-			"put",
-			"organizations",
-			"events",
-			"tags",
-			"icon",
-			"has_one",
-			"place",
-			"organization",
-			"event",
-			"events",
-			"featured_event",
-			"special",
-			"debugger",
-			"ids",
-			"\n        ",
-			"open_all_",
-			"open_all",
-			"with_hours",
-			"event",
-			"events",
-			"'([\\w]*)' \\|\\| '([\\w]*)'",
-			"joins =\\[:organization,:([\\w_]*)]",
-			":Recurs",
-			"specialsTable = SpecialRecurs([\\w]*)",
-			"debugger",
-			"then",
-			"level",
-			"debugger",
-			"debug",
-			"special",
-			" or ",
-			", :place",
-			":organizations",
+			"net",
+			"mygmail",
+			"wlan",
+			"\\n",
+			"remove_signal",
+			"add_signal",
+			"\\",
+			"\\\\",
+			"\n}",
+			"btn",
+			"<li>",
+			"report",
+			"printingToDate",
+			"strcmp",
+			"strpos",
+			"str_replace",
+			"die",
+			"'\\\\n'",
+			"'\\n'",
+			"update_text",
+			"([\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}):?\\d+",
+			"[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}\\:+\\d+",
+			"[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}:+\\d+",
+			"[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}[:]+\\d+",
+			"{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}",
+			"{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}[:]+\\d+",
+			"{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}:+\\d+",
+			"[\\d]{1.3}",
+			"[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}:\\d+",
+			"getparam",
+			"payment",
+			"paymentOptions",
+			"PaymentOptions\\",
+			"PaymentOptions",
+			"paymentoptions",
+			"paymentType",
+			"payment_type",
+			"PaymentType",
+			"email",
+			"serialize",
+			"price",
+			"price\"",
+			"input",
+			"getconferenceid",
+			"getprice",
+			"currently running",
+			"getprice",
+			"Application_Form_Elements_Title",
 			"title",
-			"edge",
-			"place",
-			"          \"name\":",
-			"level",
-			"if",
-			"organization_event_maps",
-			"specials",
-			"menu_item_images",
-			"WHMobile.Views.Cards.Event",
-			"WHMobile.Views.PaneFrontPage",
-			"Common.Views.Base",
-			"class WHMobile.Views.Base",
-			"WHMobile.Views.Base",
-			"WHMobile.Views.Cards",
-			"mobile/cards/special-listing--none",
-			"WHMobile.Views.Card",
-			"class WHMobile.Views.CardContainer",
-			"class WHMobile.Views.Panes",
-			"panes.event",
-			"panes.food",
-			"class WHMobile.Views.Panes.",
-			"MenuItemPreview",
-			"itempreview",
-			"WHMobile.Views.Panes.MenuItemPreview",
-			"WHMobile.Views.Cards.TodaysSpecials",
-			"debugger",
-			"seeAllUpcomingEvents",
-			"cardcontainer",
-			"card-container",
-			"debugger",
-			"restaurantsspecials",
-			"specials",
-			"restaurantspecials",
-			"specials",
-			"restauranthub",
-			"restaurantsall",
-			"swaptab",
-			"WHMobile.Routers.Base",
-			"swapTab",
-			"WHMobile.Views.AllSpecials",
-			"RestaurantsSpecialsHub",
-			"restaurantsShowSpecialsTest",
-			"test",
-			"specials",
-			"restaurantsShowSpecials",
-			"restaurantsShowMenus",
-			"getJson",
-			"class WHMobile.Views.Specials",
-			"profileView",
-			"_findOrCreateProfile",
-			"WHMobile.Views.RestaurantProfile",
-			"_findOrCreateRestaurantProfile",
-			"profileRegion",
-			"_findOrCreateProfile",
-			"_findOrCreateRestaurantProfile",
-			" WHMobile.Views.Specials",
-			"WHMobile.Views.RestaurantProfile",
-			"_findOrCreateRestaurantProfile",
-			"specials",
-			"restaurantHub",
-			"WHMobile.Views.RestaurantHub",
-			"RestaurantSpecialsHub",
-			"WHMobile.Views.RestaurantHub",
-			"RestaurantSpecialsHub",
-			"allRestaurantsSpecials",
-			"WHMobile.Views.RestaurantHub",
-			"restaurantHub",
-			"restaurantsShowSpecials",
-			"WHMobile.Views.RestaurantHub",
-			"WHMobile.Views.Hub",
-			"new WHMobile.Views.Hub",
-			"WHMobile.Views.Hub",
-			"extends WHMobile.Views.Region",
-			"model.get(\"name\")",
-			"allspecials",
-			"_fetchSpecials",
-			"class WHMobile.Views.Region",
-			"WHMobile.Views.Region",
-			"allspecials",
-			"WHMobile.Views.Profile",
-			"WHMobile.Views.RestaurantProfile",
-			"_findOrCreateRestaurantProfile"
+			"text",
+			"lunch",
+			"registration_type",
+			"registration_",
+			"KEY_SingleQuote_DoubleQuote",
+			"KEY",
+			"KEY_SingleQuote_DoubleQuote",
+			"die",
+			"_paypalCreds",
+			"paymentaction",
+			"<ul>",
+			"login",
+			"body",
+			"'([\\w]*)'",
+			"->add\\('([a-zA-Z]*)'\\)",
+			"->add('([a-zA-Z]*)')",
+			"\\n",
+			"'",
+			"^'",
+			"\\n",
+			"'",
+			"^'",
+			"\\n",
+			"'",
+			"^'",
+			"')",
+			"->add('",
+			"')",
+			"->add('",
+			"SIZE",
+			"remove",
+			"delete",
+			"handle_file_upload",
+			"delete",
+			"$success",
+			"request",
+			"delete",
+			"$webPath",
+			"private",
+			"one",
+			"(){\n",
+			"rentalItemId",
+			"Images",
+			"image",
+			"private",
+			"getonetomanystatement",
+			"basicEntityPersister",
+			"images",
+			"editact",
+			"FileUploader(",
+			"FileUploader",
+			"$options",
+			"punk_ave",
+			"Ezmac",
+			"punk_ave",
+			"imageRepository",
+			"$to",
+			"move",
+			"slashes",
+			"uploaded",
+			"handle",
+			"handleI",
+			"RentalItemId",
+			"    ",
+			"get\\('editid",
+			"body",
+			"asset",
+			"jms/cg",
+			"name",
+			"depends",
+			"\\t",
+			"	",
+			"\\t",
+			"	",
+			"\\t",
+			"private"
 		],
 		"highlight": true,
 		"in_selection": false,
-		"preserve_case": true,
-		"regex": true,
+		"preserve_case": false,
+		"regex": false,
 		"replace_history":
 		[
-			"sudo apt",
+			"Droid sans mono",
+			"', ",
+			", ",
+			"disconnect_signal",
+			"connect_signal",
+			"\\\\\\n",
+			"\\\\n",
+			"paymentMethod",
+			"payment_method",
+			"PaymentMethod",
+			"'\\1' => '\\1'",
+			"->add('\\1',null,array('label'=>'\\1:'))",
 			"",
-			"event",
+			",",
 			"",
-			"event",
-			"special",
-			"specials",
-			"'\\1','\\2'",
-			"joins << :\\1",
-			":recurs",
-			"joins =[:organization,:recurs_\\1]",
+			" ",
+			",",
 			"",
-			" || ",
+			"\n",
+			", ",
 			"",
-			":organization",
-			"RestaurantsSpecialsHub",
-			"RestaurantSpecialsHub",
+			"]'  => 'Test',",
+			"'mcl_itembundle_clothingtype[",
 			"",
-			"\"",
-			"src=\"http://www.chronica.msstate.edu/",
-			"http://www.chronica.msstate.edu/",
-			"identifier",
+			"protected",
+			"PunkAve",
+			"punk_ave",
+			"PunkAve",
+			"  ",
+			"protected",
+			";\\n",
+			"string",
+			"",
+			"/var/porterhouse/f/Inetpub/wwwroot/",
+			"\\1*",
+			"\\1*\\n",
+			"\\2, \\1\\n",
+			"\\2, \\1",
+			"",
+			"$sql.=\"",
+			"",
+			"\\1",
+			"MSS\\1(@+){$2:$10}",
+			"MSS\\1($+){$2:$10}",
+			"MSS\\1($+){$2*}",
+			"MSS\\1($+){$1:$99}",
+			"MSS\\1($+)*",
+			"MSS\\1$+",
+			"MSS\\1\\$+",
+			"MSS\\1\\$+*",
+			"MSS\\1\\$-*",
+			"MSS\\1$-*",
+			"MSS\\1\\$-*",
+			"MSS\\1$-*",
+			"\\1=\\1",
+			"",
 			"\\n",
-			" -f\\\\n",
-			"git rm ",
 			"",
-			"http://digital.library.msstate.edu/cdm/search/collection/\\2/searchterm/\\1/field/null/mode/all/conn/and/order/nosort",
-			"",
-			"acl",
-			"ON",
-			"\\n",
-			"=\\n",
-			"0664",
-			"0755",
-			"$$",
-			"https://"
+			"MLA",
+			"$this->",
+			" \\*",
+			"\\* \\1",
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -826,32 +862,84 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "rc.lua.new",
+					"file": "rc.lua",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 41271,
+						"buffer_size": 39610,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								21878,
-								21878
+								4180,
+								4180
 							]
 						],
 						"settings":
 						{
-							"highlight_line": false,
+							"highlight_line": true,
 							"syntax": "Packages/Lua/Lua.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"last_character_search": ".",
+								"last_character_search_forward": true,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 2
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 6.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "themes/powerarrow-darker/theme.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1831,
+								1831
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.tmLanguage",
 							"vintage":
 							{
 								"action": null,
@@ -877,195 +965,32 @@
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 1419.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "rc.lua",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 36587,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3600,
-								3600
-							]
-						],
-						"settings":
-						{
-							"highlight_line": false,
-							"syntax": "Packages/Lua/Lua.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"vintage":
-							{
-								"action": null,
-								"action_digits":
-								[
-								],
-								"cancel_action": false,
-								"expecting_register": false,
-								"expecting_user_input": false,
-								"mode": 2,
-								"motion": null,
-								"motion_digits":
-								[
-								],
-								"next_mode": 2,
-								"next_mode_command": null,
-								"register": null,
-								"stashed_action": null,
-								"user_action_input": null,
-								"user_input": null,
-								"user_motion_input": null,
-								"xpos": 0
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 1190.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "vicious/init.lua",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 38504,
+						"buffer_size": 6024,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								34362,
-								34362
-							]
-						],
-						"settings":
-						{
-							"highlight_line": false,
-							"syntax": "Packages/Lua/Lua.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"vintage":
-							{
-								"action": null,
-								"action_digits":
-								[
-								],
-								"cancel_action": false,
-								"expecting_register": false,
-								"expecting_user_input": false,
-								"mode": 2,
-								"motion": null,
-								"motion_digits":
-								[
-								],
-								"next_mode": 2,
-								"next_mode_command": null,
-								"register": null,
-								"stashed_action": null,
-								"user_action_input": null,
-								"user_input": null,
-								"user_motion_input": null,
-								"xpos": 36
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 9542.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 3,
-					"file": "/home/tad/.config/awesome_partially_done/rc.lua.new",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 21964,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10774,
-								10774
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"vintage":
-							{
-								"action": null,
-								"action_digits":
-								[
-								],
-								"cancel_action": false,
-								"expecting_register": false,
-								"expecting_user_input": false,
-								"mode": 2,
-								"motion": null,
-								"motion_digits":
-								[
-								],
-								"next_mode": 2,
-								"next_mode_command": null,
-								"register": null,
-								"stashed_action": null,
-								"user_action_input": null,
-								"user_input": null,
-								"user_motion_input": null,
-								"xpos": 43
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 3129.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "rc.lua.blackburn",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 34666,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								274,
-								274
+								4963,
+								4963
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Lua/Lua.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true,
 							"vintage":
 							{
@@ -1092,59 +1017,7 @@
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "rc.lua.powerarrow-darker",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 36563,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								447,
-								447
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"vintage":
-							{
-								"action": null,
-								"action_digits":
-								[
-								],
-								"cancel_action": false,
-								"expecting_register": false,
-								"expecting_user_input": false,
-								"mode": 2,
-								"motion": null,
-								"motion_digits":
-								[
-								],
-								"next_mode": 2,
-								"next_mode_command": null,
-								"register": null,
-								"stashed_action": null,
-								"user_action_input": null,
-								"user_input": null,
-								"user_motion_input": null,
-								"xpos": 39
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1617.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1154,11 +1027,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 19.0
+		"height": 32.0
 	},
 	"input":
 	{
-		"height": 33.0
+		"height": 29.0
 	},
 	"layout":
 	{
@@ -1169,18 +1042,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.527035434977,
 			1.0
 		],
 		"rows":
@@ -1192,12 +1058,12 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 82.0
+		"height": 88.0
 	},
 	"project": "awesome.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1206,396 +1072,516 @@
 		"selected_items":
 		[
 			[
-				"speciacon",
-				"app/controllers/consie/specials_controller.rb"
+				"rc.lua",
+				"rc.lua"
 			],
 			[
-				"eventcon",
-				"app/controllers/consie/events_controller.rb"
+				"main",
+				"css/main.css"
 			],
 			[
-				"orcospe",
-				"spec/controllers/consie/organizations_controller_spec.rb"
+				"ticketcon",
+				"application/modules/helpdesk/controllers/TicketController.php"
 			],
 			[
-				"eventur",
-				"app/models/event_url.rb"
+				"error",
+				"application/controllers/ErrorController.php"
 			],
 			[
-				"event_sh",
-				"app/models/event_short_description.rb"
+				"conference",
+				"application/models/ConferenceMapper.php"
 			],
 			[
-				"event.",
-				"app/models/event.rb"
+				"index",
+				"application/controllers/IndexController.php"
 			],
 			[
-				"routes",
-				"config/routes.rb"
+				"indexc",
+				"application/controllers/IndexController.php"
 			],
 			[
-				"orgcon",
-				"app/controllers/consie/organizations_controller.rb"
+				"utilit",
+				"application/models/Utilities.php"
 			],
 			[
-				"eventcont",
-				"app/controllers/consie/events_controller.rb"
+				"appli",
+				"application/configs/application.ini"
 			],
 			[
-				"evconspe",
-				"spec/controllers/consie/events_controller_spec.rb"
+				"login",
+				"application/controllers/LoginController.php"
 			],
 			[
-				"organiz",
-				"app/models/organization.rb"
+				"global",
+				"public/css/global.css"
 			],
 			[
-				"organizationev",
-				"app/models/organization_event_map.rb"
+				"layouts/",
+				"application/layouts/scripts/admin_layout.phtml"
 			],
 			[
-				"71",
-				"tmp/cache/assets/CAD/710/sprockets%2Fc03e6bd578aad553026cd90188194426"
+				"admin",
+				"application/forms/AdminRegistrationEnclosingForm.php"
 			],
 			[
-				"organ",
-				"app/models/organization.rb"
+				"admincon",
+				"application/controllers/AdminController.php"
 			],
 			[
-				"events_",
-				"app/controllers/consie/events_controller.rb"
+				"registrationma",
+				"application/models/RegistrationMapper.php"
 			],
 			[
-				"events_cont",
-				"app/controllers/concierge/events_controller.rb"
+				"registra",
+				"application/models/Registration.php"
 			],
 			[
-				"specialsc",
-				"app/controllers/consie/specials_controller.rb"
+				"msug",
+				"application/forms/MSUGRegistrationForm.php"
 			],
 			[
-				"events_controller_spe",
-				"spec/controllers/consie/events_controller_spec.rb"
+				"mla",
+				"application/forms/MLARegistrationform.php"
 			],
 			[
-				"closed",
-				"app/models/closed_organization.rb"
+				"registr",
+				"application/models/Registration.php"
 			],
 			[
-				"specials_cont",
-				"spec/controllers/consie/specials_controller_spec.rb"
+				"common",
+				"application/forms/Common.php"
 			],
 			[
-				"specials_con",
-				"spec/controllers/consie/specials_controller_spec.rb"
+				"regis",
+				"application/forms/Registrationform.php"
 			],
 			[
-				"tag",
-				"app/models/tag.rb"
+				"glo",
+				"public/css/global.css"
 			],
 			[
-				"event",
-				"spec/factories/event.rb"
+				"admin/rece",
+				"application/views/scripts/admin/receipt.phtml"
 			],
 			[
-				"events_con",
-				"app/controllers/consie/events_controller.rb"
+				"index/rece",
+				"application/views/scripts/index/receipt.phtml"
 			],
 			[
-				"org",
-				"app/models/organization.rb"
+				"registration",
+				"application/models/Registration.php"
 			],
 			[
-				"or",
-				"app/models/organization.rb"
+				"receipt.",
+				"application/views/scripts/admin/receipt.phtml"
 			],
 			[
-				"orga",
-				"app/models/organization.rb"
+				"receip",
+				"library/cc/receipt.php"
 			],
 			[
-				"events_controller_spec",
-				"spec/controllers/consie/events_controller_spec.rb"
+				"util",
+				"application/models/Utilities.php"
 			],
 			[
-				"application",
-				"app/controllers/consie/application_controller.rb"
+				"boot",
+				"application/Bootstrap.php"
 			],
 			[
-				"specials_",
-				"app/controllers/consie/specials_controller.rb"
+				"glob",
+				"public/js/global.js"
 			],
 			[
-				"special_contr",
-				"spec/controllers/consie/specials_controller_spec.rb"
+				"payment.",
+				"application/views/scripts/index/payment.phtml"
 			],
 			[
-				"application_cont",
-				"app/controllers/consie/application_controller.rb"
+				"global.js",
+				"public/js/global.js"
 			],
 			[
-				"special_re",
-				"app/models/special_recurs_saturday.rb"
+				"receipt.pht",
+				"application/views/scripts/admin/receipt.phtml"
 			],
 			[
-				"special.rb",
-				"app/models/special.rb"
+				"utilities",
+				"application/models/Utilities.php"
 			],
 			[
-				"spec.rb",
-				"spec/api/events_spec.rb"
+				"adminre",
+				"application/forms/AdminRegistrationEnclosingForm.php"
 			],
 			[
-				"moment.js",
-				"vendor/assets/javascripts/moment.min.js"
+				"registrationsele",
+				"application/forms/Decorators/RegistrationSelect.php"
 			],
 			[
-				"specialrec",
-				"app/models/special_recurs_friday.rb"
+				"regist",
+				"application/forms/Registrationform.php"
 			],
 			[
-				"specia",
-				"app/models/special.rb"
+				"index.",
+				"public/index.php"
 			],
 			[
-				"event.rb",
-				"app/models/event.rb"
+				"paypalcc",
+				"application/modules/paypalCC/models/PPCreditCard.php"
 			],
 			[
-				"special.r",
-				"app/models/special.rb"
+				"paypalcc/cont",
+				"application/modules/paypalCC/controllers/IndexController.php"
 			],
 			[
-				"specialtitle",
-				"app/models/special_title.rb"
+				"confere",
+				"application/models/Conference.php"
 			],
 			[
-				"specialall",
-				"app/models/special_all_day.rb"
+				"ppcred",
+				"application/modules/paypalCC/models/PPCreditCard.php"
 			],
 			[
-				"place",
-				"app/models/place.rb"
+				".ht",
+				"public/.htaccess"
 			],
 			[
-				"menu_item",
-				"app/models/menu_item.rb"
+				"htaccess",
+				"public/.htaccess"
 			],
 			[
-				"eventtag",
-				"app/models/event_tag_map.rb"
+				"layout",
+				"application/layouts/scripts/layout.phtml"
 			],
 			[
-				"tag.",
-				"app/models/tag.rb"
+				"boo",
+				"application/Bootstrap.php"
 			],
 			[
-				"event.r",
-				"app/models/event.rb"
+				"indexcon",
+				"application/controllers/IndexController.php"
 			],
 			[
-				"featured",
-				"app/models/featured_event.rb"
+				"edit",
+				"src/MCL/ItemBundle/Resources/views/Clothing/edit.html.twig"
 			],
 			[
-				"organi",
-				"app/models/organization.rb"
+				"show.",
+				"src/MCL/ItemBundle/Resources/views/Clothing/show.html.twig"
 			],
 			[
-				"o",
-				"app/models/organization.rb"
+				"clothing",
+				"src/MCL/ItemBundle/Controller/ClothingController.php"
 			],
 			[
-				"events_controller",
-				"app/controllers/consie/events_controller.rb"
+				".git",
+				".gitignore"
 			],
 			[
-				"restaur",
-				"app/controllers/whmobile/restaurants_controller.rb"
+				"para",
+				"app/config/parameters.yml"
 			],
 			[
-				"restaurant",
-				"app/controllers/whmobile/restaurants_controller.rb"
+				"paramet",
+				"app/config/parameters.yml.dist"
 			],
 			[
-				"events_contr",
-				"app/controllers/whatshappenin/events_controller.rb"
+				"index.html.tw",
+				"src/MCL/FrontendBundle/Resources/views/Default/index.html.twig"
 			],
 			[
-				"special-listing",
-				"app/assets/templates/mobile/cards/special-listing.jst.eco"
-			],
-			[
-				"special-listing--",
-				"app/assets/templates/mobile/cards/special-listing--none.jst.eco"
-			],
-			[
-				"app.js",
-				"app/assets/javascripts/mobile/routers/app.js.coffee"
-			],
-			[
-				"app.jso",
-				"app/assets/javascripts/mobile/routers/app.js.coffee"
-			],
-			[
-				"config/en",
-				"config/environments/development.rb"
-			],
-			[
-				"env",
-				"config/environment.rb"
-			],
-			[
-				"restaurants_",
-				"app/controllers/whmobile/restaurants_controller.rb"
-			],
-			[
-				"route",
-				"config/routes.rb"
-			],
-			[
-				"routes.rb",
-				"config/routes.rb"
-			],
-			[
-				"restaurants",
-				"app/controllers/whmobile/restaurants_controller.rb"
-			],
-			[
-				"models/",
-				"app/models/event.rb"
-			],
-			[
-				"app.js.coffee",
-				"app/assets/javascripts/mobile/routers/app.js.coffee"
-			],
-			[
-				"restaurant-specia",
-				"app/assets/javascripts/mobile/views/restaurants/restaurant-specials.js.coffee"
-			],
-			[
-				"dev",
-				"config/environments/development.rb"
-			],
-			[
-				"restau",
-				"app/controllers/whmobile/restaurants_controller.rb"
-			],
-			[
-				"special.js.coffee",
-				"app/assets/javascripts/concierge-scripts/models/base/special.js.coffee"
-			],
-			[
-				"--noimage",
-				"app/assets/templates/mobile/specials/item--no-image-show-restaurant.jst.eco"
-			],
-			[
-				"devel",
-				"config/environments/development.rb"
-			],
-			[
-				"specials",
-				"app/assets/javascripts/concierge-scripts/collections/specials.js.coffee"
-			],
-			[
-				"restauran",
-				"app/controllers/whmobile/restaurants_controller.rb"
-			],
-			[
-				"restaurant_con",
-				"app/controllers/whmobile/restaurants_controller.rb"
-			],
-			[
-				"specials.js.c",
-				"app/assets/javascripts/mobile/views/specials.js.coffee"
-			],
-			[
-				"stack",
-				"app/assets/javascripts/common/views/stack-items.js.coffee"
-			],
-			[
-				"card.js",
-				"app/assets/javascripts/mobile/views/card.js.coffee"
-			],
-			[
-				"card",
-				"lib/concierge/card.rb"
-			],
-			[
-				"all-resta",
-				"app/assets/javascripts/mobile/views/all-restaurant-specials.js.coffee"
-			],
-			[
-				"resta",
-				"app/controllers/whmobile/restaurants_controller.rb"
-			],
-			[
-				"restaurant-spec",
-				"app/assets/javascripts/mobile/views/restaurants/restaurant-specials.js.coffee"
-			],
-			[
-				"restaurant-specials",
-				"app/assets/javascripts/mobile/views/restaurants/restaurant-specials.js.coffee"
-			],
-			[
-				"deve",
-				"config/environments/development.rb"
-			],
-			[
-				"app.js.c",
-				"app/assets/javascripts/mobile/views/app.js.coffee"
-			],
-			[
-				"views.js.coffee",
-				"app/assets/javascripts/mobile/views/specials.js.coffee"
-			],
-			[
-				"special",
-				"app/assets/javascripts/concierge-scripts/collections/specials.js.coffee"
-			],
-			[
-				"stackitem",
-				"app/assets/javascripts/common/views/stack-items.js.coffee"
-			],
-			[
-				"rout",
-				"config/routes.rb"
+				"compose",
+				"composer.json"
 			],
 			[
 				"config",
-				"config/environments/development.rb"
+				"app/config/config.yml"
 			],
 			[
-				"conf",
-				"config.ru"
+				"rout",
+				"app/config/routing.yml"
+			],
+			[
+				"base",
+				"app/Resources/views/base.html.twig"
+			],
+			[
+				"globa",
+				"app/Resources/js/global.js"
+			],
+			[
+				"appker",
+				"app/AppKernel.php"
+			],
+			[
+				"routing",
+				"app/config/routing.yml"
+			],
+			[
+				"composer",
+				"composer.json"
+			],
+			[
+				"new.",
+				"src/MCL/ItemBundle/Resources/views/Clothing/new.html.twig"
+			],
+			[
+				"rentali",
+				"src/MCL/ItemBundle/Controller/RentalItemController.php"
+			],
+			[
+				"rental",
+				"src/MCL/ItemBundle/Entity/RentalItem.php"
+			],
+			[
+				".html.twig",
+				"src/MCL/ItemBundle/Resources/views/Clothing/show.html.twig"
+			],
+			[
+				"behat.ym",
+				"vendor/behat/behat/behat.yml.dist"
+			],
+			[
+				"behat.yml",
+				"vendor/behat/symfony2-extension/testapp/behat.yml"
+			],
+			[
+				"autolo",
+				"app/autoload.php"
+			],
+			[
+				"appke",
+				"app/AppKernel.php"
+			],
+			[
+				"featurecont",
+				"features/bootstrap/FeatureContext.php"
+			],
+			[
+				".feature",
+				"features/untitled.feature"
+			],
+			[
+				"compo",
+				"loanshark/composer.json"
+			],
+			[
+				"templates.tw",
+				"loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/Resources/views/Default/templates.html.twig"
+			],
+			[
+				"file",
+				"loanshark/web/bundles/punkavefileuploader/js/FileUploader.js"
+			],
+			[
+				"clothingcon",
+				"loanshark/src/MCL/ItemBundle/Controller/ClothingController.php"
+			],
+			[
+				"uploadh",
+				"loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/BlueImp/UploadHandler.php"
+			],
+			[
+				"service",
+				"loanshark/src/MCL/ItemBundle/Resources/config/services.yml"
+			],
+			[
+				"punkave",
+				"loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/Resources/config/services.yml"
+			],
+			[
+				"paramete",
+				"loanshark/app/config/parameters.yml"
+			],
+			[
+				"upload",
+				"loanshark/src/MCL/ItemBundle/Services/FileUploader.php"
+			],
+			[
+				"blueim",
+				"loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/BlueImp/UploadHandler.php"
+			],
+			[
+				"image",
+				"loanshark/src/MCL/ItemBundle/Entity/Image.php"
+			],
+			[
+				"renta",
+				"Entity/RentalItem.php"
+			],
+			[
+				"blueimp",
+				"loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/BlueImp/UploadHandler.php"
+			],
+			[
+				"edit.",
+				"loanshark/src/MCL/ItemBundle/Resources/views/Clothing/edit.html.twig"
+			],
+			[
+				"fileu",
+				"loanshark/src/MCL/ItemBundle/Services/FileUploader.php"
+			],
+			[
+				"clothingcont",
+				"loanshark/src/MCL/ItemBundle/Controller/ClothingController.php"
+			],
+			[
+				"rentalitemcon",
+				"loanshark/src/MCL/ItemBundle/Controller/RentalItemController.php"
+			],
+			[
+				"clothin",
+				"Entity/Clothing.php"
 			],
 			[
 				"",
-				"app/models/organization.rb"
+				"Entity/RentalItem.php"
 			],
 			[
-				"restara",
-				"app/controllers/whmobile/restaurants_controller.rb"
+				"ima",
+				"loanshark/src/MCL/ItemBundle/Entity/Image.php"
 			],
 			[
-				"restaurant-item",
-				"app/assets/templates/common/restaurant-item.jst.eco"
+				"autol",
+				"loanshark/app/autoload.php"
 			],
 			[
-				"speci",
-				"app/models/special.rb"
+				"aut",
+				"loanshark/app/autoload.php"
 			],
 			[
-				"ability",
-				"app/models/ability.rb"
+				"auto",
+				"loanshark/app/autoload.php"
 			],
 			[
-				"abili",
-				"app/models/ability.rb"
+				"fileup",
+				"loanshark/src/MCL/ItemBundle/Services/FileUploader.php"
 			],
 			[
-				"parameterba",
-				"vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/ParameterBag.php"
+				"clothing/edi",
+				"loanshark/src/MCL/ItemBundle/Resources/views/Clothing/edit.html.twig"
+			],
+			[
+				"manager",
+				"loanshark/src/MCL/ItemBundle/Services/FileManager.php"
+			],
+			[
+				"comp",
+				"loanshark/composer.json"
+			],
+			[
+				"punkave/confi",
+				"loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/Resources/config/services.yml"
+			],
+			[
+				"config.",
+				"loanshark/app/config/config.yml"
+			],
+			[
+				"bootstr",
+				"loanshark/app/bootstrap.php.cache"
+			],
+			[
+				"com",
+				"loanshark/composer.json"
+			],
+			[
+				"autoload_re",
+				"loanshark/vendor/composer/autoload_real.php"
+			],
+			[
+				"vendor/aut",
+				"loanshark/vendor/autoload.php"
+			],
+			[
+				"filema",
+				"loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/Services/FileManager.php"
+			],
+			[
+				"image.",
+				"loanshark/src/MCL/ItemBundle/Entity/Image.php"
+			],
+			[
+				"rentalite",
+				"Entity/RentalItem.php"
+			],
+			[
+				"new",
+				"loanshark/src/MCL/ItemBundle/Resources/views/Clothing/new.html.twig"
+			],
+			[
+				"config/confi",
+				"loanshark/app/config/config.yml"
+			],
+			[
+				"assetic",
+				"loanshark/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/AsseticBundle.php"
+			],
+			[
+				"form/",
+				"loanshark/src/MCL/ItemBundle/Form/ClothingType.php"
+			],
+			[
+				"clothing.php",
+				"Entity/Clothing.php"
+			],
+			[
+				"templates.html.twi",
+				"loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/Resources/views/Default/templates.html.twig"
+			],
+			[
+				".twig",
+				"loanshark/src/MCL/ItemBundle/Resources/views/Clothing/edit.html.twig"
+			],
+			[
+				".yml",
+				"loanshark/app/config/parameters.yml"
+			],
+			[
+				"composer.json",
+				"loanshark/composer.json"
+			],
+			[
+				"composer.",
+				"loanshark/composer.lock"
+			],
+			[
+				"parame",
+				"loanshark/app/config/parameters.yml"
+			],
+			[
+				"autoloa",
+				"loanshark/app/autoload.php"
+			],
+			[
+				"symfony2",
+				"loanshark/vendor/symfony/symfony/CHANGELOG-2.0.md"
+			],
+			[
+				"rentalitem",
+				"loanshark/src/MCL/ItemBundle/Entity/RentalItem.php"
+			],
+			[
+				"app/appker",
+				"loanshark/app/AppKernel.php"
+			],
+			[
+				"autoload_rea",
+				"loanshark/vendor/composer/autoload_real.php"
+			],
+			[
+				"nu",
+				"loanshark/app/stubs/NumberFormatter.php"
+			],
+			[
+				"number",
+				"loanshark/app/stubs/NumberFormatter.php"
+			],
+			[
+				"stubs/funct",
+				"loanshark/app/stubs/functions.php"
+			],
+			[
+				"autoload",
+				"loanshark/app/autoload.php"
 			]
 		],
 		"width": 0.0
@@ -1606,32 +1592,36 @@
 		"selected_items":
 		[
 			[
+				"con",
+				"/home/tad/code/phpProjects/conman/conman.sublime-project"
+			],
+			[
 				"",
-				"/home/tad/code/megalodon/megalodon.sublime-project"
+				"/home/tad/code/phpProjects/loanshark/loanshark.sublime_project"
 			]
 		],
 		"width": 380.0
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 375.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 399.0
 	},
 	"settings":
 	{
 		"vintage":
 		{
-			"last_buffer_search": "tags"
+			"last_buffer_search": "pidg"
 		}
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 146.0,
+	"side_bar_width": 236.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
