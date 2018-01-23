@@ -2,8 +2,8 @@
 local gears = require("gears")
 local awful = require("awful")
 awful.rules = require("awful.rules")
-local tyrannical = require("tyrannical")
 require("awful.autofocus")
+local tyrannical = require("tyrannical")
 -- Widget and layout library
 local wibox = require("wibox")
 -- Theme handling library
@@ -11,7 +11,17 @@ local beautiful = require("beautiful")
 -- Notification library
 local naughty = require("naughty")
 local menubar = require("menubar")
+local vicious = require("vicious")
+local cairo = require("lgi").cairo
+local blingbling = require("blingbling")
+vicious = require("vicious")
+-- Initialize widget
+datewidget = wibox.widget.textbox()
+-- Register widget
+vicious.register(datewidget, vicious.widgets.date, "%b %d, %R", 60)
 
+ -- Add widgets to the wibox - order matters
+ 
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
 -- another config (This code will only ever execute for the fallback config)
@@ -53,36 +63,6 @@ editor_cmd = terminal .. " -e " .. editor
 -- However, you can use another modifier like Mod1, but it may interact with others.
 modkey = "Mod4"
 
---Delightful
-local delightful = require("delightful")
-require('delightful.widgets.battery')
-require('delightful.widgets.cpu')
-require('delightful.widgets.datetime')
-require('delightful.widgets.imap')
-require('delightful.widgets.memory')
-require('delightful.widgets.network')
-require('delightful.widgets.pulseaudio')
-require('delightful.widgets.weather')
-
-
-
--- Table of layouts to cover with awful.layout.inc, order matters.
-local layouts =
-{
-    awful.layout.suit.floating,
-    awful.layout.suit.tile,
-    awful.layout.suit.tile.left,
-    awful.layout.suit.tile.bottom,
-    awful.layout.suit.tile.top,
-    awful.layout.suit.fair,
-    awful.layout.suit.fair.horizontal,
-    awful.layout.suit.spiral,
-    awful.layout.suit.spiral.dwindle,
-    awful.layout.suit.max,
-    awful.layout.suit.max.fullscreen,
-    awful.layout.suit.magnifier
-}
--- }}}
 
 -- {{{ Wallpaper
 if beautiful.wallpaper then
@@ -92,7 +72,6 @@ if beautiful.wallpaper then
 end
 -- }}}
 
-
 tyrannical.tags = {
     {
         name        = "Term",                 -- Call the tag "Term"
@@ -101,57 +80,42 @@ tyrannical.tags = {
         screen      = {1,2},                  -- Create this tag on screen 1 and screen 2
         layout      = awful.layout.suit.tile, -- Use the tile layout
         class       = { --Accept the following classes, refuse everything else (because of "exclusive=true")
-            "xterm" , "urxvt" , "aterm","URxvt","XTerm","konsole","terminator","gnome-terminal", "guake"
+            "xterm" , "urxvt" , "aterm","URxvt","XTerm","konsole","terminator","gnome-terminal"
+        }
+    } ,
+    {
+        name        = "Internet",
+        init        = true,
+        exclusive   = true,
+      --icon        = "~net.png",                 -- Use this icon for the tag (uncomment with a real path)
+        screen      = screen.count()>1 and 2 or 1,-- Setup on screen 2 if there is more than 1 screen, else on screen 1
+        layout      = awful.layout.suit.max,      -- Use the max layout
+        class = {
+            "Opera"         , "Firefox"        , "Rekonq"    , "Dillo"        , "Arora",
+            "Chromium"      , "nightly"        , "minefield"     }
+    } ,
+    {
+        name = "Files",
+        init        = true,
+        exclusive   = true,
+        screen      = 1,
+        layout      = awful.layout.suit.tile,
+        exec_once   = {"dolphin"}, --When the tag is accessed for the first time, execute this command
+        class  = {
+            "Thunar", "Konqueror", "Dolphin", "ark", "Nautilus","emelfm"
         }
     } ,
     {
         name = "Develop",
         init        = true,
         exclusive   = true,
-        screen      = {1,2},
-        --clone_on    = 2, -- Create a single instance of this tag on screen 1, but also show it on screen 2
+        screen      = 1,
+        clone_on    = 2, -- Create a single instance of this tag on screen 1, but also show it on screen 2
                          -- The tag can be used on both screen, but only one at once
-        layout      = awful.layout.suit.tile                          ,
+        layout      = awful.layout.suit.max                          ,
         class ={ 
-            "Kate", "KDevelop", "Codeblocks", "Code::Blocks" , "DDD", "kate4", "sublime_text"}
-    } , 
-    {
-        name        = "Internet",
-        init        = true,
-        exclusive   = true,
-        screen      = {1,2},
-        
-      --icon        = "~net.png",                 -- Use this icon for the tag (uncomment with a real path)
-      --  screen      = screen.count()>1 and 2 or 1,-- Setup on screen 2 if there is more than 1 screen, else on screen 1
-        layout      = awful.layout.suit.max,      -- Use the max layout
-        class = {
-            "Opera"         , "Firefox"        , "Rekonq"    , "Dillo"        , "Arora",
-            "Chromium"      , "nightly"        , "minefield" ,"google-chrome"    }
+            "Kate", "KDevelop", "Codeblocks", "Code::Blocks" , "DDD", "kate4"}
     } ,
-    {
-        name = "Develop2",
-        init        = true,
-        exclusive   = true,
-        screen      = {1,2},
-        --clone_on    = 2, -- Create a single instance of this tag on screen 1, but also show it on screen 2
-                         -- The tag can be used on both screen, but only one at once
-        layout      = awful.layout.suit.fullscreen                          ,
-        class ={ 
-            "Kate", "KDevelop", "Codeblocks", "Code::Blocks" , "DDD", "kate4", "sublime_text"}
-    } ,
-    {
-        name = "Files",
-        init        = true,
-        exclusive   = true,
-        screen      = 2,
-        layout      = awful.layout.suit.tile,
-        exec_once   = {"thunar"}, --When the tag is accessed for the first time, execute this command
-        class  = {
-            "Thunar", "Konqueror", "Dolphin", "ark", "Nautilus","emelfm"
-        }
-    } ,
-
-    
     {
         name        = "Doc",
         init        = false, -- This tag wont be created at startup, but will be when one of the
@@ -161,18 +125,7 @@ tyrannical.tags = {
         layout      = awful.layout.suit.max,
         class       = {
             "Assistant"     , "Okular"         , "Evince"    , "EPDFviewer"   , "xpdf",
-            "Xpdf"          , "libreoffice-writer", "libreoffice-calc",                                    }
-    } ,
-    {
-        name        = "Comms",
-        init        = false, -- This tag wont be created at startup, but will be when one of the
-                             -- client in the "class" section will start. It will be created on
-                             -- the client startup screen
-        exclusive   = true,
-        layout      = awful.layout.suit.tile,
-        class       = {
-            "Icedove", "Pidgin",
-            }
+            "Xpdf"          ,                                        }
     } ,
 }
 
@@ -203,7 +156,6 @@ tyrannical.properties.centered = {
 
 tyrannical.settings.block_children_focus_stealing = true --Block popups ()
 tyrannical.settings.group_children = true --Force popups/dialogs to have the same tags as the parent client
-tyrannical.settings.default_layout = awful.layout.suit.tile
 -- {{{ Menu
 -- Create a laucher widget and a main menu
 myawesomemenu = {
@@ -244,21 +196,6 @@ mytaglist.buttons = awful.util.table.join(
                     )
 mytasklist = {}
 mytasklist.buttons = awful.util.table.join(
---my hotkeys
-
-    awful.key({ modkey,           }, "j",
-        function ()
-            awful.client.focus.byidx( 1)
-            if client.focus then client.focus:raise() end
-        end),
-    awful.key({ modkey,           }, "k",
-        function ()
-            awful.client.focus.byidx(-1)
-            if client.focus then client.focus:raise() end
-        end),
-
-    awful.key({ modkey,           }, ".", function () awful.screen.focus_relative( 1) end),
-    awful.key({ modkey,           }, ",", function () awful.screen.focus_relative(-1) end),
                      awful.button({ }, 1, function (c)
                                               if c == client.focus then
                                                   c.minimized = true
@@ -358,9 +295,6 @@ globalkeys = awful.util.table.join(
             awful.client.focus.byidx(-1)
             if client.focus then client.focus:raise() end
         end),
-        awful.key({ modkey,           }, ".", function () awful.screen.focus_relative( 1) end),
-    awful.key({ modkey,           }, ",", function () awful.screen.focus_relative(-1) end),
-
     awful.key({ modkey,           }, "w", function () mymainmenu:show() end),
 
     -- Layout manipulation
@@ -394,7 +328,7 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey, "Control" }, "n", awful.client.restore),
 
     -- Prompt
---    awful.key({ modkey, "Shift"   },            "r",     function () mypromptbox[mouse.screen]:run() end),
+    awful.key({ modkey },            "r",     function () mypromptbox[mouse.screen]:run() end),
 
     awful.key({ modkey }, "x",
               function ()
@@ -408,8 +342,6 @@ globalkeys = awful.util.table.join(
 )
 
 clientkeys = awful.util.table.join(
-    awful.key({ modkey, "Shift"   }, ".",      awful.client.movetoscreen                        ),
-    awful.key({ modkey, "Shift"   }, ",",      awful.client.movetoscreen                        ),
     awful.key({ modkey,           }, "f",      function (c) c.fullscreen = not c.fullscreen  end),
     awful.key({ modkey, "Shift"   }, "c",      function (c) c:kill()                         end),
     awful.key({ modkey, "Control" }, "space",  awful.client.floating.toggle                     ),

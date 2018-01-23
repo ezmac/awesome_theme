@@ -1,0 +1,1629 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"backgroun",
+				"background-repeat"
+			],
+			[
+				"backgroundc",
+				"background-color"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"bacc",
+				"background-color"
+			],
+			[
+				"upda",
+				"update_text"
+			],
+			[
+				"strp",
+				"strpos"
+			],
+			[
+				"confere",
+				"conference"
+			],
+			[
+				"Application_mo",
+				"Application_Model_ConferenceMapper"
+			],
+			[
+				"Appli",
+				"Application_Form_Elements_Title"
+			],
+			[
+				"_pay",
+				"_paypalResponse"
+			],
+			[
+				"number",
+				"number_format"
+			],
+			[
+				"atten",
+				"attendanceType"
+			],
+			[
+				"PaypalCC",
+				"PaypalCC_Model_PPCreditCard"
+			],
+			[
+				"paymen",
+				"paymentOptions"
+			],
+			[
+				"adap",
+				"adaptivePayment"
+			],
+			[
+				"receiver",
+				"receiverList"
+			],
+			[
+				"getPa",
+				"getPaymentAmount"
+			],
+			[
+				"config",
+				"configOptions"
+			],
+			[
+				"registra",
+				"registrations"
+			],
+			[
+				"pay",
+				"paypalOptions"
+			],
+			[
+				"paypal",
+				"paypalCreds"
+			],
+			[
+				"conference",
+				"conferenceMapper"
+			],
+			[
+				"regi",
+				"registrationSession"
+			],
+			[
+				"CURLOPT",
+				"CURLOPT_POSTFIELDS"
+			],
+			[
+				"_A",
+				"_APISignature"
+			],
+			[
+				"setExpress",
+				"SetExpressCheckout"
+			],
+			[
+				"APPLICA",
+				"APPLICATION_ENV"
+			],
+			[
+				"unlin",
+				"unlinkReturn"
+			],
+			[
+				"ass",
+				"assertEquals"
+			],
+			[
+				"create",
+				"createClient"
+			],
+			[
+				"uploa",
+				"uploadDir"
+			],
+			[
+				"image",
+				"imagePaths"
+			],
+			[
+				"file",
+				"fileSizes"
+			],
+			[
+				"upl",
+				"upload_handler"
+			],
+			[
+				"imag",
+				"imageRepository"
+			],
+			[
+				"item",
+				"itemId"
+			],
+			[
+				"rental",
+				"rentalItem"
+			],
+			[
+				"ite",
+				"itemRepository"
+			],
+			[
+				"unli",
+				"unlinkRecursive"
+			],
+			[
+				"symf",
+				"symfony2-file-uploader-bundle"
+			],
+			[
+				"smar",
+				"smartCopy"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"crea",
+				"createAction"
+			],
+			[
+				"edit",
+				"editId"
+			],
+			[
+				"edi",
+				"editId"
+			],
+			[
+				"exist",
+				"existingFiles"
+			],
+			[
+				"exis",
+				"existingFiles"
+			],
+			[
+				"Di",
+				"DiscriminatorMap"
+			],
+			[
+				"emai",
+				"email_message"
+			],
+			[
+				"cron",
+				"cronjobHash"
+			],
+			[
+				"ret",
+				"retcode"
+			],
+			[
+				"event",
+				"eventoriginal"
+			],
+			[
+				"defa",
+				"defaultPushTimeout"
+			],
+			[
+				"tag",
+				"tagHolder"
+			],
+			[
+				"pro",
+				"project"
+			],
+			[
+				"requir",
+				"requiredFields"
+			],
+			[
+				"re",
+				"requiredFields"
+			],
+			[
+				"web",
+				"WEBM"
+			],
+			[
+				"we",
+				"WEBM"
+			],
+			[
+				"video",
+				"videoTag"
+			],
+			[
+				"vid",
+				"videoTag"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"priv",
+				"privatizeUser"
+			],
+			[
+				"use",
+				"allUsers"
+			],
+			[
+				"pri",
+				"privacyFlag"
+			],
+			[
+				"priva",
+				"privatizeUser"
+			],
+			[
+				"privacy",
+				"privacyFlag"
+			],
+			[
+				"array_",
+				"array_merge"
+			],
+			[
+				"norma",
+				"normalizedData"
+			],
+			[
+				"norm",
+				"normalizedData"
+			],
+			[
+				"all",
+				"allUsers"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"real",
+				"realOffDate"
+			],
+			[
+				"date_c",
+				"date_create_from_format"
+			],
+			[
+				"pid",
+				"pidginDateFormat"
+			],
+			[
+				"on",
+				"onoff"
+			],
+			[
+				"signo",
+				"signoff"
+			],
+			[
+				"sign",
+				"signon"
+			],
+			[
+				"return",
+				"returnData"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "rc.lua",
+			"settings":
+			{
+				"buffer_size": 39610,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "themes/powerarrow-darker/theme.lua",
+			"settings":
+			{
+				"buffer_size": 4870,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vicious/init.lua",
+			"settings":
+			{
+				"buffer_size": 6024,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 209.0,
+		"selected_items":
+		[
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: r",
+				"Package Control: Remove Package"
+			],
+			[
+				"tidy ",
+				"Tidy PHP"
+			],
+			[
+				"php",
+				"Format: Php"
+			],
+			[
+				"js",
+				"Set Syntax: JSON"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"format",
+				"Format: Php"
+			],
+			[
+				"html",
+				"HTMLPrettify: Prettify"
+			],
+			[
+				"ini",
+				"Set Syntax: INI"
+			],
+			[
+				"behat",
+				"Set Syntax: Behat"
+			],
+			[
+				"forma",
+				"Format: Php"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Package Control: l",
+				"Package Control: List Packages"
+			],
+			[
+				"twig",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"markdo",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"markdon",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mar",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"twi",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"j",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"form",
+				"Format: Php"
+			],
+			[
+				"diff",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 111.0,
+		"history":
+		[
+			"from selenium import webdriver",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/etc/xdg/awesome/rc.lua",
+		"/home/tad/.config/awesome.old/rc-3.4.lua",
+		"/home/tad/.config/awesome.old/rc.lua",
+		"/home/tad/.config/awesome.old/rc.lua.new",
+		"/home/tad/.config/awesome/dots/.compton.conf",
+		"/home/tad/.config/awesome/scripts/mpdinfo",
+		"/home/tad/.config/awesome/rc.lua.new",
+		"/home/tad/.config/awesome/rc-3.4.lua",
+		"/home/tad/code/phpProjects/helpdesk/application/modules/helpdesk/controllers/TicketController.php.bak",
+		"/home/tad/code/phpProjects/serug/css/main.css",
+		"/home/tad/code/phpProjects/serug/navigation.php",
+		"/home/tad/code/phpProjects/serug/layout.php",
+		"/home/tad/code/phpProjects/serug/about.php",
+		"/home/tad/code/phpProjects/serug/submit-session.php",
+		"/home/tad/code/phpProjects/serug/serug.sublime-project",
+		"/home/tad/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/tad/code/phpProjects/newEmployee.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Resources/views/Clothing/index.html.twig",
+		"/home/tad/.config/sublime-text-3/Packages/User/HTML (Twig).sublime-settings",
+		"/home/tad/.config/sublime-text-3/Packages/Schemr/Default (Linux).sublime-keymap",
+		"/home/tad/.config/sublime-text-3/Packages/Camaleon/Camaleon.sublime-settings",
+		"/home/tad/.config/sublime-text-3/Packages/User/Camaleon.sublime-settings",
+		"/home/tad/code/phpProjects/serug/css/bootstrap-responsive.css",
+		"/home/tad/code/phpProjects/serug/css/bootstrap.min.css",
+		"/home/tad/code/phpProjects/serug/watchAndRefresh.sh",
+		"/home/tad/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/tad/code/phpProjects/helpdesk/application/modules/helpdesk/controllers/TicketController.php",
+		"/home/tad/code/phpProjects/helpdesk/public/receiptPad/report.asp",
+		"/home/tad/code/phpProjects/helpdesk/helpdesk.sublime-project",
+		"/home/tad/code/phpProjects/conman/public/.htaccess",
+		"/home/tad/code/phpProjects/conman/application/models/Conference.php",
+		"/home/tad/code/phpProjects/conman/application/modules/offlinePayment/controllers/IndexController.php",
+		"/home/tad/code/phpProjects/conman/application/layouts/scripts/admin_layout.phtml",
+		"/home/tad/code/phpProjects/conman/logs/application.log",
+		"/home/tad/code/phpProjects/conman/application/modules/invoice/controllers/IndexController.php",
+		"/home/tad/code/phpProjects/conman/application/forms/MSUGRegistrationForm.php",
+		"/home/tad/code/phpProjects/conman/application/controllers/AdminController.php",
+		"/home/tad/code/phpProjects/conman/application/models/Registration.php",
+		"/home/tad/code/phpProjects/conman/application/forms/AdminRegistrationEnclosingForm.php",
+		"/home/tad/code/phpProjects/conman/application/models/RegistrationMapper.php",
+		"/home/tad/code/phpProjects/conman/application/forms/MLARegistrationform.php",
+		"/home/tad/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/tad/.config/sublime-text-2/Packages/User/PHP.sublime-settings",
+		"/home/tad/.config/sublime-text-2/Packages/User/JSON.sublime-settings",
+		"/home/tad/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/tad/code/phpProjects/conman/application/modules/paypalCC/controllers/IndexController.php",
+		"/home/tad/code/phpProjects/conman/application/views/scripts/admin/receipt.phtml",
+		"/home/tad/code/phpProjects/conman/application/views/scripts/index/receipt.phtml",
+		"/home/tad/code/phpProjects/conman/application/views/scripts/index/print-registration.phtml",
+		"/home/tad/code/phpProjects/conman/application/forms/Common.php",
+		"/home/tad/code/phpProjects/conman/public/css/global.css",
+		"/home/tad/code/phpProjects/conman/public/js/global.js",
+		"/home/tad/code/phpProjects/conman/application/views/scripts/index/payment.phtml",
+		"/home/tad/code/phpProjects/conman/application/controllers/IndexController.php",
+		"/home/tad/code/phpProjects/conman/application/models/Utilities.php",
+		"/home/tad/code/phpProjects/conman/application/forms/Registrationform.php",
+		"/home/tad/code/phpProjects/conman/library/cc/receipt.php",
+		"/home/tad/code/phpProjects/conman/application/controllers/ErrorController.php",
+		"/home/tad/code/phpProjects/conman/application/Bootstrap.php",
+		"/home/tad/code/phpProjects/conman/application/layouts/scripts/layout.phtml",
+		"/home/tad/code/phpProjects/conman/application/layouts/scripts/msug.phtml",
+		"/home/tad/code/phpProjects/conman/application/controllers/LoginController.php",
+		"/home/tad/code/phpProjects/conman/application/configs/application.ini",
+		"/home/tad/code/phpProjects/conman/library/myPaypal/paypalfunctions.php",
+		"/home/tad/code/phpProjects/conman/public/index.php",
+		"/home/tad/code/phpProjects/conman/conman.sublime-project",
+		"/home/tad/code/phpProjects/conman/application/forms/Decorators/RegistrationSelect.php",
+		"/home/tad/code/phpProjects/conman/application/modules/paypalCC/models/PPCreditCard.php",
+		"/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware/keyboard/controller.h",
+		"/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware/keyboard/matrix.h",
+		"/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware/keyboard/layout.h",
+		"/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware/keyboard/ergodox/layout/default--layout.h",
+		"/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware/keyboard/ergodox/matrix.h",
+		"/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware/keyboard/ergodox/layout.md",
+		"/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware/keyboard/ergodox/layout.h",
+		"/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware/keyboard/ergodox/controller.h",
+		"/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware/keyboard/ergodox/layout/default--layout.c",
+		"/home/tad/code/phpProjects/conman/application/layouts/scripts/megaresources.phtml",
+		"/home/tad/code/phpProjects/conman/application/layouts/scripts/mla-conference.phtml",
+		"/home/tad/code/phpProjects/conman/application/layouts/scripts/ragtime.phtml",
+		"/home/tad/code/phpProjects/conman/application/configs/sdk_config.ini",
+		"/home/tad/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/tad/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/tad/code/phpProjects/conman/composer.json",
+		"/home/tad/code/phpProjects/conman/application/modules/paypalCC/models/PPRestClient.php",
+		"/home/tad/code/phpProjects/conman/application/modules/paypalCC/models/PPAdaptivePayments.php",
+		"/home/tad/code/phpProjects/paypaltest.html",
+		"/home/tad/code/phpProjects/conman/application/models/ConferenceMapper.php",
+		"/home/tad/code/phpProjects/conman/library/Zend/Service/Abstract.php",
+		"/home/tad/chronicabrowse.html",
+		"/home/tad/code/phpProjects/conman/library/Zend/Layout.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Resources/views/Clothing/edit.html.twig",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/UserBundle/Controller/DefaultController.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Controller/RentalItemController.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Resources/views/Clothing/new.html.twig",
+		"/home/tad/code/phpProjects/loanshark/app/Resources/js/bootstrap.js",
+		"/home/tad/code/phpProjects/loanshark/app/config/parameters.yml",
+		"/home/tad/code/phpProjects/loanshark/app/Resources/views/base.html.twig",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/FrontendBundle/Resources/views/Default/index.html.twig",
+		"/home/tad/code/phpProjects/loanshark/.gitignore",
+		"/home/tad/code/phpProjects/loanshark/app/config/routing.yml",
+		"/home/tad/code/phpProjects/loanshark/app/config/config.yml",
+		"/home/tad/code/phpProjects/loanshark/composer.json",
+		"/home/tad/code/phpProjects/loanshark/app/Resources/js/global.js",
+		"/home/tad/code/phpProjects/loanshark/app/AppKernel.php",
+		"/home/tad/code/phpProjects/loanshark/vendor/behat/symfony2-extension/testapp/behat.yml",
+		"/home/tad/code/phpProjects/loanshark/vendor/behat/behat/behat.yml",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/features/bootstrap/FeatureContext.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/FrontendBundle/Tests/Controller/DefaultControllerTest.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Tests/Controller/ClothingControllerTest.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Entity/RentalItem.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Resources/views/Clothing/show.html.twig",
+		"/var/porterhouse/c/test.sql",
+		"/home/tad/code/phpProjects/loanshark/features/showItems.feature",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Controller/ClothingController.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Entity/Image.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Resources/config/services.yml",
+		"/home/tad/code/phpProjects/loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/Resources/config/services.yml",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Services/FileManager.php",
+		"/home/tad/code/phpProjects/loanshark/web/bundles/punkavefileuploader/js/FileUploader.js",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Features/showItems.feature",
+		"/home/tad/code/phpProjects/loanshark/app/autoload.php",
+		"/home/tad/code/phpProjects/loanshark/features/untitled.feature",
+		"/home/tad/code/phpProjects/loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/Resources/views/Default/templates.html.twig",
+		"/home/tad/code/phpProjects/loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/BlueImp/UploadHandler.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Services/FileUploader.php",
+		"/home/tad/code/phpProjects/loanshark/src/MCL/ItemBundle/Entity/Clothing.php",
+		"/home/tad/code/phpProjects/loanshark/app/cache/dev/edit"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 86.0,
+		"where_history":
+		[
+			"/home/tad/.config/awesome",
+			"",
+			"/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware",
+			"/home/tad/scratch/,/home/tad/scratch/user_TPEF2N_20130625060759_ergodox_firmware",
+			"/home/tad/code/phpProjects/loanshark/",
+			"/home/tad/code/phpProjects/loanshark/src",
+			"/home/tad/code/phpProjects/loanshark",
+			"/home/tad/code/phpProjects/mclcp-drupal/sites/all/modules/agreservations"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"font",
+			"Terminus",
+			"tags",
+			"net",
+			"mygmail",
+			"wlan",
+			"\\n",
+			"remove_signal",
+			"add_signal",
+			"\\",
+			"\\\\",
+			"\n}",
+			"btn",
+			"<li>",
+			"report",
+			"printingToDate",
+			"strcmp",
+			"strpos",
+			"str_replace",
+			"die",
+			"'\\\\n'",
+			"'\\n'",
+			"update_text",
+			"([\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}):?\\d+",
+			"[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}\\:+\\d+",
+			"[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}:+\\d+",
+			"[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}[:]+\\d+",
+			"{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}",
+			"{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}[:]+\\d+",
+			"{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}:+\\d+",
+			"[\\d]{1.3}",
+			"[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}\\.[\\d]{1,3}:\\d+",
+			"getparam",
+			"payment",
+			"paymentOptions",
+			"PaymentOptions\\",
+			"PaymentOptions",
+			"paymentoptions",
+			"paymentType",
+			"payment_type",
+			"PaymentType",
+			"email",
+			"serialize",
+			"price",
+			"price\"",
+			"input",
+			"getconferenceid",
+			"getprice",
+			"currently running",
+			"getprice",
+			"Application_Form_Elements_Title",
+			"title",
+			"text",
+			"lunch",
+			"registration_type",
+			"registration_",
+			"KEY_SingleQuote_DoubleQuote",
+			"KEY",
+			"KEY_SingleQuote_DoubleQuote",
+			"die",
+			"_paypalCreds",
+			"paymentaction",
+			"<ul>",
+			"login",
+			"body",
+			"'([\\w]*)'",
+			"->add\\('([a-zA-Z]*)'\\)",
+			"->add('([a-zA-Z]*)')",
+			"\\n",
+			"'",
+			"^'",
+			"\\n",
+			"'",
+			"^'",
+			"\\n",
+			"'",
+			"^'",
+			"')",
+			"->add('",
+			"')",
+			"->add('",
+			"SIZE",
+			"remove",
+			"delete",
+			"handle_file_upload",
+			"delete",
+			"$success",
+			"request",
+			"delete",
+			"$webPath",
+			"private",
+			"one",
+			"(){\n",
+			"rentalItemId",
+			"Images",
+			"image",
+			"private",
+			"getonetomanystatement",
+			"basicEntityPersister",
+			"images",
+			"editact",
+			"FileUploader(",
+			"FileUploader",
+			"$options",
+			"punk_ave",
+			"Ezmac",
+			"punk_ave",
+			"imageRepository",
+			"$to",
+			"move",
+			"slashes",
+			"uploaded",
+			"handle",
+			"handleI",
+			"RentalItemId",
+			"    ",
+			"get\\('editid",
+			"body",
+			"asset",
+			"jms/cg",
+			"name",
+			"depends",
+			"\\t",
+			"	",
+			"\\t",
+			"	",
+			"\\t",
+			"private"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Droid sans mono",
+			"', ",
+			", ",
+			"disconnect_signal",
+			"connect_signal",
+			"\\\\\\n",
+			"\\\\n",
+			"paymentMethod",
+			"payment_method",
+			"PaymentMethod",
+			"'\\1' => '\\1'",
+			"->add('\\1',null,array('label'=>'\\1:'))",
+			"",
+			",",
+			"",
+			" ",
+			",",
+			"",
+			"\n",
+			", ",
+			"",
+			"]'  => 'Test',",
+			"'mcl_itembundle_clothingtype[",
+			"",
+			"protected",
+			"PunkAve",
+			"punk_ave",
+			"PunkAve",
+			"  ",
+			"protected",
+			";\\n",
+			"string",
+			"",
+			"/var/porterhouse/f/Inetpub/wwwroot/",
+			"\\1*",
+			"\\1*\\n",
+			"\\2, \\1\\n",
+			"\\2, \\1",
+			"",
+			"$sql.=\"",
+			"",
+			"\\1",
+			"MSS\\1(@+){$2:$10}",
+			"MSS\\1($+){$2:$10}",
+			"MSS\\1($+){$2*}",
+			"MSS\\1($+){$1:$99}",
+			"MSS\\1($+)*",
+			"MSS\\1$+",
+			"MSS\\1\\$+",
+			"MSS\\1\\$+*",
+			"MSS\\1\\$-*",
+			"MSS\\1$-*",
+			"MSS\\1\\$-*",
+			"MSS\\1$-*",
+			"\\1=\\1",
+			"",
+			"\\n",
+			"",
+			"MLA",
+			"$this->",
+			" \\*",
+			"\\* \\1",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "rc.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 39610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4180,
+								4180
+							]
+						],
+						"settings":
+						{
+							"highlight_line": true,
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"last_character_search": ".",
+								"last_character_search_forward": true,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 2
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 6.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "themes/powerarrow-darker/theme.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1831,
+								1831
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 34
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "vicious/init.lua",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6024,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4963,
+								4963
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 1617.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 88.0
+	},
+	"project": "awesome.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"rc.lua",
+				"rc.lua"
+			],
+			[
+				"main",
+				"css/main.css"
+			],
+			[
+				"ticketcon",
+				"application/modules/helpdesk/controllers/TicketController.php"
+			],
+			[
+				"error",
+				"application/controllers/ErrorController.php"
+			],
+			[
+				"conference",
+				"application/models/ConferenceMapper.php"
+			],
+			[
+				"index",
+				"application/controllers/IndexController.php"
+			],
+			[
+				"indexc",
+				"application/controllers/IndexController.php"
+			],
+			[
+				"utilit",
+				"application/models/Utilities.php"
+			],
+			[
+				"appli",
+				"application/configs/application.ini"
+			],
+			[
+				"login",
+				"application/controllers/LoginController.php"
+			],
+			[
+				"global",
+				"public/css/global.css"
+			],
+			[
+				"layouts/",
+				"application/layouts/scripts/admin_layout.phtml"
+			],
+			[
+				"admin",
+				"application/forms/AdminRegistrationEnclosingForm.php"
+			],
+			[
+				"admincon",
+				"application/controllers/AdminController.php"
+			],
+			[
+				"registrationma",
+				"application/models/RegistrationMapper.php"
+			],
+			[
+				"registra",
+				"application/models/Registration.php"
+			],
+			[
+				"msug",
+				"application/forms/MSUGRegistrationForm.php"
+			],
+			[
+				"mla",
+				"application/forms/MLARegistrationform.php"
+			],
+			[
+				"registr",
+				"application/models/Registration.php"
+			],
+			[
+				"common",
+				"application/forms/Common.php"
+			],
+			[
+				"regis",
+				"application/forms/Registrationform.php"
+			],
+			[
+				"glo",
+				"public/css/global.css"
+			],
+			[
+				"admin/rece",
+				"application/views/scripts/admin/receipt.phtml"
+			],
+			[
+				"index/rece",
+				"application/views/scripts/index/receipt.phtml"
+			],
+			[
+				"registration",
+				"application/models/Registration.php"
+			],
+			[
+				"receipt.",
+				"application/views/scripts/admin/receipt.phtml"
+			],
+			[
+				"receip",
+				"library/cc/receipt.php"
+			],
+			[
+				"util",
+				"application/models/Utilities.php"
+			],
+			[
+				"boot",
+				"application/Bootstrap.php"
+			],
+			[
+				"glob",
+				"public/js/global.js"
+			],
+			[
+				"payment.",
+				"application/views/scripts/index/payment.phtml"
+			],
+			[
+				"global.js",
+				"public/js/global.js"
+			],
+			[
+				"receipt.pht",
+				"application/views/scripts/admin/receipt.phtml"
+			],
+			[
+				"utilities",
+				"application/models/Utilities.php"
+			],
+			[
+				"adminre",
+				"application/forms/AdminRegistrationEnclosingForm.php"
+			],
+			[
+				"registrationsele",
+				"application/forms/Decorators/RegistrationSelect.php"
+			],
+			[
+				"regist",
+				"application/forms/Registrationform.php"
+			],
+			[
+				"index.",
+				"public/index.php"
+			],
+			[
+				"paypalcc",
+				"application/modules/paypalCC/models/PPCreditCard.php"
+			],
+			[
+				"paypalcc/cont",
+				"application/modules/paypalCC/controllers/IndexController.php"
+			],
+			[
+				"confere",
+				"application/models/Conference.php"
+			],
+			[
+				"ppcred",
+				"application/modules/paypalCC/models/PPCreditCard.php"
+			],
+			[
+				".ht",
+				"public/.htaccess"
+			],
+			[
+				"htaccess",
+				"public/.htaccess"
+			],
+			[
+				"layout",
+				"application/layouts/scripts/layout.phtml"
+			],
+			[
+				"boo",
+				"application/Bootstrap.php"
+			],
+			[
+				"indexcon",
+				"application/controllers/IndexController.php"
+			],
+			[
+				"edit",
+				"src/MCL/ItemBundle/Resources/views/Clothing/edit.html.twig"
+			],
+			[
+				"show.",
+				"src/MCL/ItemBundle/Resources/views/Clothing/show.html.twig"
+			],
+			[
+				"clothing",
+				"src/MCL/ItemBundle/Controller/ClothingController.php"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"para",
+				"app/config/parameters.yml"
+			],
+			[
+				"paramet",
+				"app/config/parameters.yml.dist"
+			],
+			[
+				"index.html.tw",
+				"src/MCL/FrontendBundle/Resources/views/Default/index.html.twig"
+			],
+			[
+				"compose",
+				"composer.json"
+			],
+			[
+				"config",
+				"app/config/config.yml"
+			],
+			[
+				"rout",
+				"app/config/routing.yml"
+			],
+			[
+				"base",
+				"app/Resources/views/base.html.twig"
+			],
+			[
+				"globa",
+				"app/Resources/js/global.js"
+			],
+			[
+				"appker",
+				"app/AppKernel.php"
+			],
+			[
+				"routing",
+				"app/config/routing.yml"
+			],
+			[
+				"composer",
+				"composer.json"
+			],
+			[
+				"new.",
+				"src/MCL/ItemBundle/Resources/views/Clothing/new.html.twig"
+			],
+			[
+				"rentali",
+				"src/MCL/ItemBundle/Controller/RentalItemController.php"
+			],
+			[
+				"rental",
+				"src/MCL/ItemBundle/Entity/RentalItem.php"
+			],
+			[
+				".html.twig",
+				"src/MCL/ItemBundle/Resources/views/Clothing/show.html.twig"
+			],
+			[
+				"behat.ym",
+				"vendor/behat/behat/behat.yml.dist"
+			],
+			[
+				"behat.yml",
+				"vendor/behat/symfony2-extension/testapp/behat.yml"
+			],
+			[
+				"autolo",
+				"app/autoload.php"
+			],
+			[
+				"appke",
+				"app/AppKernel.php"
+			],
+			[
+				"featurecont",
+				"features/bootstrap/FeatureContext.php"
+			],
+			[
+				".feature",
+				"features/untitled.feature"
+			],
+			[
+				"compo",
+				"loanshark/composer.json"
+			],
+			[
+				"templates.tw",
+				"loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/Resources/views/Default/templates.html.twig"
+			],
+			[
+				"file",
+				"loanshark/web/bundles/punkavefileuploader/js/FileUploader.js"
+			],
+			[
+				"clothingcon",
+				"loanshark/src/MCL/ItemBundle/Controller/ClothingController.php"
+			],
+			[
+				"uploadh",
+				"loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/BlueImp/UploadHandler.php"
+			],
+			[
+				"service",
+				"loanshark/src/MCL/ItemBundle/Resources/config/services.yml"
+			],
+			[
+				"punkave",
+				"loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/Resources/config/services.yml"
+			],
+			[
+				"paramete",
+				"loanshark/app/config/parameters.yml"
+			],
+			[
+				"upload",
+				"loanshark/src/MCL/ItemBundle/Services/FileUploader.php"
+			],
+			[
+				"blueim",
+				"loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/BlueImp/UploadHandler.php"
+			],
+			[
+				"image",
+				"loanshark/src/MCL/ItemBundle/Entity/Image.php"
+			],
+			[
+				"renta",
+				"Entity/RentalItem.php"
+			],
+			[
+				"blueimp",
+				"loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/BlueImp/UploadHandler.php"
+			],
+			[
+				"edit.",
+				"loanshark/src/MCL/ItemBundle/Resources/views/Clothing/edit.html.twig"
+			],
+			[
+				"fileu",
+				"loanshark/src/MCL/ItemBundle/Services/FileUploader.php"
+			],
+			[
+				"clothingcont",
+				"loanshark/src/MCL/ItemBundle/Controller/ClothingController.php"
+			],
+			[
+				"rentalitemcon",
+				"loanshark/src/MCL/ItemBundle/Controller/RentalItemController.php"
+			],
+			[
+				"clothin",
+				"Entity/Clothing.php"
+			],
+			[
+				"",
+				"Entity/RentalItem.php"
+			],
+			[
+				"ima",
+				"loanshark/src/MCL/ItemBundle/Entity/Image.php"
+			],
+			[
+				"autol",
+				"loanshark/app/autoload.php"
+			],
+			[
+				"aut",
+				"loanshark/app/autoload.php"
+			],
+			[
+				"auto",
+				"loanshark/app/autoload.php"
+			],
+			[
+				"fileup",
+				"loanshark/src/MCL/ItemBundle/Services/FileUploader.php"
+			],
+			[
+				"clothing/edi",
+				"loanshark/src/MCL/ItemBundle/Resources/views/Clothing/edit.html.twig"
+			],
+			[
+				"manager",
+				"loanshark/src/MCL/ItemBundle/Services/FileManager.php"
+			],
+			[
+				"comp",
+				"loanshark/composer.json"
+			],
+			[
+				"punkave/confi",
+				"loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/Resources/config/services.yml"
+			],
+			[
+				"config.",
+				"loanshark/app/config/config.yml"
+			],
+			[
+				"bootstr",
+				"loanshark/app/bootstrap.php.cache"
+			],
+			[
+				"com",
+				"loanshark/composer.json"
+			],
+			[
+				"autoload_re",
+				"loanshark/vendor/composer/autoload_real.php"
+			],
+			[
+				"vendor/aut",
+				"loanshark/vendor/autoload.php"
+			],
+			[
+				"filema",
+				"loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/Services/FileManager.php"
+			],
+			[
+				"image.",
+				"loanshark/src/MCL/ItemBundle/Entity/Image.php"
+			],
+			[
+				"rentalite",
+				"Entity/RentalItem.php"
+			],
+			[
+				"new",
+				"loanshark/src/MCL/ItemBundle/Resources/views/Clothing/new.html.twig"
+			],
+			[
+				"config/confi",
+				"loanshark/app/config/config.yml"
+			],
+			[
+				"assetic",
+				"loanshark/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/AsseticBundle.php"
+			],
+			[
+				"form/",
+				"loanshark/src/MCL/ItemBundle/Form/ClothingType.php"
+			],
+			[
+				"clothing.php",
+				"Entity/Clothing.php"
+			],
+			[
+				"templates.html.twi",
+				"loanshark/vendor/punkave/symfony2-file-uploader-bundle/PunkAve/FileUploaderBundle/Resources/views/Default/templates.html.twig"
+			],
+			[
+				".twig",
+				"loanshark/src/MCL/ItemBundle/Resources/views/Clothing/edit.html.twig"
+			],
+			[
+				".yml",
+				"loanshark/app/config/parameters.yml"
+			],
+			[
+				"composer.json",
+				"loanshark/composer.json"
+			],
+			[
+				"composer.",
+				"loanshark/composer.lock"
+			],
+			[
+				"parame",
+				"loanshark/app/config/parameters.yml"
+			],
+			[
+				"autoloa",
+				"loanshark/app/autoload.php"
+			],
+			[
+				"symfony2",
+				"loanshark/vendor/symfony/symfony/CHANGELOG-2.0.md"
+			],
+			[
+				"rentalitem",
+				"loanshark/src/MCL/ItemBundle/Entity/RentalItem.php"
+			],
+			[
+				"app/appker",
+				"loanshark/app/AppKernel.php"
+			],
+			[
+				"autoload_rea",
+				"loanshark/vendor/composer/autoload_real.php"
+			],
+			[
+				"nu",
+				"loanshark/app/stubs/NumberFormatter.php"
+			],
+			[
+				"number",
+				"loanshark/app/stubs/NumberFormatter.php"
+			],
+			[
+				"stubs/funct",
+				"loanshark/app/stubs/functions.php"
+			],
+			[
+				"autoload",
+				"loanshark/app/autoload.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"con",
+				"/home/tad/code/phpProjects/conman/conman.sublime-project"
+			],
+			[
+				"",
+				"/home/tad/code/phpProjects/loanshark/loanshark.sublime_project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+		],
+		"width": 399.0
+	},
+	"settings":
+	{
+		"vintage":
+		{
+			"last_buffer_search": "pidg"
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 236.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
